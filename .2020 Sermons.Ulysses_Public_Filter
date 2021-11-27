@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>query</key>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>conditionFormatVersion</key>
+				<integer>1</integer>
+				<key>conditionType</key>
+				<string>KeywordSearch</string>
+				<key>keywords</key>
+				<array>
+					<string>2020</string>
+					<string>Sermon</string>
+				</array>
+				<key>searchMode</key>
+				<string>matchAllRequired</string>
+			</dict>
+		</array>
+		<key>options</key>
+		<array/>
+		<key>queryFormatVersion</key>
+		<integer>1</integer>
+		<key>requireAll</key>
+		<true/>
+	</dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>query</key>
+		<real>601975689.99139595</real>
+		<key>sheetOrder</key>
+		<real>601975750.835729</real>
+		<key>userIconName</key>
+		<real>601975712.38627505</real>
+	</dict>
+	<key>sheetOrder</key>
+	<string>modificationDate</string>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>userIconName</key>
+	<string>Bookmarks</string>
+	<key>versioning</key>
+	<dict>
+		<key>query</key>
+		<dict>
+			<key>fa394f34b802c5f256958ff64fb80f2d2190e08506792756ac739de729c001e6</key>
+			<integer>9</integer>
+		</dict>
+		<key>sheetOrder</key>
+		<dict>
+			<key>fa394f34b802c5f256958ff64fb80f2d2190e08506792756ac739de729c001e6</key>
+			<integer>1</integer>
+		</dict>
+		<key>userIconName</key>
+		<dict>
+			<key>fa394f34b802c5f256958ff64fb80f2d2190e08506792756ac739de729c001e6</key>
+			<integer>15</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "9bc2112644db2e7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "92a8f7ce8ffdafab",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Sermon. The Power of Change.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2275b3d16fe7dbe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c5afba7b31ad2e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28e09517d9286d20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ca0813bb6b35ee8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b48c8cba505307de",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f19a174a932f7cae",
+    "type": "split",
+    "children": [
+      {
+        "id": "cafc576d64fb634b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c3a4eb30884882f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sermon. The Power of Change.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed6f73ba9be21701",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d3679e9ac03efc6f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc87a2523033f752",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a7c1dcc4a01d8eae",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "715f52a75918c2ba",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "9017178ef31d598a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sermon. The Power of Change.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2ae5fafbd49caa9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sermon. The Power of Change.md"
+              }
+            }
+          },
+          {
+            "id": "757f2b15f7389ea7",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "active": "92a8f7ce8ffdafab",
+  "lastOpenFiles": [
+    "Sermon. The Power of Change.md",
+    "Schedule. 2021-Nov28-Dec04.md",
+    "Sermon. Obeying Father.md",
+    "2021 Month Schedules/November.md",
+    "Sermon. Many Members.md",
+    "Sermon. Our Sins on the Cross.md",
+    "Sermon. Prayer in 2 Thess..md",
+    "Sermon. Stop Lights.md",
+    "Schedule. 2021-Nov21-Nov27.md",
+    "Sermon. Paul's Prayer Thessalonians.md"
+  ]
+}

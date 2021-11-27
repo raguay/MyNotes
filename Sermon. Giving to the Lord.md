@@ -1,0 +1,41 @@
+## Giving to the Lord
+
+Mark 12:41-44 "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much. And there came a certain poor widow, and she threw in two mites, which make a farthing. And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury: For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living."
+
+มาระโก 12:41-44 "พระเยซูได้เสด็จประทับตรงหน้าตู้เก็บเงินถวาย ทรงทอดพระเนตรสังเกตประชาชนเอาเงินมาใส่ไว้ในตู้นั้น และคนมั่งมีหลายคนเอาเงินมากมาใส่ในที่นั้น มีหญิงม่ายคนหนึ่งเป็นคนจนเอาเหรียญทองแดงสองอัน มีค่าประมาณสลึงหนึ่งมาใส่ไว้ พระองค์จึงทรงเรียกเหล่าสาวกของพระองค์มาตรัสแก่เขาว่า "เราบอกความจริงแก่ท่านทั้งหลายว่า หญิงม่ายจนคนนี้ได้ใส่ไว้ในตู้เก็บเงินถวายมากกว่าคนทั้งปวงที่ใส่ไว้นั้น เพราะว่าคนทั้งปวงนั้นได้เอาเงินเหลือใช้ของเขามาใส่ไว้ แต่ผู้หญิงนี้ขัดสนที่สุด ยังได้เอาเงินที่มีอยู่สำหรับเลี้ยงชีวิตของตนมาใส่จนหมด""
+
+1. Jesus' Knowledge
+	1. He knew how much the rich had left
+		1. He said they gave that which would not be necessary to them
+		2. They had more than plently left over
+	2. He knew how little the widow had left
+		1. She had given everything
+		2. Nothing was left
+			1. Except for her faith that God would provide for her.
+	3. Only God can know this much knowledge
+2. God's estimation of our gift
+	1. The amount given isn't important to God
+		1. God has all resources and can move them to where He needs them the most
+		2. God is interesting in our love and trust in Him more than how much we give.
+	2. The amount left shows true love and devotion to God
+		1. Plenty left over shows a mere formality to God
+			1. It was for show
+				- not for love of God
+				- to look good before others.
+			2. It took no faith
+				- giving our of surplus never shows faith
+				- it is just formality
+				Romans 14:23 "And he that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin."
+				โรม 14:23 "แต่ผู้ที่มีความสงสัยอยู่นั้น ถ้าเขากินก็มีความผิด เพราะเขามิได้กินตามที่ตนเชื่อ ทั้งนี้เพราะการกระทำใดๆที่มิได้เกิดจากความเชื่อก็เป็นบาปทั้งสิ้น"
+		2. Very little left over shows love to God
+			1. requires faith that God will supply
+			2. We should strive to always live by faith
+				Romans 1:17 "For therein is the righteousness of God revealed from faith to faith: as it is written, The just shall live by faith."
+				โรม 1:17 "เพราะว่าในข่าวประเสริฐนั้นความชอบธรรมของพระเจ้าก็ได้แสดงออก โดยเริ่มต้นก็ความเชื่อ สุดท้ายก็ความเชื่อ ตามที่มีเขียนไว้แล้วว่า `คนชอบธรรมจะมีชีวิตดำรงอยู่โดยความเชื่อ'"
+			3. Show we love God more than self
+				- Always having plenty is taking care of self
+3. This goes for all areas of our life
+	1. Money
+	2. Time
+	3. Abilities
+	4. Resources

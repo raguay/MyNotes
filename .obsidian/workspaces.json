@@ -1,0 +1,234 @@
+{
+  "workspaces": {
+    "General": {
+      "main": {
+        "id": "9bc2112644db2e7c",
+        "type": "split",
+        "children": [
+          {
+            "id": "35846dc0c16c5e44",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day Planners/2021-01-04.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "2275b3d16fe7dbe7",
+        "type": "split",
+        "children": [
+          {
+            "id": "4c5afba7b31ad2e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "28e09517d9286d20",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2ca0813bb6b35ee8",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "Sermon. ",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "b48c8cba505307de",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "f19a174a932f7cae",
+        "type": "split",
+        "children": [
+          {
+            "id": "cafc576d64fb634b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2c3a4eb30884882f",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Day Planners/2021-01-04.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ed6f73ba9be21701",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              },
+              {
+                "id": "d3679e9ac03efc6f",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      }
+    },
+    "Sermon Prep": {
+      "main": {
+        "id": "9bc2112644db2e7c",
+        "type": "split",
+        "children": [
+          {
+            "id": "35846dc0c16c5e44",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sermon. A Good Name.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "2275b3d16fe7dbe7",
+        "type": "split",
+        "children": [
+          {
+            "id": "4c5afba7b31ad2e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "28e09517d9286d20",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2ca0813bb6b35ee8",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "Schedule. 2021",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "b48c8cba505307de",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 296.5
+      },
+      "right": {
+        "id": "f19a174a932f7cae",
+        "type": "split",
+        "children": [
+          {
+            "id": "cafc576d64fb634b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2c3a4eb30884882f",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Sermon. A Good Name.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ed6f73ba9be21701",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "d3679e9ac03efc6f",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      }
+    }
+  },
+  "active": "General"
+}
