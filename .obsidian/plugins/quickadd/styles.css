@@ -29,7 +29,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 540px){
+@media screen and (max-width: 540px) {
     .macroContainer1 {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -40,6 +40,12 @@
 
     .macroContainer3 {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .wideInputPromptInputEl {
+        width: 20rem;
+        max-width: 100%;
+        height: 3rem;
     }
 }
 
@@ -56,10 +62,16 @@
     .macroContainer3 {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .wideInputPromptInputEl {
+        width: 30rem;
+        max-width: 100%;
+        height: 20rem;
+    }
 }
 
 /* Everything else */
-@media screen and (min-width: 781px){
+@media screen and (min-width: 781px) {
     .macroContainer1 {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -69,7 +81,13 @@
     }
 
     .macroContainer3 {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wideInputPromptInputEl {
+        width: 40rem;
+        max-width: 100%;
+        height: 20rem;
     }
 }
 
@@ -165,4 +183,28 @@
     justify-content: flex-end;
     align-content: center;
     margin-bottom: 1em;
+}
+
+.yesNoPromptButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.yesNoPromptParagraph {
+    text-align: center;
+}
+
+.qaFileSuggestionItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.qaFileSuggestionItem .suggestion-main-text {
+    font-weight: bold;
+}
+.qaFileSuggestionItem .suggestion-sub-text {
+    font-style: italic;
 }

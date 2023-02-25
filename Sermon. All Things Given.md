@@ -20,6 +20,7 @@
 		1. Gifts are to be received only
 		2. Working for it would be an offense
 		3. It is God's power to give and to change your life
+		4. We simply accept it
 3. The end result
 	1. Glory
 		1. God's glory

@@ -1,5 +1,5 @@
 Jeremiah 6:16-17 "Thus saith the LORD, Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein, and ye shall find rest for your souls. But they said, We will not walk therein. Also I set watchmen over you, saying, Hearken to the sound of the trumpet. But they said, We will not hearken."
-เยเรมีย์ 6:16-17 "พระเยโฮวาห์ตรัสดังนี้ว่า "จงยืนที่ถนนและมองให้ดี และถามหาทางโบราณนั้นว่า ทางดีอยู่ที่ไหน แล้วจงเดินในทางนั้น และท่านจะพบที่พักสงบสำหรับจิตใจของท่าน แต่เขาทั้งหลายกล่าวว่า `เราจะไม่เดินในนั้น' เราวางยามไว้เหนือเจ้า สั่งว่า `จงฟังเสียงแตร' แต่เขาทั้งหลายกล่าวว่า `เราทั้งหลายจะไม่ยอมฟัง'"
+เยเรมีย์ 6:16-17 "พระเยโฮวาห์ตรัสดังนี้ว่า "จงยืนที่ถนนและมองให้ดี และถามหาทางโบราณนั้นว่า ทางดีอยู่ที่ไหน แล้วจงเดินในทางนั้น และท่านจะพบที่พักสงบสำหรับจิตใจของท่าน แต่เขาทั้งหลายกล่าวว่า 'เราจะไม่เดินในนั้น' เราวางยามไว้เหนือเจ้า สั่งว่า 'จงฟังเสียงแตร' แต่เขาทั้งหลายกล่าวว่า 'เราทั้งหลายจะไม่ยอมฟัง'"
 
 1. God asks to 
    1. Seek the old paths

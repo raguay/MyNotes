@@ -2,7 +2,7 @@
 
 var obsidian = require('obsidian');
 
-/*! *****************************************************************************
+/******************************************************************************
 Copyright (c) Microsoft Corporation.
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -83,9 +83,9 @@ function __generator(thisArg, body) {
 }
 
 /**
- * Fuse.js v6.4.6 - Lightweight fuzzy-search (http://fusejs.io)
+ * Fuse.js v6.6.2 - Lightweight fuzzy-search (http://fusejs.io)
  *
- * Copyright (c) 2021 Kiro Risk (http://kiro.me)
+ * Copyright (c) 2022 Kiro Risk (http://kiro.me)
  * All Rights Reserved. Apache Software License 2.0
  *
  * http://www.apache.org/licenses/LICENSE-2.0
@@ -212,6 +212,7 @@ function createKey(key) {
   let id = null;
   let src = null;
   let weight = 1;
+  let getFn = null;
 
   if (isString(key) || isArray(key)) {
     src = key;
@@ -235,9 +236,10 @@ function createKey(key) {
 
     path = createKeyPath(name);
     id = createKeyId(name);
+    getFn = key.getFn;
   }
 
-  return { path, id, weight, src }
+  return { path, id, weight, src, getFn }
 }
 
 function createKeyPath(key) {
@@ -348,7 +350,9 @@ const AdvancedOptions = {
   // When `true`, the calculation for the relevance score (used for sorting) will
   // ignore the field-length norm.
   // More info: https://fusejs.io/concepts/scoring-theory.html#field-length-norm
-  ignoreFieldNorm: false
+  ignoreFieldNorm: false,
+  // The weight to determine how much field length norm effects scoring.
+  fieldNormWeight: 1
 };
 
 var Config = {
@@ -362,7 +366,7 @@ const SPACE = /[^ ]+/g;
 
 // Field-length norm: the shorter the field, the higher the weight.
 // Set to 3 decimals to reduce index size.
-function norm(mantissa = 3) {
+function norm(weight = 1, mantissa = 3) {
   const cache = new Map();
   const m = Math.pow(10, mantissa);
 
@@ -374,7 +378,8 @@ function norm(mantissa = 3) {
         return cache.get(numTokens)
       }
 
-      const norm = 1 / Math.sqrt(numTokens);
+      // Default function is 1/sqrt(x), weight makes that variable
+      const norm = 1 / Math.pow(numTokens, 0.5 * weight);
 
       // In place of `toFixed(mantissa)`, for faster computation
       const n = parseFloat(Math.round(norm * m) / m);
@@ -390,8 +395,11 @@ function norm(mantissa = 3) {
 }
 
 class FuseIndex {
-  constructor({ getFn = Config.getFn } = {}) {
-    this.norm = norm(3);
+  constructor({
+    getFn = Config.getFn,
+    fieldNormWeight = Config.fieldNormWeight
+  } = {}) {
+    this.norm = norm(fieldNormWeight, 3);
     this.getFn = getFn;
     this.isCreated = false;
 
@@ -474,8 +482,7 @@ class FuseIndex {
 
     // Iterate over every key (i.e, path), and fetch the value at that key
     this.keys.forEach((key, keyIndex) => {
-      // console.log(key)
-      let value = this.getFn(doc, key.path);
+      let value = key.getFn ? key.getFn(doc) : this.getFn(doc, key.path);
 
       if (!isDefined(value)) {
         return
@@ -507,10 +514,10 @@ class FuseIndex {
                 value: item
               });
             });
-          }
+          } else ;
         }
         record.$[keyIndex] = subRecords;
-      } else if (!isBlank(value)) {
+      } else if (isString(value) && !isBlank(value)) {
         let subRecord = {
           v: value,
           n: this.norm.get(value)
@@ -530,23 +537,30 @@ class FuseIndex {
   }
 }
 
-function createIndex(keys, docs, { getFn = Config.getFn } = {}) {
-  const myIndex = new FuseIndex({ getFn });
+function createIndex(
+  keys,
+  docs,
+  { getFn = Config.getFn, fieldNormWeight = Config.fieldNormWeight } = {}
+) {
+  const myIndex = new FuseIndex({ getFn, fieldNormWeight });
   myIndex.setKeys(keys.map(createKey));
   myIndex.setSources(docs);
   myIndex.create();
   return myIndex
 }
 
-function parseIndex(data, { getFn = Config.getFn } = {}) {
+function parseIndex(
+  data,
+  { getFn = Config.getFn, fieldNormWeight = Config.fieldNormWeight } = {}
+) {
   const { keys, records } = data;
-  const myIndex = new FuseIndex({ getFn });
+  const myIndex = new FuseIndex({ getFn, fieldNormWeight });
   myIndex.setKeys(keys);
   myIndex.setIndexRecords(records);
   return myIndex
 }
 
-function computeScore(
+function computeScore$1(
   pattern,
   {
     errors = 0,
@@ -643,7 +657,7 @@ function search(
 
   // Get all exact matches, here for speed up
   while ((index = text.indexOf(pattern, bestLocation)) > -1) {
-    let score = computeScore(pattern, {
+    let score = computeScore$1(pattern, {
       currentLocation: index,
       expectedLocation,
       distance,
@@ -679,7 +693,7 @@ function search(
     let binMid = binMax;
 
     while (binMin < binMid) {
-      const score = computeScore(pattern, {
+      const score = computeScore$1(pattern, {
         errors: i,
         currentLocation: expectedLocation + binMid,
         expectedLocation,
@@ -728,7 +742,7 @@ function search(
       }
 
       if (bitArr[j] & mask) {
-        finalScore = computeScore(pattern, {
+        finalScore = computeScore$1(pattern, {
           errors: i,
           currentLocation,
           expectedLocation,
@@ -755,7 +769,7 @@ function search(
     }
 
     // No hope for a (better) match at greater error levels.
-    const score = computeScore(pattern, {
+    const score = computeScore$1(pattern, {
       errors: i + 1,
       currentLocation: expectedLocation,
       expectedLocation,
@@ -1198,7 +1212,7 @@ const searchers = [
 const searchersLen = searchers.length;
 
 // Regex to split by spaces, but keep anything in quotes together
-const SPACE_RE = / +(?=([^\"]*\"[^\"]*\")*[^\"]*$)/;
+const SPACE_RE = / +(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/;
 const OR_TOKEN = '|';
 
 // Return a 2D array representation of the query, for simpler parsing.
@@ -1486,7 +1500,7 @@ function parse$2(query, options, { auto = true } = {}) {
 }
 
 // Practical scoring function
-function computeScore$1(
+function computeScore(
   results,
   { ignoreFieldNorm = Config.ignoreFieldNorm }
 ) {
@@ -1599,7 +1613,8 @@ class Fuse {
     this._myIndex =
       index ||
       createIndex(this.options.keys, this._docs, {
-        getFn: this.options.getFn
+        getFn: this.options.getFn,
+        fieldNormWeight: this.options.fieldNormWeight
       });
   }
 
@@ -1653,7 +1668,7 @@ class Fuse {
         : this._searchObjectList(query)
       : this._searchLogical(query);
 
-    computeScore$1(results, { ignoreFieldNorm });
+    computeScore(results, { ignoreFieldNorm });
 
     if (shouldSort) {
       results.sort(sortFn);
@@ -1721,34 +1736,17 @@ class Fuse {
         return []
       }
 
-      /*eslint indent: [2, 2, {"SwitchCase": 1}]*/
-      switch (node.operator) {
-        case LogicalOperator.AND: {
-          const res = [];
-          for (let i = 0, len = node.children.length; i < len; i += 1) {
-            const child = node.children[i];
-            const result = evaluate(child, item, idx);
-            if (result.length) {
-              res.push(...result);
-            } else {
-              return []
-            }
-          }
-          return res
-        }
-        case LogicalOperator.OR: {
-          const res = [];
-          for (let i = 0, len = node.children.length; i < len; i += 1) {
-            const child = node.children[i];
-            const result = evaluate(child, item, idx);
-            if (result.length) {
-              res.push(...result);
-              break
-            }
-          }
-          return res
+      const res = [];
+      for (let i = 0, len = node.children.length; i < len; i += 1) {
+        const child = node.children[i];
+        const result = evaluate(child, item, idx);
+        if (result.length) {
+          res.push(...result);
+        } else if (node.operator === LogicalOperator.AND) {
+          return []
         }
       }
+      return res
     };
 
     const records = this._myIndex.records;
@@ -1850,7 +1848,7 @@ class Fuse {
   }
 }
 
-Fuse.version = '6.4.6';
+Fuse.version = '6.6.2';
 Fuse.createIndex = createIndex;
 Fuse.parseIndex = parseIndex;
 Fuse.config = Config;
@@ -1874,7 +1872,7 @@ var FuseSearchIndex = /** @class */ (function () {
     // with for example this.app.vault.getMarkdownFiles()
     FuseSearchIndex.prototype.buildIndex = function (files) {
         // Log the amount of files in debug
-        console.debug("[OQL] Indexing " + files.length + " files..");
+        console.debug("[OQL] Indexing ".concat(files.length, " files.."));
         var indexKeys = ['title', 'path', 'content', 'created', 'modified', 'tags'];
         var index = Fuse.createIndex(indexKeys, files);
         // Store the search index within this singleton
@@ -1893,7 +1891,7 @@ var FuseSearchIndex = /** @class */ (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        console.debug("[OQL] Searching for: " + JSON.stringify(query));
+                        console.debug("[OQL] Searching for: ".concat(JSON.stringify(query)));
                         return [4 /*yield*/, this.searchIndex.search(query).map(function (searchResult) {
                                 return searchResult.item;
                             })];
@@ -2012,7 +2010,7 @@ function _isNativeReflectConstruct() {
   if (typeof Proxy === "function") return true;
 
   try {
-    Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
+    Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
     return true;
   } catch (e) {
     return false;
@@ -2093,7 +2091,7 @@ function _possibleConstructorReturn(self, call) {
 function _createSuper(Derived) {
   var hasNativeReflectConstruct = _isNativeReflectConstruct();
 
-  return function () {
+  return function _createSuperInternal() {
     var Super = _getPrototypeOf(Derived),
         result;
 
@@ -2203,9 +2201,12 @@ function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 
-function _createForOfIteratorHelper(o) {
+function _createForOfIteratorHelper(o, allowArrayLike) {
+  var it;
+
   if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) {
-    if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+    if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
+      if (it) o = it;
       var i = 0;
 
       var F = function () {};
@@ -2231,8 +2232,7 @@ function _createForOfIteratorHelper(o) {
     throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
   }
 
-  var it,
-      normalCompletion = true,
+  var normalCompletion = true,
       didErr = false,
       err;
   return {
@@ -2461,13 +2461,6 @@ function getPrettyContext(_ref, cst) {
 }
 
 var Range = /*#__PURE__*/function () {
-  _createClass(Range, null, [{
-    key: "copy",
-    value: function copy(orig) {
-      return new Range(orig.start, orig.end);
-    }
-  }]);
-
   function Range(start, end) {
     _classCallCheck(this, Range);
 
@@ -2518,6 +2511,11 @@ var Range = /*#__PURE__*/function () {
       this.origEnd = end + i;
       return nextOffset;
     }
+  }], [{
+    key: "copy",
+    value: function copy(orig) {
+      return new Range(orig.start, orig.end);
+    }
   }]);
 
   return Range;
@@ -2526,7 +2524,206 @@ var Range = /*#__PURE__*/function () {
 /** Root class of all nodes */
 
 var Node$1 = /*#__PURE__*/function () {
-  _createClass(Node, null, [{
+  function Node(type, props, context) {
+    _classCallCheck(this, Node);
+
+    Object.defineProperty(this, 'context', {
+      value: context || null,
+      writable: true
+    });
+    this.error = null;
+    this.range = null;
+    this.valueRange = null;
+    this.props = props || [];
+    this.type = type;
+    this.value = null;
+  }
+
+  _createClass(Node, [{
+    key: "getPropValue",
+    value: function getPropValue(idx, key, skipKey) {
+      if (!this.context) return null;
+      var src = this.context.src;
+      var prop = this.props[idx];
+      return prop && src[prop.start] === key ? src.slice(prop.start + (skipKey ? 1 : 0), prop.end) : null;
+    }
+  }, {
+    key: "anchor",
+    get: function get() {
+      for (var i = 0; i < this.props.length; ++i) {
+        var anchor = this.getPropValue(i, Char.ANCHOR, true);
+        if (anchor != null) return anchor;
+      }
+
+      return null;
+    }
+  }, {
+    key: "comment",
+    get: function get() {
+      var comments = [];
+
+      for (var i = 0; i < this.props.length; ++i) {
+        var comment = this.getPropValue(i, Char.COMMENT, true);
+        if (comment != null) comments.push(comment);
+      }
+
+      return comments.length > 0 ? comments.join('\n') : null;
+    }
+  }, {
+    key: "commentHasRequiredWhitespace",
+    value: function commentHasRequiredWhitespace(start) {
+      var src = this.context.src;
+      if (this.header && start === this.header.end) return false;
+      if (!this.valueRange) return false;
+      var end = this.valueRange.end;
+      return start !== end || Node.atBlank(src, end - 1);
+    }
+  }, {
+    key: "hasComment",
+    get: function get() {
+      if (this.context) {
+        var src = this.context.src;
+
+        for (var i = 0; i < this.props.length; ++i) {
+          if (src[this.props[i].start] === Char.COMMENT) return true;
+        }
+      }
+
+      return false;
+    }
+  }, {
+    key: "hasProps",
+    get: function get() {
+      if (this.context) {
+        var src = this.context.src;
+
+        for (var i = 0; i < this.props.length; ++i) {
+          if (src[this.props[i].start] !== Char.COMMENT) return true;
+        }
+      }
+
+      return false;
+    }
+  }, {
+    key: "includesTrailingLines",
+    get: function get() {
+      return false;
+    }
+  }, {
+    key: "jsonLike",
+    get: function get() {
+      var jsonLikeTypes = [Type.FLOW_MAP, Type.FLOW_SEQ, Type.QUOTE_DOUBLE, Type.QUOTE_SINGLE];
+      return jsonLikeTypes.indexOf(this.type) !== -1;
+    }
+  }, {
+    key: "rangeAsLinePos",
+    get: function get() {
+      if (!this.range || !this.context) return undefined;
+      var start = getLinePos(this.range.start, this.context.root);
+      if (!start) return undefined;
+      var end = getLinePos(this.range.end, this.context.root);
+      return {
+        start: start,
+        end: end
+      };
+    }
+  }, {
+    key: "rawValue",
+    get: function get() {
+      if (!this.valueRange || !this.context) return null;
+      var _this$valueRange = this.valueRange,
+          start = _this$valueRange.start,
+          end = _this$valueRange.end;
+      return this.context.src.slice(start, end);
+    }
+  }, {
+    key: "tag",
+    get: function get() {
+      for (var i = 0; i < this.props.length; ++i) {
+        var tag = this.getPropValue(i, Char.TAG, false);
+
+        if (tag != null) {
+          if (tag[1] === '<') {
+            return {
+              verbatim: tag.slice(2, -1)
+            };
+          } else {
+            // eslint-disable-next-line no-unused-vars
+            var _tag$match = tag.match(/^(.*!)([^!]*)$/),
+                _tag$match2 = _slicedToArray(_tag$match, 3);
+                _tag$match2[0];
+                var handle = _tag$match2[1],
+                suffix = _tag$match2[2];
+
+            return {
+              handle: handle,
+              suffix: suffix
+            };
+          }
+        }
+      }
+
+      return null;
+    }
+  }, {
+    key: "valueRangeContainsNewline",
+    get: function get() {
+      if (!this.valueRange || !this.context) return false;
+      var _this$valueRange2 = this.valueRange,
+          start = _this$valueRange2.start,
+          end = _this$valueRange2.end;
+      var src = this.context.src;
+
+      for (var i = start; i < end; ++i) {
+        if (src[i] === '\n') return true;
+      }
+
+      return false;
+    }
+  }, {
+    key: "parseComment",
+    value: function parseComment(start) {
+      var src = this.context.src;
+
+      if (src[start] === Char.COMMENT) {
+        var end = Node.endOfLine(src, start + 1);
+        var commentRange = new Range(start, end);
+        this.props.push(commentRange);
+        return end;
+      }
+
+      return start;
+    }
+    /**
+     * Populates the `origStart` and `origEnd` values of all ranges for this
+     * node. Extended by child classes to handle descendant nodes.
+     *
+     * @param {number[]} cr - Positions of dropped CR characters
+     * @param {number} offset - Starting index of `cr` from the last call
+     * @returns {number} - The next offset, matching the one found for `origStart`
+     */
+
+  }, {
+    key: "setOrigRanges",
+    value: function setOrigRanges(cr, offset) {
+      if (this.range) offset = this.range.setOrigRange(cr, offset);
+      if (this.valueRange) this.valueRange.setOrigRange(cr, offset);
+      this.props.forEach(function (prop) {
+        return prop.setOrigRange(cr, offset);
+      });
+      return offset;
+    }
+  }, {
+    key: "toString",
+    value: function toString() {
+      var src = this.context.src,
+          range = this.range,
+          value = this.value;
+      if (value != null) return value;
+      var str = src.slice(range.start, range.end);
+      return Node.addStringTerminator(src, range.end, str);
+    }
+  }], [{
     key: "addStringTerminator",
     value: function addStringTerminator(src, offset, str) {
       if (str[str.length - 1] === '\n') return str;
@@ -2700,207 +2897,6 @@ var Node$1 = /*#__PURE__*/function () {
     }
   }]);
 
-  function Node(type, props, context) {
-    _classCallCheck(this, Node);
-
-    Object.defineProperty(this, 'context', {
-      value: context || null,
-      writable: true
-    });
-    this.error = null;
-    this.range = null;
-    this.valueRange = null;
-    this.props = props || [];
-    this.type = type;
-    this.value = null;
-  }
-
-  _createClass(Node, [{
-    key: "getPropValue",
-    value: function getPropValue(idx, key, skipKey) {
-      if (!this.context) return null;
-      var src = this.context.src;
-      var prop = this.props[idx];
-      return prop && src[prop.start] === key ? src.slice(prop.start + (skipKey ? 1 : 0), prop.end) : null;
-    }
-  }, {
-    key: "commentHasRequiredWhitespace",
-    value: function commentHasRequiredWhitespace(start) {
-      var src = this.context.src;
-      if (this.header && start === this.header.end) return false;
-      if (!this.valueRange) return false;
-      var end = this.valueRange.end;
-      return start !== end || Node.atBlank(src, end - 1);
-    }
-  }, {
-    key: "parseComment",
-    value: function parseComment(start) {
-      var src = this.context.src;
-
-      if (src[start] === Char.COMMENT) {
-        var end = Node.endOfLine(src, start + 1);
-        var commentRange = new Range(start, end);
-        this.props.push(commentRange);
-        return end;
-      }
-
-      return start;
-    }
-    /**
-     * Populates the `origStart` and `origEnd` values of all ranges for this
-     * node. Extended by child classes to handle descendant nodes.
-     *
-     * @param {number[]} cr - Positions of dropped CR characters
-     * @param {number} offset - Starting index of `cr` from the last call
-     * @returns {number} - The next offset, matching the one found for `origStart`
-     */
-
-  }, {
-    key: "setOrigRanges",
-    value: function setOrigRanges(cr, offset) {
-      if (this.range) offset = this.range.setOrigRange(cr, offset);
-      if (this.valueRange) this.valueRange.setOrigRange(cr, offset);
-      this.props.forEach(function (prop) {
-        return prop.setOrigRange(cr, offset);
-      });
-      return offset;
-    }
-  }, {
-    key: "toString",
-    value: function toString() {
-      var src = this.context.src,
-          range = this.range,
-          value = this.value;
-      if (value != null) return value;
-      var str = src.slice(range.start, range.end);
-      return Node.addStringTerminator(src, range.end, str);
-    }
-  }, {
-    key: "anchor",
-    get: function get() {
-      for (var i = 0; i < this.props.length; ++i) {
-        var anchor = this.getPropValue(i, Char.ANCHOR, true);
-        if (anchor != null) return anchor;
-      }
-
-      return null;
-    }
-  }, {
-    key: "comment",
-    get: function get() {
-      var comments = [];
-
-      for (var i = 0; i < this.props.length; ++i) {
-        var comment = this.getPropValue(i, Char.COMMENT, true);
-        if (comment != null) comments.push(comment);
-      }
-
-      return comments.length > 0 ? comments.join('\n') : null;
-    }
-  }, {
-    key: "hasComment",
-    get: function get() {
-      if (this.context) {
-        var src = this.context.src;
-
-        for (var i = 0; i < this.props.length; ++i) {
-          if (src[this.props[i].start] === Char.COMMENT) return true;
-        }
-      }
-
-      return false;
-    }
-  }, {
-    key: "hasProps",
-    get: function get() {
-      if (this.context) {
-        var src = this.context.src;
-
-        for (var i = 0; i < this.props.length; ++i) {
-          if (src[this.props[i].start] !== Char.COMMENT) return true;
-        }
-      }
-
-      return false;
-    }
-  }, {
-    key: "includesTrailingLines",
-    get: function get() {
-      return false;
-    }
-  }, {
-    key: "jsonLike",
-    get: function get() {
-      var jsonLikeTypes = [Type.FLOW_MAP, Type.FLOW_SEQ, Type.QUOTE_DOUBLE, Type.QUOTE_SINGLE];
-      return jsonLikeTypes.indexOf(this.type) !== -1;
-    }
-  }, {
-    key: "rangeAsLinePos",
-    get: function get() {
-      if (!this.range || !this.context) return undefined;
-      var start = getLinePos(this.range.start, this.context.root);
-      if (!start) return undefined;
-      var end = getLinePos(this.range.end, this.context.root);
-      return {
-        start: start,
-        end: end
-      };
-    }
-  }, {
-    key: "rawValue",
-    get: function get() {
-      if (!this.valueRange || !this.context) return null;
-      var _this$valueRange = this.valueRange,
-          start = _this$valueRange.start,
-          end = _this$valueRange.end;
-      return this.context.src.slice(start, end);
-    }
-  }, {
-    key: "tag",
-    get: function get() {
-      for (var i = 0; i < this.props.length; ++i) {
-        var tag = this.getPropValue(i, Char.TAG, false);
-
-        if (tag != null) {
-          if (tag[1] === '<') {
-            return {
-              verbatim: tag.slice(2, -1)
-            };
-          } else {
-            // eslint-disable-next-line no-unused-vars
-            var _tag$match = tag.match(/^(.*!)([^!]*)$/),
-                _tag$match2 = _slicedToArray(_tag$match, 3);
-                _tag$match2[0];
-                var handle = _tag$match2[1],
-                suffix = _tag$match2[2];
-
-            return {
-              handle: handle,
-              suffix: suffix
-            };
-          }
-        }
-      }
-
-      return null;
-    }
-  }, {
-    key: "valueRangeContainsNewline",
-    get: function get() {
-      if (!this.valueRange || !this.context) return false;
-      var _this$valueRange2 = this.valueRange,
-          start = _this$valueRange2.start,
-          end = _this$valueRange2.end;
-      var src = this.context.src;
-
-      for (var i = start; i < end; ++i) {
-        if (src[i] === '\n') return true;
-      }
-
-      return false;
-    }
-  }]);
-
   return Node;
 }();
 
@@ -3030,6 +3026,77 @@ var PlainValue = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(PlainValue, [{
+    key: "strValue",
+    get: function get() {
+      if (!this.valueRange || !this.context) return null;
+      var _this$valueRange = this.valueRange,
+          start = _this$valueRange.start,
+          end = _this$valueRange.end;
+      var src = this.context.src;
+      var ch = src[end - 1];
+
+      while (start < end && (ch === '\n' || ch === '\t' || ch === ' ')) {
+        ch = src[--end - 1];
+      }
+
+      var str = '';
+
+      for (var i = start; i < end; ++i) {
+        var _ch = src[i];
+
+        if (_ch === '\n') {
+          var _Node$foldNewline = Node$1.foldNewline(src, i, -1),
+              fold = _Node$foldNewline.fold,
+              offset = _Node$foldNewline.offset;
+
+          str += fold;
+          i = offset;
+        } else if (_ch === ' ' || _ch === '\t') {
+          // trim trailing whitespace
+          var wsStart = i;
+          var next = src[i + 1];
+
+          while (i < end && (next === ' ' || next === '\t')) {
+            i += 1;
+            next = src[i + 1];
+          }
+
+          if (next !== '\n') str += i > wsStart ? src.slice(wsStart, i + 1) : _ch;
+        } else {
+          str += _ch;
+        }
+      }
+
+      var ch0 = src[start];
+
+      switch (ch0) {
+        case '\t':
+          {
+            var msg = 'Plain value cannot start with a tab character';
+            var errors = [new YAMLSemanticError(this, msg)];
+            return {
+              errors: errors,
+              str: str
+            };
+          }
+
+        case '@':
+        case '`':
+          {
+            var _msg = "Plain value cannot start with reserved character ".concat(ch0);
+
+            var _errors = [new YAMLSemanticError(this, _msg)];
+            return {
+              errors: _errors,
+              str: str
+            };
+          }
+
+        default:
+          return str;
+      }
+    }
+  }, {
     key: "parseBlockValue",
     value: function parseBlockValue(start) {
       var _this$context = this.context,
@@ -3105,77 +3172,6 @@ var PlainValue = /*#__PURE__*/function (_Node) {
 
       return offset;
     }
-  }, {
-    key: "strValue",
-    get: function get() {
-      if (!this.valueRange || !this.context) return null;
-      var _this$valueRange = this.valueRange,
-          start = _this$valueRange.start,
-          end = _this$valueRange.end;
-      var src = this.context.src;
-      var ch = src[end - 1];
-
-      while (start < end && (ch === '\n' || ch === '\t' || ch === ' ')) {
-        ch = src[--end - 1];
-      }
-
-      var str = '';
-
-      for (var i = start; i < end; ++i) {
-        var _ch = src[i];
-
-        if (_ch === '\n') {
-          var _Node$foldNewline = Node$1.foldNewline(src, i, -1),
-              fold = _Node$foldNewline.fold,
-              offset = _Node$foldNewline.offset;
-
-          str += fold;
-          i = offset;
-        } else if (_ch === ' ' || _ch === '\t') {
-          // trim trailing whitespace
-          var wsStart = i;
-          var next = src[i + 1];
-
-          while (i < end && (next === ' ' || next === '\t')) {
-            i += 1;
-            next = src[i + 1];
-          }
-
-          if (next !== '\n') str += i > wsStart ? src.slice(wsStart, i + 1) : _ch;
-        } else {
-          str += _ch;
-        }
-      }
-
-      var ch0 = src[start];
-
-      switch (ch0) {
-        case '\t':
-          {
-            var msg = 'Plain value cannot start with a tab character';
-            var errors = [new YAMLSemanticError(this, msg)];
-            return {
-              errors: errors,
-              str: str
-            };
-          }
-
-        case '@':
-        case '`':
-          {
-            var _msg = "Plain value cannot start with reserved character ".concat(ch0);
-
-            var _errors = [new YAMLSemanticError(this, _msg)];
-            return {
-              errors: _errors,
-              str: str
-            };
-          }
-
-        default:
-          return str;
-      }
-    }
   }], [{
     key: "endOfLine",
     value: function endOfLine(src, start, inFlow) {
@@ -3212,8 +3208,12 @@ var BlankLine = /*#__PURE__*/function (_Node) {
 
 
   _createClass(BlankLine, [{
-    key: "parse",
-
+    key: "includesTrailingLines",
+    get: function get() {
+      // This is never called from anywhere, but if it were,
+      // this is the value it should return.
+      return true;
+    }
     /**
      * Parses a blank line from the source
      *
@@ -3221,17 +3221,13 @@ var BlankLine = /*#__PURE__*/function (_Node) {
      * @param {number} start - Index of first \n character
      * @returns {number} - Index of the character after this
      */
+
+  }, {
+    key: "parse",
     value: function parse(context, start) {
       this.context = context;
       this.range = new Range(start, start + 1);
       return start + 1;
-    }
-  }, {
-    key: "includesTrailingLines",
-    get: function get() {
-      // This is never called from anywhere, but if it were,
-      // this is the value it should return.
-      return true;
     }
   }]);
 
@@ -3254,13 +3250,18 @@ var CollectionItem = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(CollectionItem, [{
-    key: "parse",
-
+    key: "includesTrailingLines",
+    get: function get() {
+      return !!this.node && this.node.includesTrailingLines;
+    }
     /**
      * @param {ParseContext} context
      * @param {number} start - Index of first character
      * @returns {number} - Index of the character after this
      */
+
+  }, {
+    key: "parse",
     value: function parse(context, start) {
       this.context = context;
       var parseNode = context.parseNode,
@@ -3353,11 +3354,6 @@ var CollectionItem = /*#__PURE__*/function (_Node) {
       var str = node ? src.slice(range.start, node.range.start) + String(node) : src.slice(range.start, range.end);
       return Node$1.addStringTerminator(src, range.end, str);
     }
-  }, {
-    key: "includesTrailingLines",
-    get: function get() {
-      return !!this.node && this.node.includesTrailingLines;
-    }
   }]);
 
   return CollectionItem;
@@ -3437,19 +3433,6 @@ var Collection$1 = /*#__PURE__*/function (_Node) {
 
   var _super = _createSuper(Collection);
 
-  _createClass(Collection, null, [{
-    key: "nextContentHasIndent",
-    value: function nextContentHasIndent(src, offset, indent) {
-      var lineStart = Node$1.endOfLine(src, offset) + 1;
-      offset = Node$1.endOfWhiteSpace(src, lineStart);
-      var ch = src[offset];
-      if (!ch) return false;
-      if (offset >= lineStart + indent) return true;
-      if (ch !== '#' && ch !== '\n') return false;
-      return Collection.nextContentHasIndent(src, offset, indent);
-    }
-  }]);
-
   function Collection(firstItem) {
     var _this;
 
@@ -3475,13 +3458,18 @@ var Collection$1 = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(Collection, [{
-    key: "parse",
-
+    key: "includesTrailingLines",
+    get: function get() {
+      return this.items.length > 0;
+    }
     /**
      * @param {ParseContext} context
      * @param {number} start - Index of first character
      * @returns {number} - Index of the character after this
      */
+
+  }, {
+    key: "parse",
     value: function parse(context, start) {
       this.context = context;
       var parseNode = context.parseNode,
@@ -3652,10 +3640,16 @@ var Collection$1 = /*#__PURE__*/function (_Node) {
 
       return Node$1.addStringTerminator(src, range.end, str);
     }
-  }, {
-    key: "includesTrailingLines",
-    get: function get() {
-      return this.items.length > 0;
+  }], [{
+    key: "nextContentHasIndent",
+    value: function nextContentHasIndent(src, offset, indent) {
+      var lineStart = Node$1.endOfLine(src, offset) + 1;
+      offset = Node$1.endOfWhiteSpace(src, lineStart);
+      var ch = src[offset];
+      if (!ch) return false;
+      if (offset >= lineStart + indent) return true;
+      if (ch !== '#' && ch !== '\n') return false;
+      return Collection.nextContentHasIndent(src, offset, indent);
     }
   }]);
 
@@ -3678,6 +3672,12 @@ var Directive = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(Directive, [{
+    key: "parameters",
+    get: function get() {
+      var raw = this.rawValue;
+      return raw ? raw.trim().split(/[ \t]+/) : [];
+    }
+  }, {
     key: "parseName",
     value: function parseName(start) {
       var src = this.context.src;
@@ -3715,12 +3715,6 @@ var Directive = /*#__PURE__*/function (_Node) {
       this.range = new Range(start, offset);
       return offset;
     }
-  }, {
-    key: "parameters",
-    get: function get() {
-      var raw = this.rawValue;
-      return raw ? raw.trim().split(/[ \t]+/) : [];
-    }
   }]);
 
   return Directive;
@@ -3730,15 +3724,6 @@ var Document$2 = /*#__PURE__*/function (_Node) {
   _inherits(Document, _Node);
 
   var _super = _createSuper(Document);
-
-  _createClass(Document, null, [{
-    key: "startCommentOrEndBlankLine",
-    value: function startCommentOrEndBlankLine(src, start) {
-      var offset = Node$1.endOfWhiteSpace(src, start);
-      var ch = src[offset];
-      return ch === '#' || ch === '\n' ? offset : start;
-    }
-  }]);
 
   function Document() {
     var _this;
@@ -3989,6 +3974,13 @@ var Document$2 = /*#__PURE__*/function (_Node) {
       if (str[str.length - 1] !== '\n') str += '\n';
       return str;
     }
+  }], [{
+    key: "startCommentOrEndBlankLine",
+    value: function startCommentOrEndBlankLine(src, start) {
+      var offset = Node$1.endOfWhiteSpace(src, start);
+      var ch = src[offset];
+      return ch === '#' || ch === '\n' ? offset : start;
+    }
   }]);
 
   return Document;
@@ -4007,7 +3999,7 @@ var Alias$1 = /*#__PURE__*/function (_Node) {
 
   _createClass(Alias, [{
     key: "parse",
-
+    value:
     /**
      * Parses an *alias from the source
      *
@@ -4015,7 +4007,7 @@ var Alias$1 = /*#__PURE__*/function (_Node) {
      * @param {number} start - Index of first character
      * @returns {number} - Index of the character after this scalar
      */
-    value: function parse(context, start) {
+    function parse(context, start) {
       this.context = context;
       var src = context.src;
       var offset = Node$1.endOfIdentifier(src, start + 1);
@@ -4052,6 +4044,87 @@ var BlockValue = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(BlockValue, [{
+    key: "includesTrailingLines",
+    get: function get() {
+      return this.chomping === Chomp.KEEP;
+    }
+  }, {
+    key: "strValue",
+    get: function get() {
+      if (!this.valueRange || !this.context) return null;
+      var _this$valueRange = this.valueRange,
+          start = _this$valueRange.start,
+          end = _this$valueRange.end;
+      var _this$context = this.context,
+          indent = _this$context.indent,
+          src = _this$context.src;
+      if (this.valueRange.isEmpty()) return '';
+      var lastNewLine = null;
+      var ch = src[end - 1];
+
+      while (ch === '\n' || ch === '\t' || ch === ' ') {
+        end -= 1;
+
+        if (end <= start) {
+          if (this.chomping === Chomp.KEEP) break;else return ''; // probably never happens
+        }
+
+        if (ch === '\n') lastNewLine = end;
+        ch = src[end - 1];
+      }
+
+      var keepStart = end + 1;
+
+      if (lastNewLine) {
+        if (this.chomping === Chomp.KEEP) {
+          keepStart = lastNewLine;
+          end = this.valueRange.end;
+        } else {
+          end = lastNewLine;
+        }
+      }
+
+      var bi = indent + this.blockIndent;
+      var folded = this.type === Type.BLOCK_FOLDED;
+      var atStart = true;
+      var str = '';
+      var sep = '';
+      var prevMoreIndented = false;
+
+      for (var i = start; i < end; ++i) {
+        for (var j = 0; j < bi; ++j) {
+          if (src[i] !== ' ') break;
+          i += 1;
+        }
+
+        var _ch = src[i];
+
+        if (_ch === '\n') {
+          if (sep === '\n') str += '\n';else sep = '\n';
+        } else {
+          var lineEnd = Node$1.endOfLine(src, i);
+          var line = src.slice(i, lineEnd);
+          i = lineEnd;
+
+          if (folded && (_ch === ' ' || _ch === '\t') && i < keepStart) {
+            if (sep === ' ') sep = '\n';else if (!prevMoreIndented && !atStart && sep === '\n') sep = '\n\n';
+            str += sep + line; //+ ((lineEnd < end && src[lineEnd]) || '')
+
+            sep = lineEnd < end && src[lineEnd] || '';
+            prevMoreIndented = true;
+          } else {
+            str += sep + line;
+            sep = folded && i < keepStart ? ' ' : '\n';
+            prevMoreIndented = false;
+          }
+
+          if (atStart && line !== '') atStart = false;
+        }
+      }
+
+      return this.chomping === Chomp.STRIP ? str : str + '\n';
+    }
+  }, {
     key: "parseBlockHeader",
     value: function parseBlockHeader(start) {
       var src = this.context.src;
@@ -4095,9 +4168,9 @@ var BlockValue = /*#__PURE__*/function (_Node) {
   }, {
     key: "parseBlockValue",
     value: function parseBlockValue(start) {
-      var _this$context = this.context,
-          indent = _this$context.indent,
-          src = _this$context.src;
+      var _this$context2 = this.context,
+          indent = _this$context2.indent,
+          src = _this$context2.src;
       var explicit = !!this.blockIndent;
       var offset = start;
       var valueEnd = start;
@@ -4109,7 +4182,7 @@ var BlockValue = /*#__PURE__*/function (_Node) {
         var end = Node$1.endOfBlockIndent(src, indent, offset); // should not include tab?
 
         if (end === null) break;
-        var _ch = src[end];
+        var _ch2 = src[end];
         var lineIndent = end - (offset + indent);
 
         if (!this.blockIndent) {
@@ -4126,7 +4199,7 @@ var BlockValue = /*#__PURE__*/function (_Node) {
             // empty line with more whitespace
             minBlockIndent = lineIndent;
           }
-        } else if (_ch && _ch !== '\n' && lineIndent < this.blockIndent) {
+        } else if (_ch2 && _ch2 !== '\n' && lineIndent < this.blockIndent) {
           if (src[end] === '#') break;
 
           if (!this.error) {
@@ -4189,87 +4262,6 @@ var BlockValue = /*#__PURE__*/function (_Node) {
     value: function setOrigRanges(cr, offset) {
       offset = _get(_getPrototypeOf(BlockValue.prototype), "setOrigRanges", this).call(this, cr, offset);
       return this.header ? this.header.setOrigRange(cr, offset) : offset;
-    }
-  }, {
-    key: "includesTrailingLines",
-    get: function get() {
-      return this.chomping === Chomp.KEEP;
-    }
-  }, {
-    key: "strValue",
-    get: function get() {
-      if (!this.valueRange || !this.context) return null;
-      var _this$valueRange = this.valueRange,
-          start = _this$valueRange.start,
-          end = _this$valueRange.end;
-      var _this$context2 = this.context,
-          indent = _this$context2.indent,
-          src = _this$context2.src;
-      if (this.valueRange.isEmpty()) return '';
-      var lastNewLine = null;
-      var ch = src[end - 1];
-
-      while (ch === '\n' || ch === '\t' || ch === ' ') {
-        end -= 1;
-
-        if (end <= start) {
-          if (this.chomping === Chomp.KEEP) break;else return ''; // probably never happens
-        }
-
-        if (ch === '\n') lastNewLine = end;
-        ch = src[end - 1];
-      }
-
-      var keepStart = end + 1;
-
-      if (lastNewLine) {
-        if (this.chomping === Chomp.KEEP) {
-          keepStart = lastNewLine;
-          end = this.valueRange.end;
-        } else {
-          end = lastNewLine;
-        }
-      }
-
-      var bi = indent + this.blockIndent;
-      var folded = this.type === Type.BLOCK_FOLDED;
-      var atStart = true;
-      var str = '';
-      var sep = '';
-      var prevMoreIndented = false;
-
-      for (var i = start; i < end; ++i) {
-        for (var j = 0; j < bi; ++j) {
-          if (src[i] !== ' ') break;
-          i += 1;
-        }
-
-        var _ch2 = src[i];
-
-        if (_ch2 === '\n') {
-          if (sep === '\n') str += '\n';else sep = '\n';
-        } else {
-          var lineEnd = Node$1.endOfLine(src, i);
-          var line = src.slice(i, lineEnd);
-          i = lineEnd;
-
-          if (folded && (_ch2 === ' ' || _ch2 === '\t') && i < keepStart) {
-            if (sep === ' ') sep = '\n';else if (!prevMoreIndented && !atStart && sep === '\n') sep = '\n\n';
-            str += sep + line; //+ ((lineEnd < end && src[lineEnd]) || '')
-
-            sep = lineEnd < end && src[lineEnd] || '';
-            prevMoreIndented = true;
-          } else {
-            str += sep + line;
-            sep = folded && i < keepStart ? ' ' : '\n';
-            prevMoreIndented = false;
-          }
-
-          if (atStart && line !== '') atStart = false;
-        }
-      }
-
-      return this.chomping === Chomp.STRIP ? str : str + '\n';
     }
   }]);
 
@@ -4492,46 +4484,12 @@ var QuoteDouble = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(QuoteDouble, [{
-    key: "parseCharCode",
-    value: function parseCharCode(offset, length, errors) {
-      var src = this.context.src;
-      var cc = src.substr(offset, length);
-      var ok = cc.length === length && /^[0-9a-fA-F]+$/.test(cc);
-      var code = ok ? parseInt(cc, 16) : NaN;
-
-      if (isNaN(code)) {
-        errors.push(new YAMLSyntaxError(this, "Invalid escape sequence ".concat(src.substr(offset - 2, length + 2))));
-        return src.substr(offset - 2, length + 2);
-      }
-
-      return String.fromCodePoint(code);
-    }
-    /**
-     * Parses a "double quoted" value from the source
-     *
-     * @param {ParseContext} context
-     * @param {number} start - Index of first character
-     * @returns {number} - Index of the character after this scalar
-     */
-
-  }, {
-    key: "parse",
-    value: function parse(context, start) {
-      this.context = context;
-      var src = context.src;
-      var offset = QuoteDouble.endOfQuote(src, start + 1);
-      this.valueRange = new Range(start, offset);
-      offset = Node$1.endOfWhiteSpace(src, offset);
-      offset = this.parseComment(offset);
-      return offset;
-    }
-  }, {
     key: "strValue",
-
+    get:
     /**
      * @returns {string | { str: string, errors: YAMLSyntaxError[] }}
      */
-    get: function get() {
+    function get() {
       if (!this.valueRange || !this.context) return null;
       var errors = [];
       var _this$valueRange = this.valueRange,
@@ -4696,6 +4654,40 @@ var QuoteDouble = /*#__PURE__*/function (_Node) {
         str: str
       } : str;
     }
+  }, {
+    key: "parseCharCode",
+    value: function parseCharCode(offset, length, errors) {
+      var src = this.context.src;
+      var cc = src.substr(offset, length);
+      var ok = cc.length === length && /^[0-9a-fA-F]+$/.test(cc);
+      var code = ok ? parseInt(cc, 16) : NaN;
+
+      if (isNaN(code)) {
+        errors.push(new YAMLSyntaxError(this, "Invalid escape sequence ".concat(src.substr(offset - 2, length + 2))));
+        return src.substr(offset - 2, length + 2);
+      }
+
+      return String.fromCodePoint(code);
+    }
+    /**
+     * Parses a "double quoted" value from the source
+     *
+     * @param {ParseContext} context
+     * @param {number} start - Index of first character
+     * @returns {number} - Index of the character after this scalar
+     */
+
+  }, {
+    key: "parse",
+    value: function parse(context, start) {
+      this.context = context;
+      var src = context.src;
+      var offset = QuoteDouble.endOfQuote(src, start + 1);
+      this.valueRange = new Range(start, offset);
+      offset = Node$1.endOfWhiteSpace(src, offset);
+      offset = this.parseComment(offset);
+      return offset;
+    }
   }], [{
     key: "endOfQuote",
     value: function endOfQuote(src, offset) {
@@ -4725,31 +4717,12 @@ var QuoteSingle = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(QuoteSingle, [{
-    key: "parse",
-
-    /**
-     * Parses a 'single quoted' value from the source
-     *
-     * @param {ParseContext} context
-     * @param {number} start - Index of first character
-     * @returns {number} - Index of the character after this scalar
-     */
-    value: function parse(context, start) {
-      this.context = context;
-      var src = context.src;
-      var offset = QuoteSingle.endOfQuote(src, start + 1);
-      this.valueRange = new Range(start, offset);
-      offset = Node$1.endOfWhiteSpace(src, offset);
-      offset = this.parseComment(offset);
-      return offset;
-    }
-  }, {
     key: "strValue",
-
+    get:
     /**
      * @returns {string | { str: string, errors: YAMLSyntaxError[] }}
      */
-    get: function get() {
+    function get() {
       if (!this.valueRange || !this.context) return null;
       var errors = [];
       var _this$valueRange = this.valueRange,
@@ -4799,6 +4772,25 @@ var QuoteSingle = /*#__PURE__*/function (_Node) {
         errors: errors,
         str: str
       } : str;
+    }
+    /**
+     * Parses a 'single quoted' value from the source
+     *
+     * @param {ParseContext} context
+     * @param {number} start - Index of first character
+     * @returns {number} - Index of the character after this scalar
+     */
+
+  }, {
+    key: "parse",
+    value: function parse(context, start) {
+      this.context = context;
+      var src = context.src;
+      var offset = QuoteSingle.endOfQuote(src, start + 1);
+      this.valueRange = new Range(start, offset);
+      offset = Node$1.endOfWhiteSpace(src, offset);
+      offset = this.parseComment(offset);
+      return offset;
     }
   }], [{
     key: "endOfQuote",
@@ -4868,46 +4860,6 @@ function createNewNode(type, props) {
 
 
 var ParseContext = /*#__PURE__*/function () {
-  _createClass(ParseContext, null, [{
-    key: "parseType",
-    value: function parseType(src, offset, inFlow) {
-      switch (src[offset]) {
-        case '*':
-          return Type.ALIAS;
-
-        case '>':
-          return Type.BLOCK_FOLDED;
-
-        case '|':
-          return Type.BLOCK_LITERAL;
-
-        case '{':
-          return Type.FLOW_MAP;
-
-        case '[':
-          return Type.FLOW_SEQ;
-
-        case '?':
-          return !inFlow && Node$1.atBlank(src, offset + 1, true) ? Type.MAP_KEY : Type.PLAIN;
-
-        case ':':
-          return !inFlow && Node$1.atBlank(src, offset + 1, true) ? Type.MAP_VALUE : Type.PLAIN;
-
-        case '-':
-          return !inFlow && Node$1.atBlank(src, offset + 1, true) ? Type.SEQ_ITEM : Type.PLAIN;
-
-        case '"':
-          return Type.QUOTE_DOUBLE;
-
-        case "'":
-          return Type.QUOTE_SINGLE;
-
-        default:
-          return Type.PLAIN;
-      }
-    }
-  }]);
-
   function ParseContext() {
     var _this = this;
 
@@ -4999,11 +4951,17 @@ var ParseContext = /*#__PURE__*/function () {
 
       while (ch === Char.ANCHOR || ch === Char.COMMENT || ch === Char.TAG || ch === '\n') {
         if (ch === '\n') {
-          var lineStart = offset + 1;
-          var inEnd = Node$1.endOfIndent(src, lineStart);
+          var inEnd = offset;
+          var lineStart = void 0;
+
+          do {
+            lineStart = inEnd + 1;
+            inEnd = Node$1.endOfIndent(src, lineStart);
+          } while (src[inEnd] === '\n');
+
           var indentDiff = inEnd - (lineStart + this.indent);
           var noIndicatorAsIndent = parent.type === Type.SEQ_ITEM && parent.context.atLineStart;
-          if (!Node$1.nextNodeIsIndented(src[inEnd], indentDiff, !noIndicatorAsIndent)) break;
+          if (src[inEnd] !== '#' && !Node$1.nextNodeIsIndented(src[inEnd], indentDiff, !noIndicatorAsIndent)) break;
           this.atLineStart = true;
           this.lineStart = lineStart;
           lineHasProps = false;
@@ -5047,6 +5005,44 @@ var ParseContext = /*#__PURE__*/function () {
      * @returns {?Node} - null if at a document boundary
      */
 
+  }], [{
+    key: "parseType",
+    value: function parseType(src, offset, inFlow) {
+      switch (src[offset]) {
+        case '*':
+          return Type.ALIAS;
+
+        case '>':
+          return Type.BLOCK_FOLDED;
+
+        case '|':
+          return Type.BLOCK_LITERAL;
+
+        case '{':
+          return Type.FLOW_MAP;
+
+        case '[':
+          return Type.FLOW_SEQ;
+
+        case '?':
+          return !inFlow && Node$1.atBlank(src, offset + 1, true) ? Type.MAP_KEY : Type.PLAIN;
+
+        case ':':
+          return !inFlow && Node$1.atBlank(src, offset + 1, true) ? Type.MAP_VALUE : Type.PLAIN;
+
+        case '-':
+          return !inFlow && Node$1.atBlank(src, offset + 1, true) ? Type.SEQ_ITEM : Type.PLAIN;
+
+        case '"':
+          return Type.QUOTE_DOUBLE;
+
+        case "'":
+          return Type.QUOTE_SINGLE;
+
+        default:
+          return Type.PLAIN;
+      }
+    }
   }]);
 
   return ParseContext;
@@ -5167,9 +5163,21 @@ function collectionFromPath(schema, path, value) {
 
   for (var i = path.length - 1; i >= 0; --i) {
     var k = path[i];
-    var o = Number.isInteger(k) && k >= 0 ? [] : {};
-    o[k] = v;
-    v = o;
+
+    if (Number.isInteger(k) && k >= 0) {
+      var a = [];
+      a[k] = v;
+      v = a;
+    } else {
+      var o = {};
+      Object.defineProperty(o, k, {
+        value: v,
+        writable: true,
+        enumerable: true,
+        configurable: true
+      });
+      v = o;
+    }
   }
 
   return schema.createNode(v, false);
@@ -5497,7 +5505,7 @@ var stringifyKey = function stringifyKey(key, jsKey, ctx) {
   if (jsKey === null) return '';
   if (_typeof(jsKey) !== 'object') return String(jsKey);
   if (key instanceof Node && ctx && ctx.doc) return key.toString({
-    anchors: {},
+    anchors: Object.create(null),
     doc: ctx.doc,
     indent: '',
     indentStep: ctx.indentStep,
@@ -5528,6 +5536,18 @@ var Pair = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(Pair, [{
+    key: "commentBefore",
+    get: function get() {
+      return this.key instanceof Node ? this.key.commentBefore : undefined;
+    },
+    set: function set(cb) {
+      if (this.key == null) this.key = new Scalar(null);
+      if (this.key instanceof Node) this.key.commentBefore = cb;else {
+        var msg = 'Pair.commentBefore is an alias for Pair.key.commentBefore. To set it, the key must be a Node.';
+        throw new Error(msg);
+      }
+    }
+  }, {
     key: "addToJSMap",
     value: function addToJSMap(ctx, map) {
       var key = toJSON(this.key, '', ctx);
@@ -5539,7 +5559,15 @@ var Pair = /*#__PURE__*/function (_Node) {
         map.add(key);
       } else {
         var stringKey = stringifyKey(this.key, key, ctx);
-        map[stringKey] = toJSON(this.value, stringKey, ctx);
+
+        var _value = toJSON(this.value, stringKey, ctx);
+
+        if (stringKey in map) Object.defineProperty(map, stringKey, {
+          value: _value,
+          writable: true,
+          enumerable: true,
+          configurable: true
+        });else map[stringKey] = _value;
       }
 
       return map;
@@ -5573,7 +5601,7 @@ var Pair = /*#__PURE__*/function (_Node) {
         }
       }
 
-      var explicitKey = !simpleKeys && (!key || keyComment || key instanceof Collection || key.type === Type.BLOCK_FOLDED || key.type === Type.BLOCK_LITERAL);
+      var explicitKey = !simpleKeys && (!key || keyComment || (key instanceof Node ? key instanceof Collection || key.type === Type.BLOCK_FOLDED || key.type === Type.BLOCK_LITERAL : _typeof(key) === 'object'));
       var _ctx = ctx,
           doc = _ctx.doc,
           indent = _ctx.indent,
@@ -5591,13 +5619,18 @@ var Pair = /*#__PURE__*/function (_Node) {
       });
       str = addComment(str, ctx.indent, keyComment);
 
+      if (!explicitKey && str.length > 1024) {
+        if (simpleKeys) throw new Error('With simple keys, single line scalar must not span more than 1024 characters');
+        explicitKey = true;
+      }
+
       if (ctx.allNullValues && !simpleKeys) {
         if (this.comment) {
           str = addComment(str, ctx.indent, this.comment);
           if (onComment) onComment();
         } else if (chompKeep && !keyComment && onChompKeep) onChompKeep();
 
-        return ctx.inFlow ? str : "? ".concat(str);
+        return ctx.inFlow && !explicitKey ? str : "? ".concat(str);
       }
 
       str = explicitKey ? "? ".concat(str, "\n").concat(indent, ":") : "".concat(str, ":");
@@ -5645,22 +5678,10 @@ var Pair = /*#__PURE__*/function (_Node) {
       } else if (!explicitKey && value instanceof Collection) {
         var flow = valueStr[0] === '[' || valueStr[0] === '{';
         if (!flow || valueStr.includes('\n')) ws = "\n".concat(ctx.indent);
-      }
+      } else if (valueStr[0] === '\n') ws = '';
 
       if (chompKeep && !valueComment && onChompKeep) onChompKeep();
       return addComment(str + ws + valueStr, ctx.indent, valueComment);
-    }
-  }, {
-    key: "commentBefore",
-    get: function get() {
-      return this.key instanceof Node ? this.key.commentBefore : undefined;
-    },
-    set: function set(cb) {
-      if (this.key == null) this.key = new Scalar(null);
-      if (this.key instanceof Node) this.key.commentBefore = cb;else {
-        var msg = 'Pair.commentBefore is an alias for Pair.key.commentBefore. To set it, the key must be a Node.';
-        throw new Error(msg);
-      }
     }
   }]);
 
@@ -5709,25 +5730,6 @@ var Alias = /*#__PURE__*/function (_Node) {
 
   var _super = _createSuper(Alias);
 
-  _createClass(Alias, null, [{
-    key: "stringify",
-    value: function stringify(_ref, _ref2) {
-      var range = _ref.range,
-          source = _ref.source;
-      var anchors = _ref2.anchors,
-          doc = _ref2.doc,
-          implicitKey = _ref2.implicitKey,
-          inStringifyKey = _ref2.inStringifyKey;
-      var anchor = Object.keys(anchors).find(function (a) {
-        return anchors[a] === source;
-      });
-      if (!anchor && inStringifyKey) anchor = doc.anchors.getName(source) || doc.anchors.newName();
-      if (anchor) return "*".concat(anchor).concat(implicitKey ? ' ' : '');
-      var msg = doc.anchors.getName(source) ? 'Alias node must be after source node' : 'Source node not found for alias node';
-      throw new Error("".concat(msg, " [").concat(range, "]"));
-    }
-  }]);
-
   function Alias(source) {
     var _this;
 
@@ -5740,6 +5742,11 @@ var Alias = /*#__PURE__*/function (_Node) {
   }
 
   _createClass(Alias, [{
+    key: "tag",
+    set: function set(t) {
+      throw new Error('Alias nodes cannot have tags');
+    }
+  }, {
     key: "toJSON",
     value: function toJSON$1(arg, ctx) {
       if (!ctx) return toJSON(this.source, arg, ctx);
@@ -5772,10 +5779,22 @@ var Alias = /*#__PURE__*/function (_Node) {
     value: function toString(ctx) {
       return Alias.stringify(this, ctx);
     }
-  }, {
-    key: "tag",
-    set: function set(t) {
-      throw new Error('Alias nodes cannot have tags');
+  }], [{
+    key: "stringify",
+    value: function stringify(_ref, _ref2) {
+      var range = _ref.range,
+          source = _ref.source;
+      var anchors = _ref2.anchors,
+          doc = _ref2.doc,
+          implicitKey = _ref2.implicitKey,
+          inStringifyKey = _ref2.inStringifyKey;
+      var anchor = Object.keys(anchors).find(function (a) {
+        return anchors[a] === source;
+      });
+      if (!anchor && inStringifyKey) anchor = doc.anchors.getName(source) || doc.anchors.newName();
+      if (anchor) return "*".concat(anchor).concat(implicitKey ? ' ' : '');
+      var msg = doc.anchors.getName(source) ? 'Alias node must be after source node' : 'Source node not found for alias node';
+      throw new Error("".concat(msg, " [").concat(range, "]"));
     }
   }]);
 
@@ -5988,8 +6007,13 @@ var Merge = /*#__PURE__*/function (_Pair) {
                 if (!map.has(key)) map.set(key, value);
               } else if (map instanceof Set) {
                 map.add(key);
-              } else {
-                if (!Object.prototype.hasOwnProperty.call(map, key)) map[key] = value;
+              } else if (!Object.prototype.hasOwnProperty.call(map, key)) {
+                Object.defineProperty(map, key, {
+                  value: value,
+                  writable: true,
+                  enumerable: true,
+                  configurable: true
+                });
               }
             }
           } catch (err) {
@@ -6114,7 +6138,7 @@ var consumeMoreIndentedLines = function consumeMoreIndentedLines(text, i) {
  *   the first line, defaulting to `indent.length`
  * @param {number} [options.lineWidth=80]
  * @param {number} [options.minContentWidth=20] Allow highly indented lines to
- *   stretch the line width
+ *   stretch the line width or indent content from the start
  * @param {function} options.onFold Called once if the text is folded
  * @param {function} options.onFold Called once if any line of text exceeds
  *   lineWidth characters
@@ -6134,11 +6158,18 @@ function foldFlowLines(text, indent, mode, _ref) {
   if (text.length <= endStep) return text;
   var folds = [];
   var escapedFolds = {};
-  var end = lineWidth - (typeof indentAtStart === 'number' ? indentAtStart : indent.length);
+  var end = lineWidth - indent.length;
+
+  if (typeof indentAtStart === 'number') {
+    if (indentAtStart > lineWidth - Math.max(2, minContentWidth)) folds.push(0);else end = lineWidth - indentAtStart;
+  }
+
   var split = undefined;
   var prev = undefined;
   var overflow = false;
   var i = -1;
+  var escStart = -1;
+  var escEnd = -1;
 
   if (mode === FOLD_BLOCK) {
     i = consumeMoreIndentedLines(text, i);
@@ -6147,6 +6178,8 @@ function foldFlowLines(text, indent, mode, _ref) {
 
   for (var ch; ch = text[i += 1];) {
     if (mode === FOLD_QUOTED && ch === '\\') {
+      escStart = i;
+
       switch (text[i + 1]) {
         case 'x':
           i += 3;
@@ -6163,6 +6196,8 @@ function foldFlowLines(text, indent, mode, _ref) {
         default:
           i += 1;
       }
+
+      escEnd = i;
     }
 
     if (ch === '\n') {
@@ -6187,12 +6222,15 @@ function foldFlowLines(text, indent, mode, _ref) {
             prev = ch;
             ch = text[i += 1];
             overflow = true;
-          } // i - 2 accounts for not-dropped last char + newline-escaping \
+          } // Account for newline escape, but don't break preceding escape
 
 
-          folds.push(i - 2);
-          escapedFolds[i - 2] = true;
-          end = i - 2 + endStep;
+          var j = i > escEnd + 1 ? i - 2 : escStart - 1; // Bail out if lineWidth & minContentWidth are shorter than an escape string
+
+          if (escapedFolds[j]) return text;
+          folds.push(j);
+          escapedFolds[j] = true;
+          end = j + endStep;
           split = undefined;
         } else {
           overflow = true;
@@ -6213,8 +6251,10 @@ function foldFlowLines(text, indent, mode, _ref) {
 
     var _end = folds[_i + 1] || text.length;
 
-    if (mode === FOLD_QUOTED && escapedFolds[fold]) res += "".concat(text[fold], "\\");
-    res += "\n".concat(indent).concat(text.slice(fold + 1, _end));
+    if (fold === 0) res = "\n".concat(indent).concat(text.slice(0, _end));else {
+      if (mode === FOLD_QUOTED && escapedFolds[fold]) res += "".concat(text[fold], "\\");
+      res += "\n".concat(indent).concat(text.slice(fold + 1, _end));
+    }
   }
 
   return res;
@@ -6233,7 +6273,9 @@ var containsDocumentMarker = function containsDocumentMarker(str) {
   return /^(%|---|\.\.\.)/m.test(str);
 };
 
-function lineLengthOverLimit(str, limit) {
+function lineLengthOverLimit(str, lineWidth, indentLength) {
+  if (!lineWidth || lineWidth < 0) return false;
+  var limit = lineWidth - indentLength;
   var strLen = str.length;
   if (strLen <= limit) return false;
 
@@ -6373,7 +6415,7 @@ function blockString(_ref2, ctx, onComment, onChompKeep) {
   var indent = ctx.indent || (ctx.forceBlockIndent || containsDocumentMarker(value) ? '  ' : '');
   var indentSize = indent ? '2' : '1'; // root is at -1
 
-  var literal = type === Type.BLOCK_FOLDED ? false : type === Type.BLOCK_LITERAL ? true : !lineLengthOverLimit(value, strOptions.fold.lineWidth - indent.length);
+  var literal = type === Type.BLOCK_FOLDED ? false : type === Type.BLOCK_LITERAL ? true : !lineLengthOverLimit(value, strOptions.fold.lineWidth, indent.length);
   var header = literal ? '|' : '>';
   if (!value) return header + '\n';
   var wsStart = '';
@@ -8051,17 +8093,17 @@ var failsafe = [map, seq, string];
 
 /* global BigInt */
 
-var intIdentify = function intIdentify(value) {
+var intIdentify$2 = function intIdentify(value) {
   return typeof value === 'bigint' || Number.isInteger(value);
 };
 
-var intResolve = function intResolve(src, part, radix) {
+var intResolve$1 = function intResolve(src, part, radix) {
   return intOptions.asBigInt ? BigInt(src) : parseInt(part, radix);
 };
 
-function intStringify(node, radix, prefix) {
+function intStringify$1(node, radix, prefix) {
   var value = node.value;
-  if (intIdentify(value) && value >= 0) return prefix + value.toString(radix);
+  if (intIdentify$2(value) && value >= 0) return prefix + value.toString(radix);
   return stringifyNumber(node);
 }
 
@@ -8101,45 +8143,45 @@ var boolObj = {
 };
 var octObj = {
   identify: function identify(value) {
-    return intIdentify(value) && value >= 0;
+    return intIdentify$2(value) && value >= 0;
   },
   default: true,
   tag: 'tag:yaml.org,2002:int',
   format: 'OCT',
   test: /^0o([0-7]+)$/,
   resolve: function resolve(str, oct) {
-    return intResolve(str, oct, 8);
+    return intResolve$1(str, oct, 8);
   },
   options: intOptions,
   stringify: function stringify(node) {
-    return intStringify(node, 8, '0o');
+    return intStringify$1(node, 8, '0o');
   }
 };
 var intObj = {
-  identify: intIdentify,
+  identify: intIdentify$2,
   default: true,
   tag: 'tag:yaml.org,2002:int',
   test: /^[-+]?[0-9]+$/,
   resolve: function resolve(str) {
-    return intResolve(str, str, 10);
+    return intResolve$1(str, str, 10);
   },
   options: intOptions,
   stringify: stringifyNumber
 };
 var hexObj = {
   identify: function identify(value) {
-    return intIdentify(value) && value >= 0;
+    return intIdentify$2(value) && value >= 0;
   },
   default: true,
   tag: 'tag:yaml.org,2002:int',
   format: 'HEX',
   test: /^0x([0-9a-fA-F]+)$/,
   resolve: function resolve(str, hex) {
-    return intResolve(str, hex, 16);
+    return intResolve$1(str, hex, 16);
   },
   options: intOptions,
   stringify: function stringify(node) {
-    return intStringify(node, 16, '0x');
+    return intStringify$1(node, 16, '0x');
   }
 };
 var nanObj = {
@@ -8267,11 +8309,11 @@ var boolStringify = function boolStringify(_ref) {
   return value ? boolOptions.trueStr : boolOptions.falseStr;
 };
 
-var intIdentify$2 = function intIdentify(value) {
+var intIdentify = function intIdentify(value) {
   return typeof value === 'bigint' || Number.isInteger(value);
 };
 
-function intResolve$1(sign, src, radix) {
+function intResolve(sign, src, radix) {
   var str = src.replace(/_/g, '');
 
   if (intOptions.asBigInt) {
@@ -8298,10 +8340,10 @@ function intResolve$1(sign, src, radix) {
   return sign === '-' ? -1 * n : n;
 }
 
-function intStringify$1(node, radix, prefix) {
+function intStringify(node, radix, prefix) {
   var value = node.value;
 
-  if (intIdentify$2(value)) {
+  if (intIdentify(value)) {
     var str = value.toString(radix);
     return value < 0 ? '-' + prefix + str.substr(1) : prefix + str;
   }
@@ -8351,49 +8393,49 @@ var yaml11 = failsafe.concat([{
   options: boolOptions,
   stringify: boolStringify
 }, {
-  identify: intIdentify$2,
+  identify: intIdentify,
   default: true,
   tag: 'tag:yaml.org,2002:int',
   format: 'BIN',
   test: /^([-+]?)0b([0-1_]+)$/,
   resolve: function resolve(str, sign, bin) {
-    return intResolve$1(sign, bin, 2);
+    return intResolve(sign, bin, 2);
   },
   stringify: function stringify(node) {
-    return intStringify$1(node, 2, '0b');
+    return intStringify(node, 2, '0b');
   }
 }, {
-  identify: intIdentify$2,
+  identify: intIdentify,
   default: true,
   tag: 'tag:yaml.org,2002:int',
   format: 'OCT',
   test: /^([-+]?)0([0-7_]+)$/,
   resolve: function resolve(str, sign, oct) {
-    return intResolve$1(sign, oct, 8);
+    return intResolve(sign, oct, 8);
   },
   stringify: function stringify(node) {
-    return intStringify$1(node, 8, '0');
+    return intStringify(node, 8, '0');
   }
 }, {
-  identify: intIdentify$2,
+  identify: intIdentify,
   default: true,
   tag: 'tag:yaml.org,2002:int',
   test: /^([-+]?)([0-9][0-9_]*)$/,
   resolve: function resolve(str, sign, abs) {
-    return intResolve$1(sign, abs, 10);
+    return intResolve(sign, abs, 10);
   },
   stringify: stringifyNumber
 }, {
-  identify: intIdentify$2,
+  identify: intIdentify,
   default: true,
   tag: 'tag:yaml.org,2002:int',
   format: 'HEX',
   test: /^([-+]?)0x([0-9a-fA-F_]+)$/,
   resolve: function resolve(str, sign, hex) {
-    return intResolve$1(sign, hex, 16);
+    return intResolve(sign, hex, 16);
   },
   stringify: function stringify(node) {
-    return intStringify$1(node, 16, '0x');
+    return intStringify(node, 16, '0x');
   }
 }, {
   identify: function identify(value) {
@@ -8497,7 +8539,7 @@ function createNode$1(value, tagName, ctx) {
 
   if (!tagObj) {
     if (typeof value.toJSON === 'function') value = value.toJSON();
-    if (_typeof(value) !== 'object') return wrapScalars ? new Scalar(value) : value;
+    if (!value || _typeof(value) !== 'object') return wrapScalars ? new Scalar(value) : value;
     tagObj = value instanceof Map ? map : value[Symbol.iterator] ? seq : map;
   }
 
@@ -8508,7 +8550,10 @@ function createNode$1(value, tagName, ctx) {
   // after first. The `obj` wrapper allows for circular references to resolve.
 
 
-  var obj = {};
+  var obj = {
+    value: undefined,
+    node: undefined
+  };
 
   if (value && _typeof(value) === 'object' && prevObjects) {
     var prev = prevObjects.get(value);
@@ -8701,7 +8746,7 @@ var documentOptions = {
       prefix: 'tag:private.yaml.org,2002:'
     }]
   },
-  '1.1': {
+  1.1: {
     schema: 'yaml-1.1',
     merge: true,
     tagPrefixes: [{
@@ -8712,7 +8757,7 @@ var documentOptions = {
       prefix: defaultTagPrefix
     }]
   },
-  '1.2': {
+  1.2: {
     schema: 'core',
     merge: false,
     tagPrefixes: [{
@@ -8820,7 +8865,7 @@ function stringifyProps(node, tagObj, _ref) {
   return props.join(' ');
 }
 
-function stringify(item, ctx, onComment, onChompKeep) {
+function stringify$1(item, ctx, onComment, onChompKeep) {
   var _ctx$doc = ctx.doc,
       anchors = _ctx$doc.anchors,
       schema = _ctx$doc.schema;
@@ -8867,17 +8912,10 @@ function stringify(item, ctx, onComment, onChompKeep) {
 }
 
 var Anchors = /*#__PURE__*/function () {
-  _createClass(Anchors, null, [{
-    key: "validAnchorNode",
-    value: function validAnchorNode(node) {
-      return node instanceof Scalar || node instanceof YAMLSeq || node instanceof YAMLMap;
-    }
-  }]);
-
   function Anchors(prefix) {
     _classCallCheck(this, Anchors);
 
-    _defineProperty(this, "map", {});
+    _defineProperty(this, "map", Object.create(null));
 
     this.prefix = prefix;
   }
@@ -8988,6 +9026,11 @@ var Anchors = /*#__PURE__*/function () {
       }
 
       return name;
+    }
+  }], [{
+    key: "validAnchorNode",
+    value: function validAnchorNode(node) {
+      return node instanceof Scalar || node instanceof YAMLSeq || node instanceof YAMLMap;
     }
   }]);
 
@@ -9209,7 +9252,7 @@ function assertCollection(contents) {
   throw new Error('Expected a YAML collection as document contents');
 }
 
-var Document = /*#__PURE__*/function () {
+var Document$1 = /*#__PURE__*/function () {
   function Document(options) {
     _classCallCheck(this, Document);
 
@@ -9414,7 +9457,7 @@ var Document = /*#__PURE__*/function () {
         keep: keep,
         mapAsMap: keep && !!mapAsMap,
         maxAliasCount: maxAliasCount,
-        stringify: stringify // Requiring directly in Pair would create circular dependencies
+        stringify: stringify$1 // Requiring directly in Pair would create circular dependencies
 
       };
       var anchorNames = Object.keys(this.anchors.map);
@@ -9494,11 +9537,11 @@ var Document = /*#__PURE__*/function () {
       }
 
       var ctx = {
-        anchors: {},
+        anchors: Object.create(null),
         doc: this,
         indent: '',
         indentStep: ' '.repeat(indentSize),
-        stringify: stringify // Requiring directly in nodes would create circular dependencies
+        stringify: stringify$1 // Requiring directly in nodes would create circular dependencies
 
       };
       var chompKeep = false;
@@ -9516,12 +9559,12 @@ var Document = /*#__PURE__*/function () {
         var onChompKeep = contentComment ? null : function () {
           return chompKeep = true;
         };
-        var body = stringify(this.contents, ctx, function () {
+        var body = stringify$1(this.contents, ctx, function () {
           return contentComment = null;
         }, onChompKeep);
         lines.push(addComment(body, '', contentComment));
       } else if (this.contents !== undefined) {
-        lines.push(stringify(this.contents, ctx));
+        lines.push(stringify$1(this.contents, ctx));
       }
 
       if (this.comment) {
@@ -9536,7 +9579,7 @@ var Document = /*#__PURE__*/function () {
   return Document;
 }();
 
-_defineProperty(Document, "defaults", documentOptions);
+_defineProperty(Document$1, "defaults", documentOptions);
 
 function createNode(value) {
   var wrapScalars = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
@@ -9547,12 +9590,12 @@ function createNode(value) {
     wrapScalars = true;
   }
 
-  var options = Object.assign({}, Document.defaults[defaultOptions.version], defaultOptions);
+  var options = Object.assign({}, Document$1.defaults[defaultOptions.version], defaultOptions);
   var schema = new Schema(options);
   return schema.createNode(value, wrapScalars, tag);
 }
 
-var Document$1 = /*#__PURE__*/function (_YAMLDocument) {
+var Document = /*#__PURE__*/function (_YAMLDocument) {
   _inherits(Document, _YAMLDocument);
 
   var _super = _createSuper(Document);
@@ -9564,7 +9607,7 @@ var Document$1 = /*#__PURE__*/function (_YAMLDocument) {
   }
 
   return Document;
-}(Document);
+}(Document$1);
 
 function parseAllDocuments(src, options) {
   var stream = [];
@@ -9576,7 +9619,7 @@ function parseAllDocuments(src, options) {
   try {
     for (_iterator.s(); !(_step = _iterator.n()).done;) {
       var cstDoc = _step.value;
-      var doc = new Document$1(options);
+      var doc = new Document(options);
       doc.parse(cstDoc, prev);
       stream.push(doc);
       prev = doc;
@@ -9592,7 +9635,7 @@ function parseAllDocuments(src, options) {
 
 function parseDocument(src, options) {
   var cst = parse$1(src);
-  var doc = new Document$1(options).parse(cst[0]);
+  var doc = new Document(options).parse(cst[0]);
 
   if (cst.length > 1) {
     var errMsg = 'Source contains multiple documents; please use YAML.parseAllDocuments()';
@@ -9611,8 +9654,8 @@ function parse(src, options) {
   return doc.toJSON();
 }
 
-function stringify$1(value, options) {
-  var doc = new Document$1(options);
+function stringify(value, options) {
+  var doc = new Document(options);
   doc.contents = value;
   return String(doc);
 }
@@ -9620,13 +9663,13 @@ function stringify$1(value, options) {
 var YAML = {
   createNode: createNode,
   defaultOptions: defaultOptions,
-  Document: Document$1,
+  Document: Document,
   parse: parse,
   parseAllDocuments: parseAllDocuments,
   parseCST: parse$1,
   parseDocument: parseDocument,
   scalarOptions: scalarOptions,
-  stringify: stringify$1
+  stringify: stringify
 };
 
 var dist = /*#__PURE__*/Object.freeze({
@@ -26871,9 +26914,9 @@ function renderDebug(searchResults, oqlConfig) {
         var debugWindow = document.createElement('pre');
         debugWindow.addClass("oql-debug");
         debugWindow.addClass("language-js");
-        var debugText = "// Debugging OQL, total results: " + searchResults.length + "\n// Query: \n";
-        var debugQuery = JSON.stringify(oqlConfig.query, null, 2) + "\n// Results: \n\n";
-        var noteTitles = searchResults.map(function (r) { return "" + r.title; }).join("\n");
+        var debugText = "// Debugging OQL, total results: ".concat(searchResults.length, "\n// Query: \n");
+        var debugQuery = "".concat(JSON.stringify(oqlConfig.query, null, 2), "\n// Results: \n\n");
+        var noteTitles = searchResults.map(function (r) { return "".concat(r.title); }).join("\n");
         debugWindow.innerText = debugText + debugQuery + noteTitles;
         return debugWindow;
     }
@@ -26960,7 +27003,7 @@ function renderListItem(searchResult, oqlConfig, index) {
     return listItem;
 }
 function renderList(searchResults, oqlConfig) {
-    console.debug("[OQL] Rendering list, with " + searchResults.length + " results");
+    console.debug("[OQL] Rendering list, with ".concat(searchResults.length, " results"));
     oqlConfig.template;
     var result = document.createElement('ul');
     if (oqlConfig.limit) {
@@ -27021,7 +27064,7 @@ function renderRow(searchResult, oqlConfig, index) {
     return tableRow;
 }
 function renderTable(searchResults, oqlConfig) {
-    console.debug("[OQL] Rendering table, with " + searchResults.length + " results");
+    console.debug("[OQL] Rendering table, with ".concat(searchResults.length, " results"));
     var result = document.createElement('table');
     if (oqlConfig.limit) {
         searchResults = searchResults.slice(0, oqlConfig.limit);
@@ -27045,7 +27088,7 @@ function renderTable(searchResults, oqlConfig) {
 }
 
 function renderString(searchResults, oqlConfig) {
-    console.debug("[OQL] Rendering string, with " + searchResults.length + " results");
+    console.debug("[OQL] Rendering string, with ".concat(searchResults.length, " results"));
     // If there's no 'format: ""' 
     if (!('format' in oqlConfig)) {
         throw Error("No 'format' key specified in OQL.");
@@ -27075,25 +27118,30 @@ var renderers = {
 var QueryResultRenderer = /** @class */ (function () {
     function QueryResultRenderer() {
     }
-    QueryResultRenderer.postprocessor = function (el, ctx) {
+    QueryResultRenderer.postprocessor = function (source, el, ctx) {
         return __awaiter(this, void 0, void 0, function () {
-            var node, oqlConfig, searchResults, result, error_1;
+            var oqlConfig, searchResults, result, error_1;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        node = el.querySelector('code[class*="language-oql"]');
-                        if (!node)
-                            return [2 /*return*/]; // If it's not an oql block, return 
-                        oqlConfig = __assign({ includeCurrentNote: false, badge: true }, browser.parse(node.textContent));
+                        oqlConfig = __assign({ includeCurrentNote: false, badge: true }, browser.parse(source));
                         searchResults = [];
                         _a.label = 1;
                     case 1:
-                        _a.trys.push([1, 5, , 6]);
-                        if (!(SearchIndex.state === 'ready')) return [3 /*break*/, 3];
+                        _a.trys.push([1, 6, , 7]);
+                        return [4 /*yield*/, SearchIndex.search(oqlConfig.query)];
+                    case 2:
+                        // Get the search index instance and search with query provided
+                        searchResults = _a.sent();
+                        if (!(SearchIndex.state === 'ready')) return [3 /*break*/, 4];
+                        // Filter out the currentNote based on path of the current note
+                        if (!oqlConfig.includeCurrentNote) {
+                            searchResults = searchResults.filter(function (note) { return note.path !== ctx.sourcePath; });
+                        }
                         return [4 /*yield*/, SearchIndex.search(oqlConfig.query)
                             // Filter out the currentNote based on path of the current note
                         ];
-                    case 2:
+                    case 3:
                         // Get the search index instance and search with query provided
                         searchResults = _a.sent();
                         // Filter out the currentNote based on path of the current note
@@ -27102,27 +27150,28 @@ var QueryResultRenderer = /** @class */ (function () {
                         }
                         // If sorting is configured, apply it on the search results
                         if (oqlConfig.sort) {
-                            searchResults = QueryResultRenderer.sortSearchResults(searchResults, oqlConfig);
+                            searchResults = this.sortSearchResults(searchResults, oqlConfig);
                         }
                         // Render the output
                         result = renderers[oqlConfig.template](searchResults, oqlConfig);
-                        return [3 /*break*/, 4];
-                    case 3:
+                        return [3 /*break*/, 5];
+                    case 4:
                         result = renderWarning('Index not build yet... (check back after opening another note!)');
-                        _a.label = 4;
-                    case 4: return [3 /*break*/, 6];
-                    case 5:
+                        _a.label = 5;
+                    case 5: return [3 /*break*/, 7];
+                    case 6:
                         error_1 = _a.sent();
                         result = renderError(error_1);
-                        return [3 /*break*/, 6];
-                    case 6:
+                        return [3 /*break*/, 7];
+                    case 7:
                         if (result) { // If we have a result
                             if (oqlConfig.badge)
                                 result.addClass('oql-badge'); // Render the badge (or not)
-                            el.replaceChild(result, node.parentElement); // Finally replace node with the result
+                            el.appendChild(result); // Finally replace node with the result
                             // And render the debug if toggled
                             if (oqlConfig.debug)
                                 el.appendChild(renderDebug(searchResults, oqlConfig));
+                            return [2 /*return*/, el];
                         }
                         return [2 /*return*/];
                 }
@@ -27176,15 +27225,16 @@ var ObsidianQueryLanguagePlugin = /** @class */ (function (_super) {
                 this.registerEvent(this.app.vault.on("rename", function (file, oldPath) {
                     _this.refreshFile(file, oldPath);
                 }));
-                // Register the renderer as postprocessor
-                obsidian.MarkdownPreviewRenderer.registerPostProcessor(QueryResultRenderer.postprocessor);
+                this.registerMarkdownCodeBlockProcessor("oql", function (source, el, ctx) {
+                    return QueryResultRenderer.postprocessor(source, el, ctx);
+                });
                 return [2 /*return*/];
             });
         });
     };
     // Remove the postprocessor on unload
     ObsidianQueryLanguagePlugin.prototype.onunload = function () {
-        obsidian.MarkdownPreviewRenderer.unregisterPostProcessor(QueryResultRenderer.postprocessor);
+        // MarkdownPreviewRenderer.unregisterPostProcessor(QueryResultRenderer.postprocessor);
     };
     // Rebuild the search index 
     ObsidianQueryLanguagePlugin.prototype.buildIndex = function () {
@@ -27261,15 +27311,15 @@ var ObsidianQueryLanguagePlugin = /** @class */ (function (_super) {
         });
     };
     ObsidianQueryLanguagePlugin.prototype.parseTags = function (metadata) {
-        var _a;
+        var _a, _b;
         return __awaiter(this, void 0, void 0, function () {
             var tags;
-            return __generator(this, function (_b) {
+            return __generator(this, function (_c) {
                 tags = [];
                 if (metadata) {
                     // Get the tags from the frontmatter
                     if ((_a = metadata === null || metadata === void 0 ? void 0 : metadata.frontmatter) === null || _a === void 0 ? void 0 : _a.tags) {
-                        tags = obsidian.parseFrontMatterTags(metadata.frontmatter);
+                        tags = (_b = obsidian.parseFrontMatterTags(metadata.frontmatter)) !== null && _b !== void 0 ? _b : [];
                     }
                     // Also add the tags from the metadata object (these are present in document itself)
                     if (metadata === null || metadata === void 0 ? void 0 : metadata.tags) {

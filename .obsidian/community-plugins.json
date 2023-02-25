@@ -3,13 +3,11 @@
   "completed-area",
   "folder-note-plugin",
   "obsidian-icons-plugin",
-  "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-mind-map",
   "obsidian-plugin-todo",
   "obsidian-relative-line-numbers",
   "obsidian-emoji-toolbar",
   "cm-editor-syntax-highlight-obsidian",
-  "markdown-prettifier",
   "obsidian-reading-time",
   "obsidian-rollover-daily-todos",
   "periodic-notes",
@@ -34,5 +32,7 @@
   "metaedit",
   "obsidian-git",
   "quickadd",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "wielder",
+  "execute-code"
 ]

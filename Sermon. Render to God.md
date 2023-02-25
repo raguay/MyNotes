@@ -20,7 +20,7 @@ Mark 12:14-17
     2. That means we are to give "everything" to God
         1. Tithes and offerings
             - Malachi 3:8-9 "Will a man rob God? Yet ye have robbed me. But ye say, Wherein have we robbed thee? In tithes and offerings. Ye are cursed with a curse: for ye have robbed me, even this whole nation."
-            - มาลาคี 3:8-9 "คนจะปล้นพระเจ้าหรือ แต่เจ้าทั้งหลายได้ปล้นเรา แต่เจ้ากล่าวว่า `เราทั้งหลายปล้นพระเจ้าอย่างไร' ก็ปล้นในเรื่องสิบชักหนึ่งและเครื่องบูชานั่นซี เจ้าทั้งหลายต้องถูกสาปแช่งด้วยคำสาปแช่ง เพราะเจ้าทั้งหลายทั้งชาติปล้นเรา"
+            - มาลาคี 3:8-9 "คนจะปล้นพระเจ้าหรือ แต่เจ้าทั้งหลายได้ปล้นเรา แต่เจ้ากล่าวว่า 'เราทั้งหลายปล้นพระเจ้าอย่างไร' ก็ปล้นในเรื่องสิบชักหนึ่งและเครื่องบูชานั่นซี เจ้าทั้งหลายต้องถูกสาปแช่งด้วยคำสาปแช่ง เพราะเจ้าทั้งหลายทั้งชาติปล้นเรา"
                 1. Tithe is 10% of our increase
                 2. Offerings is what God is directing you to give above the tithe!
                     1. There isn't a set amount

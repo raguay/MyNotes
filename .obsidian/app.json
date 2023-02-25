@@ -2,9 +2,9 @@
   "spellcheck": true,
   "foldHeading": true,
   "foldIndent": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "useTab": true,
-  "tabSize": 4,
+  "tabSize": 2,
   "vimMode": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
@@ -33,8 +33,14 @@
     "Amazia",
     "Amaziah",
     "Amaziah",
-    "Amaziah"
+    "Amaziah",
+    "shepards",
+    "unforgiven",
+    "Overcomer"
   ],
   "showFrontmatter": true,
-  "fileSortOrder": "byModifiedTimeReverse"
+  "fileSortOrder": "byModifiedTimeReverse",
+  "legacyEditor": false,
+  "communityPluginSortOrder": "alphabetical",
+  "showUnsupportedFiles": true
 }

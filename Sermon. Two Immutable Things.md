@@ -1,14 +1,16 @@
-Hebrews 6:16-20 "For men verily swear by the greater: and an oath for confirmation is to them an end of all strife. Wherein God, willing more abundantly to shew unto the heirs of promise the immutability of his counsel, confirmed it by an oath: That by two immutable things, in which it was impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us: Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil; Whither the forerunner is for us entered, even Jesus, made an high priest for ever after the order of Melchisedec."
-
-ฮีบรู 6:16-20 "ส่วนมนุษย์นั้นต้องปฏิญาณต่อหน้าผู้ที่เป็นใหญ่กว่าตน และเมื่อเกิดข้อทุ่มเถียงอะไรกันขึ้น ก็ต้องถือคำปฏิญาณนั้นเป็นคำยืนยันขั้นเด็ดขาด ฝ่ายพระเจ้าเมื่อพระองค์ทรงหมายพระทัยจะสำแดงให้ผู้ที่รับคำทรงสัญญานั้นเป็นมรดกรู้ให้แน่ใจยิ่งขึ้นว่า พระดำริของพระองค์จะแปรปรวนไม่ได้ พระองค์จึงได้ทรงให้คำปฏิญาณไว้ด้วย เพื่อด้วยสองประการนั้นที่เปลี่ยนแปลงไม่ได้ ในที่ซึ่งพระองค์จะตรัสมุสาไม่ได้นั้น เราซึ่งได้หนีมาหาที่ลี้ภัยนั้นจึงจะได้รับการหนุนน้ำใจอย่างจริงจัง ที่จะฉวยเอาความหวังซึ่งมีอยู่ตรงหน้าเรา ความหวังนั้นเรายึดไว้ต่างสมอของจิตวิญญาณ เป็นความหวังทั้งแน่และมั่นคง และได้ทอดไว้ภายในม่าน ที่ผู้นำหน้าได้เสด็จเข้าไปเผื่อเราแล้ว คือพระเยซูผู้ทรงได้รับการแต่งตั้งเป็นมหาปุโรหิตเป็นนิตย์ตามอย่างเมลคีเซเดค"
+Hebrews 6:17-19
 
 1. Immutable
-   1. Something that can not change or be changed
-   2. Therefore, it is ever enduring as well
-      1. Doesn't wear out if it is immutable
-      2. Not changeable means it can't wear
-   3. God is immutable
-   4. God's Word is immutable
+	1. Something that can not change or be changed
+	2. Therefore, it is ever enduring as well
+		1. Doesn't wear out if it is immutable
+		2. Not changeable means it can't wear
+	3. God is immutable
+		- Malachi 3:6 "For I am the LORD, I change not; therefore ye sons of Jacob are not consumed."
+		- มาลาคี 3:6 "เพราะว่า เราคือพระเยโฮวาห์ไม่มีผันแปร บุตรชายยาโคบเอ๋ย เจ้าทั้งหลายจึงไม่ถูกเผาผลาญหมด"
+	4. God's Word is immutable
+		- 1 Peter 1:25 "But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you."
+		- 1เปโตร 1:25 "แต่พระวจนะขององค์พระผู้เป็นเจ้ายั่งยืนอยู่เป็นนิตย์' พระวจนะนั้นคือข่าวประเสริฐที่ได้ประกาศให้ท่านทั้งหลายทราบแล้ว"
 2. Sureness of our salvation
    1. Our salvation isn't based on us
    2. Our salvation is based on
@@ -17,6 +19,6 @@ Hebrews 6:16-20 "For men verily swear by the greater: and an oath for confirmati
    3. Since the are totally unchangeable, our salvation is assured forever!
 3. Creates a strong anchor (สมอ) for our soul
    1. Not based on emotions or feelings
-   2. God's immutability is what creates the complete peace
-   3. Other religions are based on their works
-      1. Which is constantly changing and not settled
+   2. God's immutability is what creates our complete peace
+      - John 14:27 "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid."
+      - ยอห์น 14:27 "สันติสุขสำหรับผู้ที่เชื่อเรามอบสันติสุขไว้ให้แก่ท่านแล้ว สันติสุขของเราที่ให้แก่ท่านนั้น เราให้ท่านไม่เหมือนโลกให้ อย่าให้ใจของท่านวิตกและอย่ากลัวเลย"

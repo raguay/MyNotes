@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "92a8f7ce8ffdafab",
+        "id": "322fe5d0f6a71ed0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sermon. The Power of Change.md",
-            "mode": "source"
+            "file": "Sermon. Doers not Hearers.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -39,11 +40,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "James 1:22",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -60,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 314
   },
   "right": {
     "id": "f19a174a932f7cae",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sermon. The Power of Change.md",
+                "file": "Sermon. Doers not Hearers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,34 +100,10 @@
             }
           },
           {
-            "id": "d3679e9ac03efc6f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "bc87a2523033f752",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a7c1dcc4a01d8eae",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "715f52a75918c2ba",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
               "state": {}
             }
           },
@@ -136,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sermon. The Power of Change.md",
+                "file": "Sermon. Doers not Hearers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,36 +125,52 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sermon. The Power of Change.md"
+                "file": "Sermon. Doers not Hearers.md"
               }
             }
           },
           {
-            "id": "757f2b15f7389ea7",
+            "id": "de08f8ebe3c345e6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "349ae9cc3e500274",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
               "state": {}
             }
+          },
+          {
+            "id": "7818442333eac1a7",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 266.5
   },
-  "active": "92a8f7ce8ffdafab",
+  "active": "322fe5d0f6a71ed0",
   "lastOpenFiles": [
-    "Sermon. The Power of Change.md",
-    "Schedule. 2021-Nov28-Dec04.md",
-    "Sermon. Obeying Father.md",
-    "2021 Month Schedules/November.md",
-    "Sermon. Many Members.md",
-    "Sermon. Our Sins on the Cross.md",
-    "Sermon. Prayer in 2 Thess..md",
-    "Sermon. Stop Lights.md",
-    "Schedule. 2021-Nov21-Nov27.md",
-    "Sermon. Paul's Prayer Thessalonians.md"
+    "Schedule.2022-Oct16-Oct22.md",
+    "2022 Month Schedules/October.md",
+    "Sermon. Doers not Hearers.md",
+    "Schedule. 2016-Oct23-Oct29.md",
+    "Schedule. 2015-Dec20-Dec26.md",
+    "Sermon. Distractions.md",
+    "Sermon. Entertaining Strangers.md",
+    "Family. TrustFund.md",
+    "Sermon. John.md",
+    "Schedule.2022-Oct09-Oct15.md"
   ]
 }

@@ -18,24 +18,24 @@ Luke 17:33 "Whosoever shall seek to save his life shall lose it; and whosoever s
       3. Your fun, ease of life is the most important decision
    3. Christ Life (losing your life)
       1. A constant seeking the Lord for direction
-         Luke 11:9 "And I say unto you, Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you."
-         ลูกา 11:9 "เราบอกท่านทั้งหลายว่า จงขอแล้วจะได้ จงหาแล้วจะพบ จงเคาะแล้วจะเปิดให้แก่ท่าน"
-         1. Jesus becomes the main focus of our decisions
-         2. Then family, friends
-         3. Self is last
-2. Consequences (results of the type of life)
-   1. Self Life
-      1. Loss
-         1. Wasted life without any lasting results
-         2. Eternity in Hell because refusing God's leadership
-         3. God isn't God if he has no say in your life
-      2. Even though they profess Christ, they do not know Him
-         Matthew 7:23 "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."
-         มัทธิว 7:23 "เมื่อนั้นเราจะได้กล่าวแก่เขาว่า `เราไม่เคยรู้จักเจ้าเลย เจ้าผู้กระทำความชั่วช้า จงไปเสียให้พ้นหน้าเรา'"
-   2. Christ Life
-      1. Gain
-         1. Christ constantly helping through every problem
-         2. God blessing your work
-         3. Things we do for God are lasting
-            1. People getting saved
-            2. Churches growing and getting stronger
+			- Luke 11:9 "And I say unto you, Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you."
+			- ลูกา 11:9 "เราบอกท่านทั้งหลายว่า จงขอแล้วจะได้ จงหาแล้วจะพบ จงเคาะแล้วจะเปิดให้แก่ท่าน"
+				1. Jesus becomes the main focus of our decisions
+				2. Then family, friends
+				3. Self is last
+1. Consequences (results of the type of life)
+	1. Self Life
+		1. Loss
+			1. Wasted life without any lasting results
+			2. Eternity in Hell because refusing God's leadership
+			3. God isn't God if he has no say in your life
+		2. Even though they profess Christ, they do not know Him
+			- Matthew 7:23 "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."
+			- มัทธิว 7:23 "เมื่อนั้นเราจะได้กล่าวแก่เขาว่า 'เราไม่เคยรู้จักเจ้าเลย เจ้าผู้กระทำความชั่วช้า จงไปเสียให้พ้นหน้าเรา'"
+	2. Christ Life
+		1. Gain
+			1. Christ constantly helping through every problem
+		2. God blessing your work
+			1. Things we do for God are lasting
+				1. People getting saved
+				2. Churches growing and getting stronger

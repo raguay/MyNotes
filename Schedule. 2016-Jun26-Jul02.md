@@ -3,7 +3,7 @@
 | | |
 | --:|:-- |
 | **Sunday School:**  |	Hebrews 6:1-
-| **Sunday Morning:** |	Our Responcibilities - Proverbs 16:1-3,9
+| **Sunday Morning:** |	Our Responsibilities - Proverbs 16:1-3,9
 | **Welfare School:** |	Acts 15:1-2
 | **Sunday Night:**   | Our Rest - Matthew 11:28
 

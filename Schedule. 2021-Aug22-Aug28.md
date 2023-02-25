@@ -1,7 +1,7 @@
 ### Sunday Services:
 |                           |                                     |
 |:------------------------- |:----------------------------------- |
-| **Sunday School:**        | [[Sermon. David Retaliating Theft]] |
+| **Sunday School:**        | [[Sermon. Dealing With Problems]] |
 | **Sunday Morning:**       | [[Sermon. Are You Able]]            |
 | **Welfare School:**       | Closed for Corvid                   |
 | **Sunday Night:**         | [[Sermon. Receiving]]               |

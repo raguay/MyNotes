@@ -1,4 +1,4 @@
-#Error: childProcess is not defined# Sunday Services:
+# Sunday Services:
 |                     |                                 |
 | -------------------:|:------------------------------- |
 |  **Sunday School:** | [[Sermon. Prayer for Long Day]] |

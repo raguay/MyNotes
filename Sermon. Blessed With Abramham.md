@@ -1,8 +1,6 @@
-## Blessed With Abramham
-
 Galatians 3:8-9 "And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed. So then they which be of faith are blessed with faithful Abraham."
 
-กาลาเทีย 3:8-9 "และพระคัมภีร์นั้นรู้ล่วงหน้าว่า พระเจ้าจะทรงให้คนต่างชาติเป็นคนชอบธรรมโดยความเชื่อ จึงได้ประกาศข่าวประเสริฐแก่อับราฮัมล่วงหน้าว่า `ชนชาติทั้งหลายจะได้รับพระพรเพราะเจ้า' เหตุฉะนั้นคนที่เชื่อจึงได้รับพระพรร่วมกับอับราฮัมผู้ซึ่งเชื่อ"
+กาลาเทีย 3:8-9 "และพระคัมภีร์นั้นรู้ล่วงหน้าว่า พระเจ้าจะทรงให้คนต่างชาติเป็นคนชอบธรรมโดยความเชื่อ จึงได้ประกาศข่าวประเสริฐแก่อับราฮัมล่วงหน้าว่า 'ชนชาติทั้งหลายจะได้รับพระพรเพราะเจ้า' เหตุฉะนั้นคนที่เชื่อจึงได้รับพระพรร่วมกับอับราฮัมผู้ซึ่งเชื่อ"
 
 1. Abraham was blessed with
 	1. A relationship with God

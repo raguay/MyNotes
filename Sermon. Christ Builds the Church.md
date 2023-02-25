@@ -1,13 +1,21 @@
-Matthew 16:16-18 "And Simon Peter answered and said, Thou art the Christ, the Son of the living God. And Jesus answered and said unto him, Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven. And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
-
-มัทธิว 16:16-18 "ซีโมนเปโตรทูลตอบว่า "พระองค์ทรงเป็นพระคริสต์พระบุตรของพระเจ้าผู้ทรงพระชนม์อยู่" พระเยซูตรัสตอบเขาว่า "ซีโมนบุตรโยนาเอ๋ย ท่านก็เป็นสุข เพราะว่าเนื้อหนังและโลหิตมิได้แจ้งความนี้แก่ท่าน แต่พระบิดาของเราผู้ทรงสถิตในสวรรค์ทรงแจ้งให้ทราบ ฝ่ายเราบอกท่านด้วยว่า ท่านคือเปโตร และบนศิลานี้เราจะสร้างคริสตจักรของเราไว้ และประตูแห่งนรกจะมีชัยต่อคริสตจักรนั้นก็หามิได้"
+Matthew 16:16-18
 
 1. Why build churches
-   1. So that more people can know about Jesus
+   1. For lost people to know
+      1. About Jesus
+      2. Find a place of love and acceptance
+   2. For Christians to know
+      1. God's will in their lives
+      2. God's word in their hearts
+      3. Others are praying and encouraging them to continue in the faith
 2. Christ builds His Church
-   1. People hearing the Gospel
-   2. People putting the faith entirely upon Jesus
-   3. People telling others so that they can hear
+   1. By
+	   1. People hearing the Gospel
+	   2. People putting their faith entirely upon Jesus
+		   1. Not a mixture, but faith alone without works
+	   3. People telling others so that they can hear
+		   1. It starts the cycle again
+		   2. Others can't hear without someone telling them
 3. The church's enemy
    1. Hell
       1. It's trying to get everyone into it

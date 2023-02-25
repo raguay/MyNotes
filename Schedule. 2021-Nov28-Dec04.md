@@ -12,7 +12,8 @@
 ### Wednesday Service:
 Naught Teaches
 ### Wednesday Burmese Service:
-
+[[Sermon. Stop Lights]]
 ### Friday English Service:
-
-### Saturday English:
+canceled due to sickness
+### Saturday - Father's Day:
+[[Sermon. Father's Stand]]

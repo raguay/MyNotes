@@ -1,6 +1,6 @@
 Psalms 91:1 "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty."
 
-สดุดี 91:1 "สภาพอันมีสุขของคนที่รักพระเจ้าผู้ที่อาศัยอยู่ ณ ที่กำบังขององค์ผู้สูงสุดจะอยู่ในร่มเงาของผู้ทรงมหิทธิฤทธิ์"
+สดุดี 91:1 "ผู้ที่อาศัยอยู่ ณ ที่กำบังขององค์ผู้สูงสุดจะอยู่ในร่มเงาของผู้ทรงมหิทธิฤทธิ์"
 
 1. Those that dwell
    1. God will deliver (ปลดปล่อย)

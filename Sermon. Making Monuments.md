@@ -1,13 +1,19 @@
-Joshua 24:25-27 "So Joshua made a covenant with the people that day, and set them a statute and an ordinance in Shechem. And Joshua wrote these words in the book of the law of God, and took a great stone, and set it up there under an oak, that was by the sanctuary of the LORD. And Joshua said unto all the people, Behold, this stone shall be a witness unto us; for it hath heard all the words of the LORD which he spake unto us: it shall be therefore a witness unto you, lest ye deny your God."
+Psalms 143:5 "I remember the days of old; I meditate on all thy works; I muse on the work of thy hands."
+สดุดี 143:5 "ข้าพระองค์ระลึกถึงสมัยเก่าก่อนได้ ข้าพระองค์รำพึงถึงทุกสิ่งที่พระองค์ทรงกระทำ ข้าพระองค์รำพึงถึงพระหัตถกิจของพระองค์"
 
-โยชูวา 24:25-27 "ดังนั้นโยชูวาก็ได้กระทำพันธสัญญากับประชาชน และวางกฎเกณฑ์และกฎให้แก่เขาในวันนั้นที่เมืองเชเคม และโยชูวาก็จารึกถ้อยคำเหล่านี้ไว้ในหนังสือพระราชบัญญัติของพระเจ้า และท่านได้เอาก้อนหินใหญ่ตั้งไว้ที่ใต้ต้นโอ๊กที่ในสถานบริสุทธิ์แห่งพระเยโฮวาห์ และโยชูวากล่าวแก่ประชาชนทั้งปวงว่า "ดูเถิด ศิลาก้อนนี้จะเป็นพยานปรักปรำเรา เพราะศิลานี้ได้ยินพระวจนะทั้งสิ้นแห่งพระเยโฮวาห์ซึ่งตรัสแก่เรา จึงจะเป็นพยานปรักปรำท่าน เกลือกว่าท่านจะปฏิเสธพระเจ้าของท่าน""
-
-1. Joshua setup a Larg Stone
-   1. To be a witness to the convenent
-   2. To be a reminder of their promises
+1. God wants us to remember how he helped us
+    1. Jacob setup a pillar
+        - Genesis 28:18
+    2. Jacob setup stones to remember a covenant
+        - Genesis 31:44-53
+    3. Joshua setup a Large Stone when reading the Covenant
+        - Joshua 24:25-27 
+            1. To be a witness to the covenant
+            2. To be a reminder of their promises
+    4. Samuel setup a marker showing victory
+        - 1 Samuel 7:12
 2. Are you setting up monuments in your life
-   1. A way to remember your commitments unto the Lord
-   2. Helps us to stay focused on God
-   3. Helps our children to stay focused on God
-   
-
+    1. A way to remember your commitments unto the Lord
+    2. Helps us to stay focused on God
+    3. Helps our children to stay focused on God
+    4. Is a witness to anyone that comes to your house

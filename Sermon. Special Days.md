@@ -4,7 +4,7 @@ Romans 14:5-6: 'One man esteemeth one day above another: another esteemeth every
 
 1. God sees Everyday the same
    1. There isn't one day more special to God than any other
-   2. God tells us to set asside one day in seven to worship Him
+   2. God tells us to set aside one day in seven to worship Him
       1. We do it on Sunday because it is the day the Lord rose from the dead
       2. But, God only specifies one in seven days is the Lord's day
 2. Nothing in God's word tells us the exact day Jesus was born

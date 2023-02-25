@@ -13,11 +13,11 @@ Habakkuk 3:18-19 "Yet I will rejoice in the LORD, I will joy in the God of my sa
          1. They test the path with the front feet
          2. The front feet have less of the weight
          3. If the front feet slide any, no problems just try a different spot
-      2. God is the frot feet, we are the back feet
+      2. God is the front feet, we are the back feet
          1. He has tried the path before us
          2. Though it looks rough, it is the best path
       3. Walking in Jesus' exact footprints means
-         1. safty
+         1. safety
          2. correct direction
    3. Mine High Places
       1. Closer to God

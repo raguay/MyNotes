@@ -5,7 +5,7 @@ Jeremiah 9:24 "But let him that glorieth glory in this, that he understandeth an
 1. Glorying
     1. bad if about yourself
         - James 4:6 "But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble."
-        - ยากอบ 4:6 "แต่พระองค์ได้ทรงประทานพระคุณเพิ่มขึ้นอีก เหตุฉะนั้นพระองค์จึงตรัสว่า `พระเจ้าทรงต่อสู้ผู้ที่หยิ่งจองหอง แต่ทรงประทานพระคุณแก่คนที่ใจถ่อม'"
+        - ยากอบ 4:6 "แต่พระองค์ได้ทรงประทานพระคุณเพิ่มขึ้นอีก เหตุฉะนั้นพระองค์จึงตรัสว่า 'พระเจ้าทรงต่อสู้ผู้ที่หยิ่งจองหอง แต่ทรงประทานพระคุณแก่คนที่ใจถ่อม'"
     2. okay if about someone else
         - Philippians 2:3 "Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves."
         - ฟีลิปปี 2:3 "อย่าทำสิ่งใดในทางทุ่มเถียงกันหรืออวดดี แต่จงมีใจถ่อมถือว่าคนอื่นดีกว่าตัว"

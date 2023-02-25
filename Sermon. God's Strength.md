@@ -12,7 +12,7 @@
       2. God wants us to know His strength is sufficient and better
 2. Paul refused to let it bother him
    1. He glorified in his illness
-   2. His weekness gave more opportunity for God's strength
+   2. His weakness gave more opportunity for God's strength
    3. He could only glorify God because he couldn't do it with the illness
    4. Kept Paul humble and close to God
 3. How do you handle your illnesses?
@@ -21,5 +21,5 @@
       2. Saying you know better than God
       3. Shows a desire to be one's own boss instead of following God
    2. Rejoicing in it
-      1. thereby recieving God's power to overcome
+      1. thereby receiving God's power to overcome
       2. showing others God greatness and power in your life

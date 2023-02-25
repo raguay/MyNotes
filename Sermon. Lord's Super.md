@@ -8,8 +8,8 @@
    1. Are we worthy
       1. Are we trying to follow His example?
       2. Is following Him our goal in life?
-      3. Are we sorryful for our sin, or sorry for the consequences?
-   2. Those that take it unworthyly
+      3. Are we sorrowful for our sin, or sorry for the consequences?
+   2. Those that take it unworthily
       1. They are guilty of the Blood
       2. They are guilty of denying Him
       3. They are consuming illnesses upon themselves

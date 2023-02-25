@@ -10,17 +10,18 @@ Micah 6:8 "He hath shewed thee, O man, what is good; and what doth the LORD requ
    5. His plan simply requires us to obey it!
 2. What should we do?
    1. Do justice
-      1. Justice depends upon a law - It is the upholding of the law impartially
-      2. No respect of person
-      3. Everyone the same
-      4. The law isn't man's law, God's laws
+      1. Justice is the upholding of the law impartially
+         1. No respect of person
+         2. Everyone the same
+      2. The law isn't man's law, God's laws
          - Man's laws aren't sufficient enough
          - Man's laws are always partial
    2. Love mercy
-      1. Overlooking a faults in others
+      1. Overlooking faults in others
       2. Willing to take a loss to help others
+      3. Forgiving from the heart before asked to forgive
    3. walk humbly with God
-      1. Since God follows no one, willing to do 
+      1. Since God follows no one, we need to be willing to do
          1. What God want
          2. When God wants
          3. How God wants

@@ -12,7 +12,7 @@ Romans 3:23 "For all have sinned, and come short of the glory of God;"
 
 Romans 3:10-11 "As it is written, There is none righteous, no, not one: There is none that understandeth, there is none that seeketh after God."
 
-โรม 3:10-11 "ตามที่มีเขียนไว้แล้วว่า `ไม่มีผู้ใดเป็นคนชอบธรรมสักคนเดียว ไม่มีเลย ไม่มีคนที่เข้าใจ ไม่มีคนที่แสวงหาพระเจ้า"
+โรม 3:10-11 "ตามที่มีเขียนไว้แล้วว่า 'ไม่มีผู้ใดเป็นคนชอบธรรมสักคนเดียว ไม่มีเลย ไม่มีคนที่เข้าใจ ไม่มีคนที่แสวงหาพระเจ้า"
 
 Romans 5:8 "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."
 

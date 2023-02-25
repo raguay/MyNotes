@@ -1,15 +1,19 @@
-Acts 27:21-25 "But after long abstinence Paul stood forth in the midst of them, and said, Sirs, ye should have hearkened unto me, and not have loosed from Crete, and to have gained this harm and loss. And now I exhort you to be of good cheer: for there shall be no loss of any man's life among you, but of the ship. For there stood by me this night the angel of God, whose I am, and whom I serve, Saying, Fear not, Paul; thou must be brought before Caesar: and, lo, God hath given thee all them that sail with thee. Wherefore, sirs, be of good cheer: for I believe God, that it shall be even as it was told me."
+Acts 27:21-25
 
-กิจการของอัครทูต 27:21-25 "ครั้นเขาได้อดอาหารมานานแล้ว เปาโลจึงยืนอยู่ในหมู่เขากล่าวว่า "ท่านทั้งหลาย ท่านควรได้ฟังข้าพเจ้าและไม่ควรออกจากเกาะครีตเลย จะได้พ้นจากอันตรายนี้และไม่เสียสิ่งของ บัดนี้ข้าพเจ้าขอเตือนท่านทั้งหลายให้ทำใจดีๆไว้ ด้วยว่าในพวกท่านจะไม่มีผู้ใดเสียชีวิต จะเสียก็แต่เรือเท่านั้น เพราะว่า เมื่อคืนนี้เองทูตสวรรค์ของพระเจ้าผู้เป็นเจ้าของข้าพเจ้า ซึ่งข้าพเจ้าได้ปรนนิบัตินั้นได้มายืนอยู่ใกล้ข้าพเจ้า ทูตนั้นกล่าวว่า `เปาโลเอ๋ย อย่ากลัวเลย ท่านจะต้องเข้าเฝ้าซีซาร์ ส่วนคนทั้งปวงที่อยู่ในเรือกับท่านนั้น ดูเถิด พระเจ้าจะทรงโปรดให้รอดตายเพราะเห็นแก่ท่าน' เพราะฉะนั้น ท่านทั้งหลายจงทำใจดีๆไว้ เพราะข้าพเจ้าเชื่อพระเจ้าว่า การณ์จะเป็นไปเหมือนอย่างที่พระองค์ได้ทรงกล่าวแก่ข้าพเจ้านั้น"
-
-1. A major problem
-   1. Far from land
-   2. Storm tossed for many days
-   3. No end in sight
+1. Paul major problem
+    1. Paul was in a boat far from land
+    2. Storm tossed for many days
+    3. No end in sight
+    4. No one had eaten in 14 days trying to keep the ship afloat
 2. But, God reassures Paul
-   1. No one would die
-   2. But, the ship would be lost
-      - but, they were on the ship!
+    1. No one would die
+    2. But, the ship would be lost
+        1. but, they were on the ship!
+        2. God said they will be "tossed upon an island" - literally, thrown
 3. Paul chose to believe God
-   1. His faith was contagous - everyone enjoyed a meal
-   2. And, everything went just as God said.
+    1. Even though he was a prisoner with a sentence of death on his head
+    2. His faith was contagious - everyone enjoyed a meal
+    3. And, everything went just as God said.
+4. If we say we believe God will save us from hell
+    1. Why do we often doubt in smaller problems
+        1. Shipwreck is smaller than eternity in hell

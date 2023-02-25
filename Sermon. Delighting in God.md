@@ -1,8 +1,6 @@
 Psalms 37:4: 'Delight thyself also in the LORD; and he shall give thee the desires of thine heart.'
 สดุดี 37:4 "จงปีติยินดีในพระเยโฮวาห์และพระองค์จะประทานตามใจปรารถนาของท่าน"
 
-delight = ความปีติยินดี  - 10 times in reference to delighting in the Lord.
-
 Psalms 1:2: 'But his delight is in the law of the LORD; and in his law doth he meditate day and night.'
 สดุดี 1:2 "แต่ความปีติยินดีของผู้นั้นอยู่ในพระราชบัญญัติของพระเยโฮวาห์ เขาไตร่ตรองถึงพระราชบัญญัติของพระองค์ทั้งกลางวันและกลางคืน"
 
@@ -24,11 +22,11 @@ Psalms 119:47: 'And I will delight myself in thy commandments, which I have love
 Psalms 119:70: 'Their heart is as fat as grease; but I delight in thy law.'
 สดุดี 119:70 "จิตใจของเขาทั้งหลายต่ำช้าเหมือนไขมัน แต่ข้าพระองค์ปีติยินดีในพระราชบัญญัติของพระองค์"
 
-Isaiah 58:2: 'Yet they seek me daily, and delight to know my ways, as a nation that did righteousness, and forsook not the ordinance of their God: they ask of me the ordinances of justice; they take delight in approaching to God.'
-อิสยาห์ 58:2 "แต่เขายังแสวงหาเราทุกวันและปีติยินดีที่จะรู้จักทางของเรา เหมือนกับว่าเขาเป็นประชาชาติที่ได้ทำความชอบธรรม และมิได้ละทิ้งกฎแห่งพระเจ้าของเขา เขาก็ขอข้อกฎอันเที่ยงธรรมจากเรา เขาทั้งหลายก็ปีติยินดีที่จะเข้ามาใกล้พระเจ้า"
-
 Isaiah 58:14: 'Then shalt thou delight thyself in the LORD; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the LORD hath spoken it.'
 อิสยาห์ 58:14 "แล้วเจ้าจะได้ความปีติยินดีในพระเยโฮวาห์ และเราจะให้เจ้าขึ้นขี่อยู่บนที่สูงของแผ่นดินโลก และเราจะเลี้ยงเจ้าด้วยมรดกของยาโคบบิดาของเจ้า เพราะโอษฐ์ของพระเยโฮวาห์ได้ตรัสแล้ว""
 
 Romans 7:22: 'For I delight in the law of God after the inward man:'
 โรม 7:22 "เพราะว่าส่วนลึกในใจของข้าพเจ้านั้น ข้าพเจ้าชื่นชมในพระราชบัญญัติของพระเจ้า"
+
+delight = ความปีติยินดี  - 10 times in reference to delighting in the Lord.
+

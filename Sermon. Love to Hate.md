@@ -2,8 +2,6 @@
 
 2ซามูเอล 13:15 "ต่อมาอัมโนนเกลียดชังเธอยิ่งนัก ความเกลียดชังครั้งนี้ก็มากยิ่งกว่าความรักซึ่งท่านได้รักเธอมาก่อน และอัมโนนรับสั่งกับเธอว่า "จงลุกขึ้นไป""
 
-rape - ข่มขืน
-
 1. Wrong Desires (ปรารถนา)
    1. Amnon loved Absolon's sister
       1. Felt like he could not have her
@@ -12,7 +10,7 @@ rape - ข่มขืน
    2. Amnon's friend suggested to get her in a compromising position
       1. His suggestion did not speak of sin directly
       2. But, he knew it would lead to it
-   3. Amnon raped her and then hated her
+   3. Amnon raped (ข่มขืน) her and then hated her
       1. His hatred was more than he ever loved her
       2. Bad desire lead to sin and causes the opposite of what he professed
 2. How about you?

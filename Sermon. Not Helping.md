@@ -12,5 +12,14 @@ Joshua 23:13 "Know for a certainty that the LORD your God will no more drive out
       2. The enemies will become a snare
       3. You will be entrapped by the enemy
 2. God is warning us likewise
-   1. Obey His voice
-   2. But, when we refuse, problems
+	- 2 Corinthians 6:17 "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you, And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty."
+	- 2โครินธ์ 6:17 "องค์พระผู้เป็นเจ้าตรัสว่า 'เหตุฉะนั้นเจ้าจงออกจากหมู่พวกเขาเหล่านั้น และจงแยกตัวออกจากเขาทั้งหลาย อย่าแตะต้องสิ่งซึ่งไม่สะอาด แล้วเราจึงจะรับพวกเจ้าทั้งหลาย เราจะเป็นบิดาของพวกเจ้าและพวกเจ้าจะเป็นบุตรชายบุตรสาวของเรา' องค์พระผู้เป็นเจ้าผู้ทรงฤทธานุภาพทั้งสิ้นได้ตรัสดังนั้น"
+		1. Obey His voice
+		      1. Asking Jesus for direction in life everyday
+		      2. Looking to what He says in His Word for guidance
+		      3. Willing to live for Jesus and not self daily
+		2. But, when we refuse, problems
+			1. God isn't direction us away from the problems.
+			2. You have to figure things our yourself.
+			3. Satan is allowed to attack us at his will.
+				1. Enemies will multiply

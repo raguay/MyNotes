@@ -5,7 +5,7 @@ Luke 2:7: 'And she brought forth her firstborn son, and wrapped him in swaddling
 1. There was no room in the inn
    1. Because of the census
       1. The first global census was declared
-         1. God's doing to get Joseph and Mary to Bethleham
+         1. God's doing to get Joseph and Mary to Bethlehem
          2. God's plan depended upon it
       2. People came from all over Israel
       3. The city was small
@@ -48,7 +48,7 @@ Luke 2:7: 'And she brought forth her firstborn son, and wrapped him in swaddling
       1. A life with you having to fix everything yourself
          1. Every problem you have to handle
          2. Every sorrow you have to bare alone
-      2. The end is eternal separation from God in hell
+      2. The end is eternal separation from God in hell for you or those following you
          1. He gives those salvation that want Him in their lives
          2. He never forces anyone, He want you to love Him enough to live for Him
          3. The fires of Hell never stop, nor does the pain

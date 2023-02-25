@@ -48,3 +48,4 @@ Ecclesiastes 4:9-12
 5. Are you in agreement
     1. With God?
     2. With others that are following Go?
+    3. With the church?

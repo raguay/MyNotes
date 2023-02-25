@@ -1,23 +1,34 @@
-1 Corinthians 8:7-13 "Howbeit there is not in every man that knowledge: for some with conscience of the idol unto this hour eat it as a thing offered unto an idol; and their conscience being weak is defiled. But meat commendeth us not to God: for neither, if we eat, are we the better; neither, if we eat not, are we the worse. But take heed lest by any means this liberty of yours become a stumblingblock to them that are weak. For if any man see thee which hast knowledge sit at meat in the idol's temple, shall not the conscience of him which is weak be emboldened to eat those things which are offered to idols; And through thy knowledge shall the weak brother perish, for whom Christ died? But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ. Wherefore, if meat make my brother to offend, I will eat no flesh while the world standeth, lest I make my brother to offend."
-
-1โครินธ์ 8:7-13 "มิใช่ว่าทุกคนมีความรู้อย่างนี้ เพราะมีบางคนมีจิดสำนึกผิดชอบเรื่องรูปเคารพว่า เมื่อได้กินอาหารนั้นก็ถือว่าเป็นของบูชาแก่รูปเคารพจริงๆ และจิตสำนึกผิดชอบของเขายังอ่อนอยู่จึงเป็นมลทิน อาหารไม่เป็นเครื่องที่ทำให้พระเจ้าทรงโปรดปรานเรา ถ้าเรากิน เราก็ไม่ได้อะไรเป็นพิเศษ ถ้าเราไม่กิน เราก็ไม่ขาดอะไร แต่จงระวัง อย่าให้เสรีภาพของท่านนั้นทำให้คนที่อ่อนในความเชื่อหลงผิดไป เพราะว่า ถ้าผู้ใดเห็นท่านที่มีความรู้เอนกายลงรับประทานในวิหารของรูปเคารพ จิตสำนึกผิดชอบที่อ่อนของคนนั้น จะไม่เหิมขึ้นทำให้เขาบังอาจกินของที่ได้บูชาแก่รูปเคารพนั้นหรือ โดยความรู้ของท่าน พี่น้องที่มีความเชื่ออ่อน ซึ่งพระคริสต์ได้ทรงยอมวายพระชนม์เพื่อเขา จะต้องพินาศไป เมื่อท่านทำผิดเช่นนั้นต่อพวกพี่น้อง และทำร้ายจิตสำนึกผิดชอบที่อ่อนของเขา ท่านก็ได้ทำผิดต่อพระคริสต์ เหตุฉะนั้นถ้าอาหารเป็นเหตุที่ทำให้พี่น้องของข้าพเจ้าหลงผิดไป ข้าพเจ้าจะไม่กินเนื้อสัตว์อีกต่อไป เพราะเกรงว่าข้าพเจ้าจะทำให้พี่น้องต้องหลงผิดไป"
+1 Corinthians 8:7-13 
 
 1. Meats Sacrificed to Idols
-   1. A very common practice by lost people in other religions
-   2. Everyone at Corinth used to do it
-   3. When they see meat that was offered in that way
-      1. They think to when they did it 
-      2. Makes them feel like they are doing it
-      3. It is then a trap to them to sin
+	1. A very common practice by lost people in other religions
+		1. In Corinth, the best restraints were next to the temple to their gods
+	2. After devoting the meat to the idol, they cooked it and served it in this restaurant
+		1. Everyone knew the meat was first given to an idol
+	3. Everyone at Corinth used to do it
+		1. The new Christians used to eat at that restaurant a lot
+	4. When they see meat that was offered in that way
+		1. They think to when they did it 
+		2. Makes them feel like they are doing it
+	5. It is then a trap to them to sin
+		- Romans 14:23 "And he that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin."
+		- โรม 14:23 "แต่ผู้ที่ยังสงสัยอยู่นั้น ถ้าเขากินก็จะถูกลงพระอาชญา เพราะเขามิได้กินด้วยความเชื่อ ทั้งนี้เพราะการกระทำใดๆก็ตามที่มิได้กระทำด้วยความเชื่อก็เป็นบาปทั้งสิ้น"
 2. People have baggage from other religions
-   1. Things they did in worship to other gods
-   2. They know they shouldn't do them
-      1. But find the old habits come back
-3. I came from Catholism
-   1. They call a church service "Mass"
-      1. I kept accidently calling it after I got saved
-   2. My family would pray at the manger scene under the Christmas tree
-      1. I have always associated worhiping God to the tree
-      2. We bowed before it and it left a lasting impression
-      3. To this day, I do not like Christmas trees
-      4. It is my weakness
+	1. Things they did in worship to other gods
+	2. They know they shouldn't do them
+		1. But find the old habits come back to their memory
+	3. When one that is weak sees someone else do it
+		1. They then think that they should as well
+			1. Some Christians that are strong in faith have no issue eating the meat
+			2. But, their strength causes other to sin
+		2. But when they do, they still think of the idol
+			1. It is then sin because they aren't eating by faith
+3. I learned to worship trees
+	1. My family would pray at the manger scene under the Christmas tree
+		1. I have always associated worshiping God to the tree
+		2. We bowed before it and it left a lasting impression
+		3. To this day, I do not like Christmas trees
+		4. It is my weakness
+	2. But, seeing others do it doesn't tempt me to do it anymore
+		1. I'm now strong in faith
+4. Are the things you doing causing other Christians to stumble?

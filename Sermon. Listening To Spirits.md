@@ -7,23 +7,29 @@
       1. It's not leaving church
       2. It's not giving
       3. It's teaching something wrong, no matter how small
+      4. It's claiming to be a Christian, but living like the lost
+         1. Never looking for God's direction with all your heart
+         2. Most lip service to the things of God
    2. Two things persuade people to error
       1. Seducing Spirits
          1. spirits entice us to do other than God says
             1. It starts out every now and then
             2. Frequency increases with each giving in
          2. They know our weakness and exploit them
-            James 1:14: 'But every man is tempted, when he is drawn away of his own lust, and enticed.'
-            ยากอบ 1:14 "แต่ว่าทุกคนก็ถูกล่อลวง เมื่อตัณหาของตัวชักนำตนให้กระทำผิดแล้วตัวก็กระทำตาม"
-            1. At first, small
-            2. then each time we give in, it gets bigger
+            - James 1:14: 'But every man is tempted, when he is drawn away of his own lust, and enticed.'
+            - ยากอบ 1:14 "แต่ว่าทุกคนก็ถูกล่อลวง เมื่อตัณหาของตัวชักนำตนให้กระทำผิดแล้วตัวก็กระทำตาม"
+               1. At first, small
+               2. then each time we give in, it gets bigger
       2. Doctrines of devils
          1. This speaks of patterns of life
          2. A doctrine is something we live by
          3. Once we are enticed and give in many times
             1. It becomes our doctrine
             2. Others learn it from us by our example
-2. These thing come into our lives by
+            3. Our children follow it more than we do
+               - Exodus 34:7 "Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children's children, unto the third and to the fourth generation."
+               - อพยพ 34:7 "ผู้ทรงสำแดงความเมตตาต่อมนุษย์กระทั่งพันชั่วอายุ ผู้ทรงโปรดยกโทษความชั่วช้า การละเมิดและบาปของเขาเสีย แต่จะทรงถือว่าไม่มีโทษก็หามิได้ และให้โทษเพราะความชั่วช้าของบิดาตกทอดไปถึงลูกหลานสามชั่วสี่ชั่วอายุคน""
+2. These things come into our lives by
    1. friends and family not agreeing with God's Word
    2. our own tendency to not fully embrace God's Word
    3. laziness

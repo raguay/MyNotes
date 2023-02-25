@@ -1,4 +1,3 @@
-
 Psalms 42:5 "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I shall yet praise him for the help of his countenance."
 สดุดี 42:5 "โอ จิตใจของข้าพเจ้าเอ๋ย ไฉนเจ้าจึงฝ่ออยู่ ไฉนเจ้าจึงกระสับกระส่ายอยู่ในข้าพเจ้า เจ้าจงหวังใจในพระเจ้า เพราะข้าพเจ้าจะยังคงสรรเสริญพระองค์สำหรับความช่วยเหลือที่มาจากพระพักตร์ของพระองค์"
 
@@ -11,9 +10,11 @@ Psalms 43:5 "Why art thou cast down, O my soul? and why art thou disquieted with
 1. We all get discouraged (หมดกำลังใจ)
     1. The trails are hard and long
     2. Nothing seems to work
-    3. You start to feel like John - Revelation 22:20
+    3. You start to feel like John
+        - Revelation 22:20 "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus."
+		- วิวรณ์ 22:20 "พระองค์ผู้ทรงเป็นพยานในเหตุการณ์ทั้งปวงนี้ ตรัสว่า "แน่นอน เราจะมาโดยเร็ว" เอเมน พระเยซูเจ้า ขอให้เป็นเช่นนั้น เชิญเสด็จมาเถิด"
 2. David often felt that way
-    1. You've not had is as bad as
+    1. You've not had it as bad as
         1. David
             1. The king of the land was trying to kill him
             2. His own men talked of stoning him
@@ -30,7 +31,7 @@ Psalms 43:5 "Why art thou cast down, O my soul? and why art thou disquieted with
                 - โยบ 13:15 "ถึงแม้พระองค์ทรงประหารข้าเสีย ข้าก็จะยังวางใจในพระองค์ แต่ข้าจะยังยืนยันทางทั้งหลายของข้าจำเพาะพระพักตร์พระองค์"
         3. But, both found the clue to keep going
             1. Praise and Trust in God
-            2. His contenance will keep you going
+            2. His countenance will keep you going
 3. Our tendency is to flee from God and pull inwards
     1. Our flesh says life is hopeless
         1. Hopelessness comes from satan

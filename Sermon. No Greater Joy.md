@@ -5,6 +5,7 @@
 1. Every parent wants their children
     1. Have a peaceful and quiet life
     2. They want what is best for their children
+    3. Therefore, they will try their best to teach them to do what is right
 2. Truth
     - John 17:17 "Sanctify them through thy truth: thy word is truth."
     - ยอห์น 17:17 "ขอทรงโปรดชำระเขาให้บริสุทธิ์ด้วยความจริงของพระองค์ พระวจนะของพระองค์เป็นความจริง"

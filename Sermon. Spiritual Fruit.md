@@ -13,7 +13,7 @@ Galatians 5:22-25 "But the fruit of the Spirit is love, joy, peace, longsufferin
       2. The parent determines the path, speed, and time of the child arriving to the park
    3. Christians are to be led by the Spirit of God
       1. Lost people can't be
-      2. It is a sole privalege of a saved person
+      2. It is a sole privilege of a saved person
    4. Not under the Law
       1. Because you can't break the Law
       2. The Law has power over Law breakers, but doesn't do anything with someone that doesn't break the law.
@@ -23,7 +23,7 @@ Galatians 5:22-25 "But the fruit of the Spirit is love, joy, peace, longsufferin
    1. Love (ความรัก)
    2. Joy (ความปลาบปลื้มใจ)
    3. Peace (สันติสุข)
-   4. Longsuffering (ความอดกลั้นใจ)
+   4. Long-suffering (ความอดกลั้นใจ)
    5. Gentleness (ความปรานี)
    6. goodness (ความดี)
    7. faith (ความเชื่อ)
