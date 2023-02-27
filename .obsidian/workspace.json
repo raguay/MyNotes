@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "9bc2112644db2e7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c0097f43a605138",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2275b3d16fe7dbe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c5afba7b31ad2e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28e09517d9286d20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "2ca0813bb6b35ee8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b48c8cba505307de",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f19a174a932f7cae",
+    "type": "split",
+    "children": [
+      {
+        "id": "cafc576d64fb634b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c3a4eb30884882f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed6f73ba9be21701",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bc87a2523033f752",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9017178ef31d598a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2ae5fafbd49caa9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "de08f8ebe3c345e6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "349ae9cc3e500274",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "8f7701b60e918a03",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "completed-area:Completed Area": false,
+      "vantage-obsidian:Vantage - Advanced search builder": false,
+      "workbench-obsidian:Workbench": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "9c0097f43a605138",
+  "lastOpenFiles": [
+    "notes/1677317135-KCSV.md",
+    "Home.md",
+    "Workbench.md",
+    "Schedule. 2017-Mar05-Mar11.md",
+    "Schedule. 2014-Jun01-Jun07.md",
+    "Schedule. June 30 - July 6, 2013.md",
+    "Sermon. Hiding Place.md",
+    "Sermon. Help.md",
+    "Schedule.2022-Jun19-Jun25.md",
+    "Schedule. 2022-Feb06-Feb12.md",
+    "Schedule. 2021-Oct10-Oct16.md",
+    "Schedule. 2020-Feb16-Feb22.md",
+    "Schedule.2022-Nov20-Nov26.md",
+    "Sermon. Help Me.md",
+    "Schedule. 2023-Feb19-Feb25.md",
+    "2023 Month Schedules/February.md",
+    "Sermon. Greater Damnation.md",
+    "Sermon. God Sends.md",
+    "Sermon. Giving to the Lord.md",
+    "Schedule. 2023-Feb12-Feb18.md",
+    "Sermon. He Must Increase.md",
+    "Sermon. John Chapter 6.md",
+    "Schedule. 2018-July 1 - July 7.md"
+  ]
+}

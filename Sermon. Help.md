@@ -32,3 +32,4 @@
 		  1. doubt (สงสัย) causes us to receive nothing because it is sin.
         - Romans 14:23 'And he that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin.'
         - โรม 14:23 'แต่ผู้ที่ยังสงสัยอยู่นั้น ถ้าเขากินก็จะถูกลงพระอาชญา เพราะเขามิได้กินด้วยความเชื่อ ทั้งนี้เพราะการกระทำใดๆก็ตามที่มิได้กระทำด้วยความเชื่อก็เป็นบาปทั้งสิ้น'
+
