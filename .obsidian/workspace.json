@@ -4,12 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9c0097f43a605138",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        "id": "f29eb32f5219e47a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28ca027fa0ef1f1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Schedule. 2023-Mar05-Mar11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314,
-    "collapsed": true
+    "width": 314
   },
   "right": {
     "id": "f19a174a932f7cae",
@@ -76,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Schedule. 2023-Mar05-Mar11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Schedule. 2023-Mar05-Mar11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Schedule. 2023-Mar05-Mar11.md"
+              }
             }
           },
           {
@@ -170,34 +183,38 @@
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9c0097f43a605138",
+  "active": "28ca027fa0ef1f1c",
   "lastOpenFiles": [
-    "notes/1677317135-KCSV.md",
+    "2023 Month Schedules/March.md",
+    "Sermon. Love Messured by what You Willing to Give.md",
+    "Schedule. 2023-Mar05-Mar11.md",
     "Home.md",
+    "2023 Month Schedules/February.md",
+    "Schedule. 2023-Feb26-Mar04.md",
+    "Sermon. Help.md",
+    "Schedule. 2023-Feb19-Feb25.md",
+    "Schedule. 2023-Feb12-Feb18.md",
+    "Sermon. John Chapter 6.md",
+    "notes/1677317135-KCSV.md",
     "Workbench.md",
     "Schedule. 2017-Mar05-Mar11.md",
     "Schedule. 2014-Jun01-Jun07.md",
     "Schedule. June 30 - July 6, 2013.md",
     "Sermon. Hiding Place.md",
-    "Sermon. Help.md",
     "Schedule.2022-Jun19-Jun25.md",
     "Schedule. 2022-Feb06-Feb12.md",
     "Schedule. 2021-Oct10-Oct16.md",
     "Schedule. 2020-Feb16-Feb22.md",
     "Schedule.2022-Nov20-Nov26.md",
     "Sermon. Help Me.md",
-    "Schedule. 2023-Feb19-Feb25.md",
-    "2023 Month Schedules/February.md",
     "Sermon. Greater Damnation.md",
     "Sermon. God Sends.md",
     "Sermon. Giving to the Lord.md",
-    "Schedule. 2023-Feb12-Feb18.md",
-    "Sermon. He Must Increase.md",
-    "Sermon. John Chapter 6.md",
-    "Schedule. 2018-July 1 - July 7.md"
+    "Sermon. He Must Increase.md"
   ]
 }

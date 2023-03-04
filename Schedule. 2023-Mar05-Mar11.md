@@ -2,16 +2,15 @@
 | | |
 | --:|:-- |
 | **Sunday School:**  | [[Sermon. John Chapter 6]] |
-| **Sunday Morning:** | [[Sermon. Help]] |
-| **Sunday @ School** | Richard & Kristi Testimonies |
-| **Sunday Night:**   | [[Sermon. Hiding Place]] |
+| **Sunday Morning:** | [[Sermon. Love Messured by what You Willing to Give]] |
+| **Sunday Night:**   | [[Sermon. Chosen]] |
 ### Last Week: 
-ยอห์น 6:29 พระเยซูตรัสตอบเขาว่า “งานของพระเจ้านั้นคือการที่ท่านเชื่อในท่านที่พระองค์ทรงใช้มานั้น”
-### This Week:
 ยอห์น 6:38 "เพราะว่าเราได้ลงมาจากสวรรค์ มิใช่เพื่อกระทำตามความประสงค์ของเราเอง แต่เพื่อกระทำตามพระประสงค์ของพระองค์ผู้ทรงใช้เรามา"
+### This Week:
+ยอห์น 6:44 "ไม่มีผู้ใดมาถึงเราได้นอกจากพระบิดาผู้ทรงใช้เรามาจะทรงชักนำให้เขามา และเราจะให้ผู้นั้นฟื้นขึ้นมาในวันสุดท้าย"
 ### Wednesday Service:
-[[Sermon. The Talents]]
+
 ### Wednesday Burmese Service:
-[[Sermon. The Talents]]
+
 ### Saturday English:
-2:00- 3:00 : Bible: Cross-Second Coming
+2:00- 3:00 : Bible: Cross

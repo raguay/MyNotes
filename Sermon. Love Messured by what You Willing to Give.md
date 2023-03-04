@@ -1,4 +1,3 @@
-
 John 3:16 "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
 
 ยอห์น 3:16 "เพราะว่าพระเจ้าทรงรักโลก จนได้ทรงประทานพระบุตรองค์เดียวของพระองค์ที่บังเกิดมา เพื่อผู้ใดที่เชื่อในพระบุตรนั้นจะไม่พินาศ แต่มีชีวิตนิรันดร์"
@@ -18,9 +17,22 @@ John 3:16 "For God so loved the world, that he gave his only begotten Son, that 
 2. How much do you love God?
     1. You show your love by what your willing to give up for God
         1. Your job, Your money, Your friends, Your family, Your fashion, Your time, Your culture, etc.
-    2. Not willing to give it to God shows you really don't love Him
-        1. And therefore, you don't know Him and are lost (1 John 4:8)
-    3. Your not worthy of Christ unless you are willing to give it up.
+        2. What are you willing to get rid in your life in order to follow God.
+          1. He who loves little, gives little
+          2. He who loves much, gives much
+    2. The widow gave more than anyone else
+      - Luke 21:1-4
+        1. Because she had nothing left over
+          1. She gave sacrificially to the Lord
+          2. She trusted God to supply the rest
+        2. Everyone else gave from their surplus
+          1. Therefore, it wasn't a sacrifice for them
+          2. It was just something they do to look good before others
+    3. Not willing to give much to God shows you really don't love Him
+        1. Those we love, we are willing to give whatever they need
+          1. Most parents will give to their children even if they have to do without
+          2. They love their children more than self
+    4. Your not worthy of Christ unless you are willing to give it up.
         - Matthew 10:37-39 "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me. And he that taketh not his cross, and followeth after me, is not worthy of me. He that findeth his life shall lose it: and he that loseth his life for my sake shall find it."
         - มัทธิว 10:37-39 "ผู้ใดที่รักบิดามารดายิ่งกว่ารักเราก็ไม่สมกับเรา และผู้ใดรักบุตรชายหญิงยิ่งกว่ารักเรา ผู้นั้นก็ไม่สมกับเรา และผู้ใดที่ไม่รับเอากางเขนของตนตามเราไป ผู้นั้นก็ไม่สมกับเรา ผู้ที่จะเอาชีวิตของตนรอดจะกลับเสียชีวิต แต่ผู้ที่สู้เสียชีวิตของตนเพราะเห็นแก่เราก็จะได้ชีวิตรอด"
             1. Our very nature keeps us from being worthy
