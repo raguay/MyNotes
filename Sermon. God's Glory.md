@@ -13,7 +13,7 @@ Deuteronomy 5:24 "And ye said, Behold, the LORD our God hath shewed us his glory
       1. lightning, thunder, fire
       2. Sinful nature in the world can not handle the greatness of God's goodness.
          1. Because man rebelled against God's authority
-         2. The world is controled by sin
+         2. The world is controlled by sin
             1. result is death - sickness, war, etc
             2. Everything that causes destruction is from sin
    4. Because of that, sinful man can not stand God's Glory

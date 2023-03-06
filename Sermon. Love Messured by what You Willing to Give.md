@@ -15,25 +15,31 @@ John 3:16 "For God so loved the world, that he gave his only begotten Son, that 
                1. He gave "His Son" - to die in our place
                2. The giving of His Son to a horrid death shows us how much He loves us.
 2. How much do you love God?
-    1. You show your love by what your willing to give up for God
-        1. Your job, Your money, Your friends, Your family, Your fashion, Your time, Your culture, etc.
-        2. What are you willing to get rid in your life in order to follow God.
-          1. He who loves little, gives little
-          2. He who loves much, gives much
-    2. The widow gave more than anyone else
-      - Luke 21:1-4
-        1. Because she had nothing left over
-          1. She gave sacrificially to the Lord
-          2. She trusted God to supply the rest
+    1. You show your love by what your willing to give up for God or add to your life for God
+    2. What are you willing to get rid in your life in order to follow Jesus or add to your life in order to follow Jesus
+        1. He who loves little, gives little
+        2. He who loves little, isn't willing to change
+        3. He who loves much, gives much
+        4. He who loves much, is willing to change much for who they love
+    3. What are you willing to add to your life according to Christ leading
+        1. Tithing and Special offerings?
+        2. Witnessing more?
+        3. Praying more?
+        4. Finding a job to help in the church more?
+    4. The widow gave more than anyone else
+        - Luke 21:1-4
+          1. Because she had nothing left over
+            1. She gave sacrificially to the Lord
+            2. She trusted God to supply the rest
         2. Everyone else gave from their surplus
-          1. Therefore, it wasn't a sacrifice for them
-          2. It was just something they do to look good before others
-    3. Not willing to give much to God shows you really don't love Him
+            1. Therefore, it wasn't a sacrifice for them
+            2. It was just something they do to look good before others
+    5. Not willing to give much to God shows you really don't love Him
         1. Those we love, we are willing to give whatever they need
-          1. Most parents will give to their children even if they have to do without
-          2. They love their children more than self
-    4. Your not worthy of Christ unless you are willing to give it up.
-        - Matthew 10:37-39 "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me. And he that taketh not his cross, and followeth after me, is not worthy of me. He that findeth his life shall lose it: and he that loseth his life for my sake shall find it."
-        - มัทธิว 10:37-39 "ผู้ใดที่รักบิดามารดายิ่งกว่ารักเราก็ไม่สมกับเรา และผู้ใดรักบุตรชายหญิงยิ่งกว่ารักเรา ผู้นั้นก็ไม่สมกับเรา และผู้ใดที่ไม่รับเอากางเขนของตนตามเราไป ผู้นั้นก็ไม่สมกับเรา ผู้ที่จะเอาชีวิตของตนรอดจะกลับเสียชีวิต แต่ผู้ที่สู้เสียชีวิตของตนเพราะเห็นแก่เราก็จะได้ชีวิตรอด"
-            1. Our very nature keeps us from being worthy
-            2. But, when we truly get saved, God's love is in us making us willing and therefore worthy!
+            1. Most parents will give to their children even if they have to do without
+            2. They love their children more than self
+3. Your not worthy of Christ unless you are willing to give it up.
+    - Matthew 10:37-39 "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me. And he that taketh not his cross, and followeth after me, is not worthy of me. He that findeth his life shall lose it: and he that loseth his life for my sake shall find it."
+    - มัทธิว 10:37-39 "ผู้ใดที่รักบิดามารดายิ่งกว่ารักเราก็ไม่สมกับเรา และผู้ใดรักบุตรชายหญิงยิ่งกว่ารักเรา ผู้นั้นก็ไม่สมกับเรา และผู้ใดที่ไม่รับเอากางเขนของตนตามเราไป ผู้นั้นก็ไม่สมกับเรา ผู้ที่จะเอาชีวิตของตนรอดจะกลับเสียชีวิต แต่ผู้ที่สู้เสียชีวิตของตนเพราะเห็นแก่เราก็จะได้ชีวิตรอด"
+        1. Our very nature keeps us from being worthy
+        2. But, when we truly get saved, God's love is in us making us willing and therefore worthy!

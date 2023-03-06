@@ -3,7 +3,7 @@
 | --:|:-- |
 | **Sunday School:**  | [[Sermon. John Chapter 6]] |
 | **Sunday Morning:** | [[Sermon. Love Messured by what You Willing to Give]] |
-| **Sunday Night:**   | [[Sermon. Chosen]] |
+| **Sunday Night:**   | [[Sermon. God's Glory]] |
 ### Last Week: 
 ยอห์น 6:38 "เพราะว่าเราได้ลงมาจากสวรรค์ มิใช่เพื่อกระทำตามความประสงค์ของเราเอง แต่เพื่อกระทำตามพระประสงค์ของพระองค์ผู้ทรงใช้เรามา"
 ### This Week:
@@ -13,4 +13,4 @@
 ### Wednesday Burmese Service:
 
 ### Saturday English:
-2:00- 3:00 : Bible: Cross
+2:00- 3:00 : Bible: Resurrection
