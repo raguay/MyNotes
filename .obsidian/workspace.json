@@ -4,16 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "80cf3735cf8197ce",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Sermon. Trying Every Moment.md",
-            "mode": "source",
-            "source": false
+        "id": "dab604bf8ff3017f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75adb4ebd2ef49d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df9d75e634997bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sermon. Being Worthy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -32,7 +51,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -42,11 +61,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Schedule. 2021",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -63,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 296.5
   },
   "right": {
     "id": "f19a174a932f7cae",
@@ -79,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sermon. Trying Every Moment.md",
+                "file": "Sermon. Being Worthy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,37 +121,7 @@
             }
           },
           {
-            "id": "bc87a2523033f752",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9017178ef31d598a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Sermon. Trying Every Moment.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "e2ae5fafbd49caa9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Sermon. Trying Every Moment.md"
-              }
-            }
-          },
-          {
-            "id": "de08f8ebe3c345e6",
+            "id": "d3679e9ac03efc6f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -140,7 +129,29 @@
             }
           },
           {
-            "id": "349ae9cc3e500274",
+            "id": "dced3136cf83e248",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sermon. Being Worthy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "954d0f8bbc45a978",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sermon. Being Worthy.md"
+              }
+            }
+          },
+          {
+            "id": "5e47f5c7c997a984",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -148,7 +159,7 @@
             }
           },
           {
-            "id": "8f7701b60e918a03",
+            "id": "64012bf36fd1a426",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -156,15 +167,16 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "completed-area:Completed Area": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "workbench-obsidian:Workbench": false,
@@ -182,33 +194,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "28e09517d9286d20",
+  "active": "df9d75e634997bc2",
   "lastOpenFiles": [
-    "Sermon. Abiding When Called.md",
-    "Schedule. 2015-May24-May30.md",
-    "Sermon. Trying Every Moment.md",
-    "Schedule. 2023-Mar12-Mar18.md",
-    "Sermon. Different than Devils.md",
-    "Sermon. Difficult Bible Verses.md",
-    "Sermon. Draw Near to Proclaim.md",
-    "2023 Month Schedules/March.md",
-    "Schedule. 2023-Mar12-Mar18 (Richards-MacBook-Pro.local's conflicted copy 2023-03-12).md",
+    "Sermon. Incline My Heart.md",
+    "Sermon. Being Worthy.md",
     "Home.md",
-    "Sermon. John Chapter 7.md",
-    "Schedule. 2023-Mar05-Mar11.md",
-    "2023 Month Schedules/February.md",
+    "Sermon. Lord's Super.md",
+    "notes",
+    "Sermon. A Good Name.md",
+    "Family. Family Letter.md",
+    "Family. TrustFund.md",
+    "Family. Everyone's Email.md",
+    "Missions. EFT.md",
+    "Docker. Docker.md",
+    "Inbox/ScratchPad.md",
     "Interesting AI Tools.md",
-    "Sermon. Love Messured by what You Willing to Give.md",
-    "Schedule. 2023-Feb26-Mar04.md",
-    "Sermon. Help.md",
-    "Schedule. 2023-Feb19-Feb25.md",
-    "Schedule. 2023-Feb12-Feb18.md",
-    "Sermon. John Chapter 6.md",
-    "notes/1677317135-KCSV.md",
-    "Workbench.md",
-    "Schedule. 2017-Mar05-Mar11.md",
-    "Schedule. 2014-Jun01-Jun07.md",
-    "Schedule. June 30 - July 6, 2013.md",
-    "Sermon. Hiding Place.md"
+    "notes/1679732564-ZSEZ.md",
+    "notes/1678525275-LERF.md",
+    "Tech Notes/Go.md",
+    "Tech Notes/Hook.md",
+    "Tech Notes/Idme.md",
+    "Ideas. Modal File Manager.md",
+    "Ideas. EmailIt.md",
+    "Envato. DMCA - idevie.com.md",
+    "Envato. Joel Job.md",
+    "Envato. Problems.md",
+    "Kaban-Current Jobs.md",
+    "index.md",
+    "tasks.md",
+    "Inbox.md"
   ]
 }

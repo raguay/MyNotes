@@ -4,7 +4,7 @@
 | ------------------: | :------------------------------ |
 |  **Sunday School:** | [[Sermon. John Chapter 7]]      |
 | **Sunday Morning:** | [[Sermon. Who Needs Salvation]] |
-|   **Sunday Night:** | [[Sermon. Working Out]]     |
+|   **Sunday Night:** | [[Sermon. Working Out]]         |
 
 ### Last Week:
 
@@ -15,9 +15,12 @@
 John 7:7 "โลกจะเกลียดชังพวกท่านไม่ได้ แต่โลกเกลียดชังเรา เพราะเราเป็นพยานว่าการงานของโลกนั้นชั่ว"
 
 ### Wednesday Service:
+
 [[Sermon. Trying Every Moment]]
 
 ### Wednesday Burmese Service:
+
+[[Sermon. Working Out]]
 
 ### Saturday English:
 

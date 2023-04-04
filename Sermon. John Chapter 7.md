@@ -5,7 +5,7 @@ John 7
 	2. Until the feast of tabernacles
 	3. His family and disciples travel to Jerusalem
 		1. Jesus didn't go
-		2. He said it wasn't his time yet
+		2. He said it wasn't his time, yet
 		3. It's always everyone else's time because they decide their own lives
 2. After everyone has gone up - v. 10-13
 	1. Jesus then went to Jerusalem

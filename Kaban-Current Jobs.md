@@ -6,8 +6,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Fix GitHub import for  Modal File Manager #modalfilemanager
-- [ ] Fix GitHub import for EmailIt #emailit
 - [ ] Work on Sunday's Sermons #church
 - [ ] Work on Wednesday's Sermon #church
 
@@ -20,6 +18,8 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
+- [x] Fix GitHub import for  Modal File Manager #modalfilemanager
+- [x] Fix GitHub import for EmailIt #emailit
 - [x] Test web interface for #emailIt
 - [x] Add Web interface to EmailIt #emailit
 - [x] Remove fetch from other functions. #emailit
