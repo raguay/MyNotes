@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dab604bf8ff3017f",
+        "id": "d18f186fad1d1974",
         "type": "tabs",
         "children": [
           {
-            "id": "75adb4ebd2ef49d9",
+            "id": "a41ed00e9f4e519b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df9d75e634997bc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sermon. Being Worthy.md",
+                "file": "Sermon. Giving to the Lord.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Schedule. 2021",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,12 +64,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "4c783aca60cb097b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a174a932f7cae",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sermon. Being Worthy.md",
+                "file": "Sermon. Giving to the Lord.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sermon. Being Worthy.md",
+                "file": "Sermon. Giving to the Lord.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sermon. Being Worthy.md"
+                "file": "Sermon. Giving to the Lord.md"
               }
             }
           },
@@ -167,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -194,34 +190,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "df9d75e634997bc2",
+  "active": "a41ed00e9f4e519b",
   "lastOpenFiles": [
-    "Sermon. Incline My Heart.md",
-    "Sermon. Being Worthy.md",
-    "Home.md",
-    "Sermon. Lord's Super.md",
-    "notes",
-    "Sermon. A Good Name.md",
-    "Family. Family Letter.md",
-    "Family. TrustFund.md",
-    "Family. Everyone's Email.md",
-    "Missions. EFT.md",
-    "Docker. Docker.md",
-    "Inbox/ScratchPad.md",
-    "Interesting AI Tools.md",
-    "notes/1679732564-ZSEZ.md",
-    "notes/1678525275-LERF.md",
-    "Tech Notes/Go.md",
-    "Tech Notes/Hook.md",
-    "Tech Notes/Idme.md",
-    "Ideas. Modal File Manager.md",
+    "Schedule. 2023-May14-May20.md",
+    "2023 Month Schedules/May.md",
+    "Sermon. Giving to the Lord.md",
+    "Schedule. 2015-Jul19-Jul25.md",
+    "Schedule. 2014-Mar23-Mar29.md",
+    "Schedule. 2014-Mar30-Apr05.md",
+    "Schedule. 2015-Aug23-Aug29.md",
     "Ideas. EmailIt.md",
-    "Envato. DMCA - idevie.com.md",
-    "Envato. Joel Job.md",
-    "Envato. Problems.md",
-    "Kaban-Current Jobs.md",
-    "index.md",
-    "tasks.md",
-    "Inbox.md"
+    "Home.md",
+    "Sermon. John Chapter 9.md",
+    "Schedule. 2023-May07-May13.md",
+    "Sermon. Blinded.md",
+    "Schedule. 2015-May31-Jun06.md",
+    "Schedule. 2015-Jun21-Jun27.md",
+    "Sermon. Hearing His Voice.md",
+    "Missions. IBFT - Work Outline.md",
+    "Missions. IBFT - Information.md",
+    "2023IBFT-FBCTmeeting.md",
+    "2023 Month Schedules/April.md",
+    "Schedule. 2023-Mar05-Mar11.md",
+    "2023 Month Schedules/March.md",
+    "Schedule. 2023-Mar12-Mar18.md",
+    "Schedule. 2023-Mar26-Apr01.md",
+    "Schedule. 2023-Apr02-Apr08.md",
+    "Sermon. Loving Christ.md",
+    "Schedule. 2016-Oct23-Oct29.md",
+    "Sermon. Freedom In Truth.txt",
+    "notes"
   ]
 }

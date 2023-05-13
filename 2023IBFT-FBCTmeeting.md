@@ -78,5 +78,3 @@ https://th.tripadvisor.com/Hotel_Review-g668419-d10055768-Reviews-Klongsak_Resor
 
 # People Coming
 
-1. Jason Goh
-2. Brooks Anderson

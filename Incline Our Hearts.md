@@ -1,5 +1,4 @@
-1 Kings 8:57-60
-"The LORD our God be with us, as he was with our fathers: let him not leave us, nor forsake us: That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers. And let these my words, wherewith I have made supplication before the LORD, be nigh unto the LORD our God day and night, that he maintain the cause of his servant, and the cause of his people Israel at all times, as the matter shall require: That all the people of the earth may know that the LORD is God, and that there is none else."
+1 Kings 8:57-60 "The LORD our God be with us, as he was with our fathers: let him not leave us, nor forsake us: That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers. And let these my words, wherewith I have made supplication before the LORD, be nigh unto the LORD our God day and night, that he maintain the cause of his servant, and the cause of his people Israel at all times, as the matter shall require: that all the people of the earth may know that the LORD is God, and that there is none else."
 
 1.  Solomon said 
 	- 1 Kings 8:46a 'If they sin against thee, (for there is no man that sinneth not,)...'
@@ -23,7 +22,16 @@
 			2. We accept it as our own desire
 			3. Then, God makes it happen in our lives!
 	2. We need to examine ourselves that we really want to be close to Jesus
-		1. Not to look good at church
+		1. Not to look good
+			1. At church
+			2. With Christian friends and family
 		2. Truly following Him no matter what He asks of us
 			1. Not just when it looks easy
 			2. Accepting the hard times God allows in our lives along with the easy times
+				- Zechariah 13:9 "And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The LORD is my God."
+1. To the glory of God
+	1. God wants all the world to know Him and see His work in our lives
+		1. That there is one God, the Lord Jesus Christ
+		2. No other god inclines peoples hearts to follow them
+			1. People are just inclined to do their own thing
+	2. That is the purpose of God inclining our hearts to him.
