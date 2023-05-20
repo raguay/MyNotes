@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d18f186fad1d1974",
+        "id": "a69493438cf346a6",
         "type": "tabs",
         "children": [
           {
-            "id": "a41ed00e9f4e519b",
+            "id": "49135cb45e4337c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sermon. Giving to the Lord.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Matthew 9:17",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "f19a174a932f7cae",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sermon. Giving to the Lord.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sermon. Giving to the Lord.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sermon. Giving to the Lord.md"
+                "file": "Home.md"
               }
             }
           },
@@ -190,34 +189,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a41ed00e9f4e519b",
+  "active": "49135cb45e4337c4",
   "lastOpenFiles": [
-    "Schedule. 2023-May14-May20.md",
+    "Haskell. Hackett.md",
+    "Math. Abstract Algebra.md",
+    "Sermon. New Religion.md",
+    "Schedule. July 28 - Aug 3, 2013.md",
+    "Sermon. John Chapter 10.md",
+    "Sermon. Our Sins on the Cross.md",
+    "Schedule. 2023-May21-May27.md",
     "2023 Month Schedules/May.md",
-    "Sermon. Giving to the Lord.md",
-    "Schedule. 2015-Jul19-Jul25.md",
-    "Schedule. 2014-Mar23-Mar29.md",
-    "Schedule. 2014-Mar30-Apr05.md",
-    "Schedule. 2015-Aug23-Aug29.md",
-    "Ideas. EmailIt.md",
+    "Schedule. 2023-May14-May20.md",
     "Home.md",
-    "Sermon. John Chapter 9.md",
-    "Schedule. 2023-May07-May13.md",
-    "Sermon. Blinded.md",
-    "Schedule. 2015-May31-Jun06.md",
-    "Schedule. 2015-Jun21-Jun27.md",
-    "Sermon. Hearing His Voice.md",
-    "Missions. IBFT - Work Outline.md",
-    "Missions. IBFT - Information.md",
-    "2023IBFT-FBCTmeeting.md",
-    "2023 Month Schedules/April.md",
-    "Schedule. 2023-Mar05-Mar11.md",
-    "2023 Month Schedules/March.md",
-    "Schedule. 2023-Mar12-Mar18.md",
-    "Schedule. 2023-Mar26-Apr01.md",
-    "Schedule. 2023-Apr02-Apr08.md",
-    "Sermon. Loving Christ.md",
-    "Schedule. 2016-Oct23-Oct29.md",
+    "Ideas. Modal File Manager.md",
+    "Ideas. EmailIt.md",
+    "BulletinBoard.md",
+    "ScriptBar.md",
+    "Kaban-Current Jobs.md",
+    "Personal. Doctor Information.md",
+    "index.md",
+    "Bible Teaching. Trail of Blood.md",
+    "Family. Everyone's Email.md",
+    "Sermon. A Personal Savior.md",
+    "Personal. Notes.md",
+    "Personal. Edward Jones.md",
+    "Personal. Bible Memorization Verses.md",
+    "Personal. CapitalOneBank.md",
+    "Personal. Bangkok Bank.md",
+    "Envato. Problems.md",
     "Sermon. Freedom In Truth.txt",
     "notes"
   ]

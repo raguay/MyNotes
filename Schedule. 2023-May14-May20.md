@@ -3,7 +3,7 @@
 | --:|:-- |
 | **Sunday School:**  | [[Sermon. John Chapter 9]] |
 | **Sunday Morning:** | [[Sermon. Giving to the Lord]] |
-| **Sunday Night:**   |  |
+| **Sunday Night:**   | [[Sermon. Right Place]] |
 ### Last Week: 
 ยอห์น 9:5 'ตราบใดที่เรายังอยู่ในโลก เราเป็นความสว่างของโลก'
 ### This Week:

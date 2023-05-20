@@ -27,7 +27,7 @@ John 10:24-30
 		2. Those that follow without believing this point are fake Christians
 			1. They still want to be their own boss.
 			2. They are not willing to hear AND obey His voice.
-3. Whose Voice do you hear and OBEY
+3. Whose Voice do you hear and **OBEY**
 	1. Self is the same as Satan
 		1. Then you are lost
 		2. Or, very disobedient
