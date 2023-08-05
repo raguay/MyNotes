@@ -28,7 +28,7 @@ __export(main_exports, {
   default: () => MermaidPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian4 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // src/elements/sampleDiagrams.ts
 var sampleDiagrams = {
@@ -121,6 +121,7 @@ var ElementCategory = /* @__PURE__ */ ((ElementCategory2) => {
 // src/elements/classDiagram.ts
 var classDiagramElements = [
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "sample class",
     content: `class Duck{
@@ -132,6 +133,7 @@ var classDiagramElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "sample class",
     content: `class BankAccount
@@ -139,10 +141,11 @@ var classDiagramElements = [
         BankAccount : +Bigdecimal balance
         BankAccount : +deposit(amount)
         BankAccount : +withdrawal(amount)`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "generic class",
     content: `class Square~Shape~{
@@ -155,73 +158,83 @@ var classDiagramElements = [
         Square : -List~string~ messages
         Square : +setMessages(List~string~ messages)
         Square : +getMessages() List~string~`,
-    sortingOrder: 0,
+    sortingOrder: 2,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "inheritance",
     content: "classA <|-- classB",
-    sortingOrder: 0,
+    sortingOrder: 3,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "composition",
     content: "classC *-- classD",
-    sortingOrder: 0,
+    sortingOrder: 4,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "aggregation",
     content: "classE o-- classF",
-    sortingOrder: 0,
+    sortingOrder: 5,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "association",
     content: "classG <-- classH",
-    sortingOrder: 0,
+    sortingOrder: 6,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "solid link",
     content: "classI -- classJ",
-    sortingOrder: 0,
+    sortingOrder: 7,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "dependency",
     content: "classK <.. classL",
-    sortingOrder: 0,
+    sortingOrder: 8,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "realization",
     content: "classM <|.. classN",
-    sortingOrder: 0,
+    sortingOrder: 9,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "dashed link",
     content: "classO .. classP",
-    sortingOrder: 0,
+    sortingOrder: 10,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "two-way relation",
     content: "Animal <|--|> Zebra",
-    sortingOrder: 0,
+    sortingOrder: 11,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "ClassDiagram" /* ClassDiagram */,
     description: "sample class diagram",
     content: `classDiagram
@@ -245,7 +258,7 @@ var classDiagramElements = [
             +bool is_wild
             +run()
         }`,
-    sortingOrder: 0,
+    sortingOrder: 12,
     isPinned: false
   }
 ];
@@ -253,6 +266,7 @@ var classDiagramElements = [
 // src/elements/entityRelationshipDiagram.ts
 var entityRelationshipDiagramElements = [
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "a sample entity relationship diagram",
     content: `erDiagram
@@ -263,6 +277,7 @@ var entityRelationshipDiagramElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "an entity",
     content: `    CUSTOMER {
@@ -270,77 +285,87 @@ var entityRelationshipDiagramElements = [
             string custNumber
             string sector
         }`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "one-to-many relationship",
     content: `A ||--|{ B : label`,
-    sortingOrder: 0,
+    sortingOrder: 2,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "many-to-many relationship",
     content: `A }|--|{ B : label`,
-    sortingOrder: 0,
+    sortingOrder: 3,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "one-to-one relationship",
     content: `A ||--|| B : label`,
-    sortingOrder: 0,
+    sortingOrder: 4,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "many-to-one relationship",
     content: `A }|--|| B : label`,
-    sortingOrder: 0,
+    sortingOrder: 5,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "zero/one-to-one relationship",
     content: `A |o--|| B : label`,
-    sortingOrder: 0,
+    sortingOrder: 6,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "one-to-one/zero relationship",
     content: `A ||--o| B : label`,
-    sortingOrder: 0,
+    sortingOrder: 7,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "zero-or-more-to-one relationship",
     content: `A }o--|| B : label`,
-    sortingOrder: 0,
+    sortingOrder: 8,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "one-to-zero-or-more relationship",
     content: `A ||--o{ B : label`,
-    sortingOrder: 0,
+    sortingOrder: 9,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "zero-or-more-to-many relationship",
     content: `A }o--|{ B : label`,
-    sortingOrder: 0,
+    sortingOrder: 10,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "EntityRelationshipDiagram" /* EntityRelationshipDiagram */,
     description: "many-to-zero-or-more relationship",
     content: `A }|--o{ B : label`,
-    sortingOrder: 0,
+    sortingOrder: 11,
     isPinned: false
   }
 ];
@@ -348,6 +373,7 @@ var entityRelationshipDiagramElements = [
 // src/elements/flowchart.ts
 var flowchartElements = [
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "a simple flowchart with top to down direction",
     content: `flowchart TD
@@ -356,6 +382,7 @@ Start --> Stop`,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "a simple flowchart with left to right direction",
     content: "flowchart LR\nStart --> Stop",
@@ -363,6 +390,7 @@ Start --> Stop`,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A node with round edges",
     content: "id1(Some text)",
@@ -370,80 +398,91 @@ Start --> Stop`,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A stadium-shaped node",
     content: "id1([Some text])",
-    sortingOrder: 3,
+    sortingOrder: 4,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A node in a cylindrical shape",
     content: "id1[(Database)]",
-    sortingOrder: 3,
+    sortingOrder: 5,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A node in the form of a circle",
     content: "id1((Some text))",
-    sortingOrder: 3,
+    sortingOrder: 6,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A node (rhombus)",
     content: "id1{Some text}",
-    sortingOrder: 3,
+    sortingOrder: 7,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A link with arrow head",
     content: "A-->B",
-    sortingOrder: 3,
+    sortingOrder: 8,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "An open link",
     content: "A --- B",
-    sortingOrder: 3,
+    sortingOrder: 9,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "Text on links",
     content: "A-- This is the text! ---B",
-    sortingOrder: 3,
+    sortingOrder: 10,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "A link with arrow head and text",
     content: "A-->|text|B",
-    sortingOrder: 3,
+    sortingOrder: 11,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "Dotted link",
     content: "A-.->B",
-    sortingOrder: 3,
+    sortingOrder: 12,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "Thick link",
     content: "A ==> B",
-    sortingOrder: 3,
+    sortingOrder: 13,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
     description: "Subgraph",
     content: "subgraph one\na1-->a2\nend",
-    sortingOrder: 3,
+    sortingOrder: 14,
     isPinned: false
   }
 ];
@@ -451,6 +490,7 @@ Start --> Stop`,
 // src/elements/ganntChart.ts
 var ganttChartElements = [
   {
+    id: crypto.randomUUID(),
     category: "GanttChart" /* GanttChart */,
     description: "simple gantt chart",
     content: `gantt
@@ -466,6 +506,7 @@ var ganttChartElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GanttChart" /* GanttChart */,
     description: "rich gantt chart",
     content: `gantt
@@ -497,10 +538,11 @@ var ganttChartElements = [
         Describe gantt syntax               :after doc1, 3d
         Add gantt diagram to demo page      :20h
         Add another diagram to demo page    :48h`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GanttChart" /* GanttChart */,
     description: "milestones example",
     content: `gantt
@@ -510,7 +552,7 @@ var ganttChartElements = [
         taska2 : 10min
         taska3 : 5min
         Final milestone : milestone, m2, 18:14, 2min`,
-    sortingOrder: 0,
+    sortingOrder: 2,
     isPinned: false
   }
 ];
@@ -518,6 +560,7 @@ var ganttChartElements = [
 // src/elements/gitGraph.ts
 var gitGraphElements = [
   {
+    id: crypto.randomUUID(),
     category: "GitGraph" /* GitGraph */,
     description: "simple git graph",
     content: `gitGraph
@@ -535,34 +578,39 @@ var gitGraphElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GitGraph" /* GitGraph */,
     description: "tagged commit",
     content: `commit id: "Normal" tag: "v1.0.0"`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GitGraph" /* GitGraph */,
     description: "reverse commit",
     content: `commit id: "Reverse" type: REVERSE`,
-    sortingOrder: 0,
+    sortingOrder: 2,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GitGraph" /* GitGraph */,
     description: "highlighted commit",
     content: `commit id: "Highlight" type: HIGHLIGHT`,
-    sortingOrder: 0,
+    sortingOrder: 3,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GitGraph" /* GitGraph */,
     description: "reverse commit",
     content: `commit id: "Reverse" type: REVERSE`,
-    sortingOrder: 0,
+    sortingOrder: 4,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "GitGraph" /* GitGraph */,
     description: "git graph with cherry-pick",
     content: `gitGraph
@@ -579,7 +627,7 @@ var gitGraphElements = [
         commit id:"THREE"
         checkout develop
         commit id:"C"`,
-    sortingOrder: 0,
+    sortingOrder: 5,
     isPinned: false
   }
 ];
@@ -587,6 +635,7 @@ var gitGraphElements = [
 // src/elements/pieChart.ts
 var pieChartElements = [
   {
+    id: crypto.randomUUID(),
     category: "PieChart" /* PieChart */,
     description: "sample pie chart",
     content: `pie title /r/obsidianmd posts by type
@@ -597,6 +646,7 @@ var pieChartElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "PieChart" /* PieChart */,
     description: "sample pie chart with values shown in legend",
     content: `pie showdata
@@ -604,7 +654,7 @@ var pieChartElements = [
         "Graphs" : 85
         "Dashboards" : 14
         "Tips" : 1`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   }
 ];
@@ -612,6 +662,7 @@ var pieChartElements = [
 // src/elements/requirementDiagram.ts
 var requirementDiagramElements = [
   {
+    id: crypto.randomUUID(),
     category: "RequirementDiagram" /* RequirementDiagram */,
     description: "sample requirements diagram",
     content: `    requirementDiagram
@@ -632,16 +683,18 @@ var requirementDiagramElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "RequirementDiagram" /* RequirementDiagram */,
     description: "sample requirements diagram",
     content: `element customElement {
             type: customType
             docref: customDocRef
         }`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "RequirementDiagram" /* RequirementDiagram */,
     description: "a requirement with high risk",
     content: `functionalRequirement myReq {
@@ -650,10 +703,11 @@ var requirementDiagramElements = [
             risk: High
             verifymethod: analysis
         }`,
-    sortingOrder: 0,
+    sortingOrder: 2,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "RequirementDiagram" /* RequirementDiagram */,
     description: "sample requirements diagram",
     content: `interfaceRequirement myReq2 {
@@ -662,10 +716,11 @@ var requirementDiagramElements = [
             risk: Medium
             verifymethod: demonstration
         }`,
-    sortingOrder: 0,
+    sortingOrder: 3,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "RequirementDiagram" /* RequirementDiagram */,
     description: "sample requirements diagram",
     content: `designConstraint myReq3 {
@@ -674,7 +729,7 @@ var requirementDiagramElements = [
             risk: Low
             verifymethod: test
         }`,
-    sortingOrder: 0,
+    sortingOrder: 4,
     isPinned: false
   }
 ];
@@ -682,16 +737,18 @@ var requirementDiagramElements = [
 // src/elements/sequenceDiagram.ts
 var sequenceDiagramElements = [
   {
+    id: crypto.randomUUID(),
     category: "SequenceDiagram" /* SequenceDiagram */,
     description: "a simple sequence diagram",
     content: `sequenceDiagram
 Alice->>John: Hello John, how are you?
 John-->>Alice: Great!
 Alice-)John: See you later!`,
-    sortingOrder: 1,
+    sortingOrder: 0,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "SequenceDiagram" /* SequenceDiagram */,
     description: "a simple sequence diagram with actors",
     content: `sequenceDiagram
@@ -708,6 +765,7 @@ Alice-)John: See you later!`,
 // src/elements/stateDiagram.ts
 var stateDiagramElements = [
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "a sample state diagram",
     content: `stateDiagram-v2
@@ -722,6 +780,7 @@ var stateDiagramElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "a sample state diagram with left-to-right direction",
     content: `stateDiagram-v2
@@ -733,31 +792,35 @@ var stateDiagramElements = [
         Moving --> Still
         Moving --> Crash
         Crash --> [*]`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "node with description",
     content: `s2 : This is a state description`,
-    sortingOrder: 0,
+    sortingOrder: 2,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "a transition",
     content: `s1 --> s2`,
-    sortingOrder: 0,
+    sortingOrder: 3,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "a transition with label",
     content: `s1 --> s2: A transition`,
-    sortingOrder: 0,
+    sortingOrder: 4,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "composite state",
     content: `
@@ -766,10 +829,11 @@ var stateDiagramElements = [
             [*] --> second
             second --> [*]
         }`,
-    sortingOrder: 0,
+    sortingOrder: 5,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "diagram with choice",
     content: `stateDiagram-v2
@@ -778,10 +842,11 @@ var stateDiagramElements = [
         IsPositive --> if_state
         if_state --> False: if n < 0
         if_state --> True : if n >= 0`,
-    sortingOrder: 0,
+    sortingOrder: 6,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "diagram with fork",
     content: `stateDiagram-v2
@@ -795,10 +860,11 @@ var stateDiagramElements = [
           State3 --> join_state
           join_state --> State4
           State4 --> [*]`,
-    sortingOrder: 0,
+    sortingOrder: 7,
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "StateDiagram" /* StateDiagram */,
     description: "a diagram with concurrency",
     content: `stateDiagram-v2
@@ -817,7 +883,7 @@ var stateDiagramElements = [
             ScrollLockOff --> ScrollLockOn : EvScrollLockPressed
             ScrollLockOn --> ScrollLockOff : EvScrollLockPressed
         }`,
-    sortingOrder: 0,
+    sortingOrder: 8,
     isPinned: false
   }
 ];
@@ -825,6 +891,7 @@ var stateDiagramElements = [
 // src/elements/userJourneyDiagram.ts
 var userJourneyDiagramElements = [
   {
+    id: crypto.randomUUID(),
     category: "UserJourneyDiagram" /* UserJourneyDiagram */,
     description: "a sample user journey diagram",
     content: `journey
@@ -840,10 +907,11 @@ var userJourneyDiagramElements = [
     isPinned: false
   },
   {
+    id: crypto.randomUUID(),
     category: "UserJourneyDiagram" /* UserJourneyDiagram */,
     description: "a step in user journey",
     content: `      Step Title: 5: ActorName`,
-    sortingOrder: 0,
+    sortingOrder: 1,
     isPinned: false
   }
 ];
@@ -878,6 +946,26 @@ var wrappingsForElementCategories = {
 var MermaidElementService = class {
   static DefaultElements() {
     return defaultElements;
+  }
+  saveElement(element, plugin) {
+    let elementExists = plugin.settings.elements.some((el) => el.id === element.id);
+    if (elementExists) {
+      plugin.settings.elements.forEach((el) => {
+        if (el.id === element.id) {
+          el = element;
+        }
+      });
+    } else {
+      this.fixSortOrder(element, plugin);
+      plugin.settings.elements.push(element);
+    }
+    plugin.saveSettings();
+  }
+  fixSortOrder(element, plugin) {
+    var elementsFromSameCategory = plugin.settings.elements.filter((element2) => element2.category === element2.category);
+    if (elementsFromSameCategory.some((element2) => element2.sortingOrder === element2.sortingOrder)) {
+      element.sortingOrder = elementsFromSameCategory.length;
+    }
   }
   getSampleDiagram(category) {
     return this.wrapForPastingIntoEditor(this.wrapWithMermaidBlock(sampleDiagrams[category]));
@@ -971,11 +1059,203 @@ var tridentIcon = `<svg width="100" height="100" viewBox="0 0 64 64" fill="none"
 35.8786L59.246 34.3042L57.6701 42.1787Z" fill="currentColor"/>
 </svg>`;
 
-// src/ui/toolbarView/mermaidToolbarView.ts
+// src/ui/settingsTab.ts
 var import_obsidian3 = require("obsidian");
 
-// src/ui/toolbarView/viewHelpers.ts
+// src/ui/editMermaidElementModal.ts
 var import_obsidian2 = require("obsidian");
+var EditMermaidElementModal = class extends import_obsidian2.Modal {
+  constructor(app, _plugin, _mermaid, _element) {
+    super(app);
+    this._plugin = _plugin;
+    this._mermaid = _mermaid;
+    this._element = _element;
+  }
+  async onOpen() {
+    let { contentEl } = this;
+    contentEl.addClass("mermaid-tools-edit-element-modal");
+    contentEl.createEl("h2", { text: "Edit element" });
+    let renderContainerEl = contentEl.createDiv();
+    let renderEl = renderContainerEl.createEl("pre", { text: "rendered diagram" });
+    if (!this._mermaid)
+      this._mermaid = await (0, import_obsidian2.loadMermaid)();
+    renderEl.id = "mermaid-edit-element-modal";
+    let elementCategoryContainerEl = contentEl.createDiv();
+    elementCategoryContainerEl.createEl("label", { text: "Category" });
+    let elementCategoryEl = elementCategoryContainerEl.createEl("select");
+    for (let category in ElementCategory) {
+      let option = elementCategoryEl.createEl("option", { text: category });
+      option.value = category;
+    }
+    elementCategoryEl.value = this._element.category;
+    elementCategoryEl.onchange = (e) => {
+      this._element.category = elementCategoryEl.value;
+    };
+    let elementDescriptionContainerEl = contentEl.createDiv();
+    elementDescriptionContainerEl.createEl("label", { text: "Description" });
+    let elementDescriptionEl = elementDescriptionContainerEl.createEl("input", { value: this._element.description, type: "text" });
+    elementDescriptionEl.style.minWidth = "50%";
+    elementDescriptionEl.onchange = (e) => {
+      this._element.description = elementDescriptionEl.value;
+    };
+    let elementContentContainerEl = contentEl.createDiv();
+    elementContentContainerEl.createEl("label", { text: "Content" });
+    let elementContentEl = elementContentContainerEl.createEl("textarea", { text: this._element.content });
+    elementContentEl.style.height = "200px";
+    elementContentEl.style.width = "100%";
+    elementContentEl.onchange = async (e) => {
+      this._element.content = elementContentEl.value;
+      await this._mermaid.render(renderEl.id, this._plugin._mermaidElementService.wrapAsCompleteDiagram(this._element), (svg, bindFunctions) => {
+        renderEl.innerHTML = svg;
+        renderContainerEl.appendChild(renderEl);
+      });
+    };
+    let saveButtonEl = contentEl.createEl("button", { text: "Save" });
+    saveButtonEl.onclick = (e) => {
+      this.save();
+    };
+    await this._mermaid.render(renderEl.id, this._plugin._mermaidElementService.wrapAsCompleteDiagram(this._element), (svg, bindFunctions) => {
+      renderEl.innerHTML = svg;
+      renderContainerEl.appendChild(renderEl);
+    });
+  }
+  save() {
+    this._plugin._mermaidElementService.saveElement(this._element, this._plugin);
+    this.close();
+  }
+};
+
+// src/ui/settingsTab.ts
+var MermaidToolsSettingsTab = class extends import_obsidian3.PluginSettingTab {
+  constructor(_app, _plugin) {
+    super(_app, _plugin);
+    this._app = _app;
+    this._plugin = _plugin;
+  }
+  async display() {
+    await renderElements(this.containerEl, this._plugin);
+  }
+};
+async function renderElements(containerEl, plugin) {
+  let mermaid = await (0, import_obsidian3.loadMermaid)();
+  containerEl.empty();
+  containerEl.createEl("h1", { text: "Mermaid Tools Settings" });
+  containerEl.createEl("h2", { text: "Manage elements" });
+  createAddButton(containerEl, plugin);
+  for (let category in ElementCategory) {
+    renderElementCategory(category, plugin, containerEl, mermaid);
+  }
+  ;
+}
+function renderElementCategory(category, plugin, parentEl, mermaid) {
+  let copy = [...plugin.settings.elements];
+  let elements = copy.filter((e) => e.category === category);
+  let containerEl = document.getElementById(category + "-container");
+  let isFirstRender = !containerEl;
+  containerEl != null ? containerEl : containerEl = parentEl.createDiv();
+  containerEl.id = category + "-container";
+  containerEl.innerHTML = "";
+  let header = containerEl.createEl("h3", { text: category });
+  header.addClass("mermaid-tools-element-category-header");
+  let elementsContainerEl = containerEl.createDiv();
+  elementsContainerEl.addClass("mermaid-tools-element-category-container");
+  header.removeClass("collapsed");
+  elementsContainerEl.hidden = false;
+  if (isFirstRender) {
+    header.addClass("collapsed");
+    elementsContainerEl.hidden = true;
+  }
+  header.onClickEvent(() => {
+    header.classList.toggle("collapsed");
+    elementsContainerEl.hidden = !elementsContainerEl.hidden;
+  });
+  elements.sort((a, b) => a.sortingOrder - b.sortingOrder).forEach(async (element, index) => {
+    let settingContainer = elementsContainerEl.createDiv("mermaid-tools-element-container");
+    const setting = new import_obsidian3.Setting(settingContainer);
+    setting.setName(element.description);
+    setting.addExtraButton((cb) => {
+      cb.setIcon("edit").setTooltip("edit element").onClick(() => {
+        let modal = new EditMermaidElementModal(plugin.app, plugin, mermaid, element);
+        modal.open();
+        modal.onClose = () => {
+          renderElementCategory(category, plugin, parentEl, mermaid);
+        };
+      });
+    });
+    setting.addExtraButton((cb) => {
+      cb.setIcon("copy").setTooltip("create a duplicate of this element").onClick(() => {
+        let duplicate = {
+          id: crypto.randomUUID(),
+          category: element.category,
+          description: element.description + " (copy)",
+          content: element.content,
+          sortingOrder: plugin.settings.elements.filter((el) => el.category === element.category).length,
+          isPinned: element.isPinned
+        };
+        plugin._mermaidElementService.saveElement(duplicate, plugin);
+        plugin.saveSettings();
+        renderElementCategory(category, plugin, parentEl, mermaid);
+      });
+    });
+    setting.addExtraButton((cb) => {
+      cb.setIcon("arrow-up").setTooltip("move element up in the sidebar").onClick(() => {
+        if (index > 0) {
+          const temp = elements[index - 1].sortingOrder;
+          elements[index - 1].sortingOrder = element.sortingOrder;
+          element.sortingOrder = temp;
+          plugin.settings.elements = plugin.settings.elements.filter((el) => el.category !== category).concat(elements);
+          plugin.saveSettings();
+          renderElementCategory(category, plugin, parentEl, mermaid);
+        }
+      });
+    });
+    setting.addExtraButton((cb) => {
+      cb.setIcon("arrow-down").setTooltip("move element down in the sidebar").onClick(() => {
+        if (index < elements.length - 1) {
+          const temp = elements[index + 1].sortingOrder;
+          elements[index + 1].sortingOrder = element.sortingOrder;
+          element.sortingOrder = temp;
+          plugin.settings.elements = plugin.settings.elements.filter((el) => el.category !== category).concat(elements);
+          plugin.saveSettings();
+          renderElementCategory(category, plugin, parentEl, mermaid);
+        }
+      });
+    });
+    setting.addExtraButton((cb) => {
+      cb.setIcon("trash-2").setTooltip("delete element").onClick(() => {
+        plugin.settings.elements = plugin.settings.elements.filter((e) => e.id !== element.id);
+        plugin.saveSettings();
+        renderElementCategory(category, plugin, parentEl, mermaid);
+      });
+    });
+  });
+}
+function createAddButton(parentEl, plugin) {
+  const addButton = parentEl.createEl("button", { text: "Add" });
+  addButton.innerHTML = "Add an element";
+  addButton.onclick = () => {
+    let newElement = {
+      id: crypto.randomUUID(),
+      description: "New element",
+      content: `flowchart TD
+Start --> Stop`,
+      category: "Flowchart" /* Flowchart */,
+      sortingOrder: 0,
+      isPinned: false
+    };
+    let modal = new EditMermaidElementModal(plugin.app, plugin, null, newElement);
+    modal.open();
+    modal.onClose = () => {
+      renderElementCategory(modal._element.category, plugin, parentEl, null);
+    };
+  };
+}
+
+// src/ui/toolbarView/mermaidToolbarView.ts
+var import_obsidian5 = require("obsidian");
+
+// src/ui/toolbarView/viewHelpers.ts
+var import_obsidian4 = require("obsidian");
 var TOOLBAR_ELEMENT_CLASS_NAME = "mermaid-toolbar-element";
 var TOOLBAR_ELEMENTS_CONTAINER_CLASS_NAME = "mermaid-toolbar-elements-container";
 var TOOLBAR_ELEMENTS_CONTAINER_ID = "mermaid-toolbar-elements-container-id";
@@ -993,12 +1273,12 @@ async function createMermaidToolbar(topRowButtons, items, selectedCategory, onCa
 }
 function createTopRowBtns(parentEl, buttons) {
   buttons.forEach((btn) => {
-    let b = new import_obsidian2.ButtonComponent(parentEl).setClass("clickable-icon").setIcon(btn.iconName).setTooltip(btn.tooltip).onClick(btn.callback);
+    let b = new import_obsidian4.ButtonComponent(parentEl).setClass("clickable-icon").setIcon(btn.iconName).setTooltip(btn.tooltip).onClick(btn.callback);
   });
 }
 function createDropdown(parentEl, elementsContainer, items, selectedCategory, onSelectionChanged, onElClick) {
   let categories = Object.keys(ElementCategory);
-  let dropdown = new import_obsidian2.DropdownComponent(parentEl);
+  let dropdown = new import_obsidian4.DropdownComponent(parentEl);
   categories.forEach((c) => {
     dropdown.addOption(c, c);
   });
@@ -1011,7 +1291,7 @@ function createDropdown(parentEl, elementsContainer, items, selectedCategory, on
 async function recreateElementsSection(sectionContainer, category, items, onElClick) {
   sectionContainer.innerHTML = "";
   let elemService = new MermaidElementService();
-  let mermaid = await (0, import_obsidian2.loadMermaid)();
+  let mermaid = await (0, import_obsidian4.loadMermaid)();
   let filteredSortedItems = items.filter((i) => i.category == category).sort((a, b) => a.sortingOrder - b.sortingOrder);
   filteredSortedItems.forEach(async (elem, index) => {
     let el = createToolbarElement(sectionContainer);
@@ -1038,12 +1318,16 @@ var MermaidToolbarButton = class {
 };
 
 // src/ui/toolbarView/mermaidToolbarView.ts
-var _MermaidToolbarView = class extends import_obsidian3.ItemView {
+var _MermaidToolbarView = class extends import_obsidian5.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.topRowButtons = [
       new MermaidToolbarButton("insert Mermaid code block with sample diagram", "code-2", () => this.insertTextAtCursor(this._plugin._mermaidElementService.getSampleDiagram(this._plugin.settings.selectedCategory))),
-      new MermaidToolbarButton("open Mermaid.js documentation web page", "external-link", () => window.open("https://mermaid-js.github.io/mermaid/#/"))
+      new MermaidToolbarButton("open Mermaid.js documentation web page", "external-link", () => window.open("https://mermaid-js.github.io/mermaid/#/")),
+      new MermaidToolbarButton("open settings", "settings", () => {
+        this.app.setting.open();
+        this.app.setting.openTabById("mermaid-tools");
+      })
     ];
     this._plugin = plugin;
     this.items = plugin.settings.elements;
@@ -1083,7 +1367,7 @@ MermaidToolbarView.VIEW_DESCRIPTION = "Mermaid Toolbar";
 
 // main.ts
 var TRIDENT_ICON_NAME = "trident-custom";
-var MermaidPlugin = class extends import_obsidian4.Plugin {
+var MermaidPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this._mermaidElementService = new MermaidElementService();
@@ -1107,6 +1391,7 @@ var MermaidPlugin = class extends import_obsidian4.Plugin {
         this.activateView();
       }
     });
+    this.addSettingTab(new MermaidToolsSettingsTab(this.app, this));
   }
   async onunload() {
     this.app.workspace.detachLeavesOfType(MermaidToolbarView.VIEW_TYPE);
@@ -1116,6 +1401,7 @@ var MermaidPlugin = class extends import_obsidian4.Plugin {
   }
   async saveSettings() {
     await this.saveData(this.settings);
+    await this.activateView();
   }
   async activateView() {
     this.app.workspace.detachLeavesOfType(MermaidToolbarView.VIEW_TYPE);

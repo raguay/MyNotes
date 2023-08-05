@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a69493438cf346a6",
+        "id": "f278ac2771c0ad76",
         "type": "tabs",
         "children": [
           {
-            "id": "49135cb45e4337c4",
+            "id": "84e0fb6013743dbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Sermon. God Sends.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,12 +48,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Matthew 9:17",
+                "query": "Colossians 3:14-17",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Sermon. God Sends.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Sermon. God Sends.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Sermon. God Sends.md"
               }
             }
           },
@@ -189,35 +189,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "49135cb45e4337c4",
+  "active": "84e0fb6013743dbb",
   "lastOpenFiles": [
-    "Haskell. Hackett.md",
-    "Math. Abstract Algebra.md",
-    "Sermon. New Religion.md",
-    "Schedule. July 28 - Aug 3, 2013.md",
-    "Sermon. John Chapter 10.md",
-    "Sermon. Our Sins on the Cross.md",
-    "Schedule. 2023-May21-May27.md",
-    "2023 Month Schedules/May.md",
-    "Schedule. 2023-May14-May20.md",
-    "Home.md",
-    "Ideas. Modal File Manager.md",
-    "Ideas. EmailIt.md",
-    "BulletinBoard.md",
-    "ScriptBar.md",
-    "Kaban-Current Jobs.md",
-    "Personal. Doctor Information.md",
-    "index.md",
-    "Bible Teaching. Trail of Blood.md",
-    "Family. Everyone's Email.md",
-    "Sermon. A Personal Savior.md",
-    "Personal. Notes.md",
-    "Personal. Edward Jones.md",
-    "Personal. Bible Memorization Verses.md",
-    "Personal. CapitalOneBank.md",
-    "Personal. Bangkok Bank.md",
-    "Envato. Problems.md",
-    "Sermon. Freedom In Truth.txt",
-    "notes"
+    "Sermon. The Most Important Things.md",
+    "Schedule. 2018-Feb25-Mar03.md",
+    "Sermon. When God is Angry At Prayer.md",
+    "Schedule. 2023-Aug06-Aug12.md",
+    "2023 Month Schedules/August.md",
+    "Schedule. 2023-July09-July15.md",
+    "2023 Month Schedules/July.md",
+    "Schedule. 2023-July16-July22.md",
+    "Schedule. 2023-July23-July29.md",
+    "Sermon. Freedom of Liberty by Love.md",
+    "Sermon. Entangled.md",
+    "Sermon. Washing Family.md",
+    "Untitled.canvas",
+    "Sermon. God is Known.md",
+    "Schedule. 2018-Feb18-Feb24.md",
+    "Schedule. Sept 29 - Oct 5, 2013.md",
+    "Schedule. 2018-Feb04-Feb10.md",
+    "Schedule. 2017-Jul16-Jul22.md",
+    "Schedule. 2016-Sep04-Sep10.md",
+    "Schedule. 2016-Aug28-Sep03.md",
+    "Sermon. Search The Scriptures.md",
+    "Notes. Vim.md",
+    "Sermon. What are we Her For.md",
+    "Sermon. What Seest Thou.md",
+    "Sermon. Virgin Birth.md",
+    "Sermon. Righteous Cedar.md",
+    "Sermon. Promises.md",
+    "daily",
+    "notes",
+    "Sermon. Freedom In Truth.txt"
   ]
 }

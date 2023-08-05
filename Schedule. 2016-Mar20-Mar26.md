@@ -3,7 +3,7 @@
 | | |
 | --:|:-- |
 | **Sunday School:**  |	2 Timothy 2:14-
-| **Sunday Morning:** |	Hebrews 11:10 - Looking for the City
+| **Sunday Morning:** |	Hebrews 11:8-10 - Looking for a City
 | **Welfare School:** |	Summer Break
 | **Sunday Night:**   | Hebrews 10:1-2 - No More Rememberance
 

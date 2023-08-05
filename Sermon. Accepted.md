@@ -1,6 +1,4 @@
-Ephesians 1:3-6 "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ: According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will, To the praise of the glory of his grace, wherein he hath made us accepted in the beloved."
-
-เอเฟซัส 1:3-6 "จงถวายสรรเสริญแด่พระเจ้า พระบิดาแห่งพระเยซูคริสต์องค์พระผู้เป็นเจ้าของเรา ผู้ทรงโปรดประทานพระพรฝ่ายวิญญาณแก่เราทุกๆประการในสวรรคสถานโดยพระคริสต์ ในพระเยซูคริสต์นั้นพระองค์ได้ทรงเลือกเราไว้ ตั้งแต่ก่อนที่จะทรงเริ่มสร้างโลก เพื่อเราจะบริสุทธิ์และปราศจากตำหนิต่อพระพักตร์ของพระองค์ด้วยความรัก พระองค์ทรงกำหนดเราไว้ก่อนตามที่ชอบพระทัยพระองค์ให้เป็นบุตรโดยพระเยซูคริสต์ เพื่อจะให้เป็นที่สรรเสริญสง่าราศีแห่งพระคุณของพระองค์ ซึ่งโดยพระคุณนั้นพระองค์ทรงบันดาลให้เราเป็นที่ชอบพระทัย ในผู้ทรงเป็นที่รักของพระองค์"
+Ephesians 1:3-6 
 
 1. We are highly blessed
 	1. All spiritual blessings in the heavenly places in Christ
@@ -8,7 +6,8 @@ Ephesians 1:3-6 "Blessed be the God and Father of our Lord Jesus Christ, who hat
 			- Ephesians 2:6 "And hath raised us up together, and made us sit together in heavenly places in Christ Jesus:"
 			- เอเฟซัส 2:6 "และพระองค์ทรงให้เราเป็นขึ้นมากับพระองค์ และทรงโปรดให้เรานั่งในสวรรคสถานกับพระองค์ในพระเยซูคริสต์"
 		2. We have access to all of God's abilities
-			- 2 Peter 1:3-4
+		      - 2 Peter 1:3-4 'According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue: Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust."
+		      - 2 เปโตร 1:3-4 'ด้วยเห็นแล้วว่าฤทธิ์เดชอันศักดิ์สิทธิ์ของพระองค์ ได้ให้สิ่งสารพัดแก่เราที่จะให้มีชีวิตและทางที่เป็นอย่างพระเจ้า โดยรู้จักพระองค์ผู้ได้ทรงเรียกเราให้ถึงสง่าราศีและคุณธรรม ด้วยเหตุเหล่านี้พระองค์จึงได้ทรงประทานพระสัญญาอันประเสริฐและใหญ่ยิ่งแก่เรา เพื่อว่าด้วยพระสัญญาเหล่านี้ ท่านทั้งหลายจะพ้นจากความเสื่อมโทรมที่มีอยู่ในโลกนี้เพราะตัณหา และจะได้รับส่วนในสภาพของพระองค์'
 	2. Chosen us in Him
 		1. Before making the world
 			1. God knew we would rebel against His control in our lives
@@ -28,11 +27,15 @@ Ephesians 1:3-6 "Blessed be the God and Father of our Lord Jesus Christ, who hat
 	6. Child of God
 		- John 1:12 "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name:"
 		- ยอห์น 1:12 "แต่ส่วนบรรดาผู้ที่ต้อนรับพระองค์ พระองค์ทรงประทานอำนาจให้เป็นบุตรของพระเจ้า คือคนทั้งหลายที่เชื่อในพระนามของพระองค์"
-	8. Accepted
+	7. Accepted
+		1. There is nothing we can do for God to accept us 
+		2. He did everything for us
 2. All because of Jesus taking the punishment for us
+	- 2 Corinthians 5:21: 'For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him.'
+	- 2 โคริน 5:21 'เพราะว่าพระเจ้าได้ทรงกระทำพระองค์ผู้ทรงไม่มีบาป ให้เป็นความบาปเพราะเห็นแก่เรา เพื่อเราจะได้เป็นคนชอบธรรมของพระเจ้าทางพระองค์'
 3. By keeping this in our minds
 	1. We can live for Him
 	2. We can Walk with Him
 4. When we forget these truths
 	1. Satan will distract us away from God
-	2. The D's will set in: depression, despair, disillusionment
+	2. The D's will set in: depression, despair, discouragement

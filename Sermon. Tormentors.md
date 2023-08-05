@@ -12,15 +12,15 @@ Matthew 18:21-35
       3. The Lord forgives all the debt
          1. Never to bring each individual sin up again
    3. A Indebted Servant
-      1. This person owes the Unforgiving servent very little
-      2. He cries out for mercy just like the other servent
+      1. This person owes the Unforgiving servant very little
+      2. He cries out for mercy just like the other servant
       3. But, he doesn't receive the mercy
 2. Judgment
    1. The Lord judges the Unforgiving servant
       1. being given to tormentors
       2. it isn't hell, it is torments of this life
          1. illnesses
-         2. finacial difficulties
+         2. financial difficulties
          3. loss of mental health
          4. etc.
       3. It is a torment for that person and is different for everyone

@@ -9,5 +9,6 @@
 ### This Week:
 ยอห์น 10:4 "เมื่อท่านต้อนแกะของท่านออกไปแล้วก็เดินนำหน้า และแกะก็ตามท่านไปเพราะรู้จักเสียงของท่าน"
 ### Wednesday Service:
-
+[[Sermon. Our Responsibility]]
 ### Wednesday Burmese Service:
+[[Sermon. Our Responsibility]]

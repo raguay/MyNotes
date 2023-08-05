@@ -1,3 +1,0 @@
-- alias isn't making the alias correctly
-- alias needs a delete function
-- runscript is adding the path to a string to process.

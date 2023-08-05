@@ -8,7 +8,7 @@ Leviticus 5:1: 'And if a soul sin, and hear the voice of swearing, and is a witn
 	1. We are responsible for what we see, hear, touch, and do!
 		1. We are constantly gathering information with our senses.
 		2. Some think that we can just record it and not have any other responsibility
-	2. God will disipline according to what we do with the information
+	2. God will discipline according to what we do with the information
 		1. We are responsible with what we do with what we know.
 		2. If we withhold information from others that should know, we are guilty of their crime.
 2. Examples

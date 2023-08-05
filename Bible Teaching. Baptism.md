@@ -16,11 +16,17 @@
             2. wait for a certain number of people ready
             3. Favorable conditions
                 1. Warm enough
+            4. Wait to see commitment to God 
+                1. Faithful church attendance
+                2. Faithfully reading God's Word
+                3. Display a desire to walk with Christ 
+                4. Seeing a willingness to be Christ's servant 
     2. A command
-        Matthew 28:19 "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:"
-        มัทธิว 28:19 "เหตุฉะนั้น ท่านทั้งหลายจงออกไปสั่งสอนชนทุกชาติ ให้รับบัพติศมาในพระนามแห่งพระบิดา พระบุตร และพระวิญญาณบริสุทธิ์"
+        Matthew 28:19-20 "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
+        มัทธิว 28:19-20  "เหตุฉะนั้น ท่านทั้งหลายจงออกไปสั่งสอนชนทุกชาติ ให้รับบัพติศมาในพระนามแห่งพระบิดา พระบุตร และพระวิญญาณบริสุทธิ์ สอนเขาให้ถือรักษาสิ่งสารพัดซึ่งเราได้สั่งพวกท่านไว้ ดูเถิด เราจะอยู่กับท่านทั้งหลายเสมอไป จนกว่าจะสิ้นโลก เอเมน"
         1. A person that refuses to be baptised is disobedient
         2. A sign that they do not truly believe
+            1. Especially during times of persecution
     3. A picture
         Romans 6:4 "Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."
         โรม 6:4 "เหตุฉะนั้นเราจึงถูกฝังไว้กับพระองค์แล้วโดยการรับบัพติศมาเข้าส่วนในความตายนั้น เหมือนกับที่พระคริสต์ได้ทรงถูกชุบให้เป็นขึ้นมาจากความตาย โดยเดชพระรัศมีของพระบิดาอย่างไร เราก็จะได้ดำเนินตามชีวิตใหม่ด้วยอย่างนั้น"

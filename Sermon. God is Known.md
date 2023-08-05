@@ -1,6 +1,4 @@
-
 Psalms 76:1 "In Judah is God known: his name is great in Israel."
-
 สดุดี 76:1 "ในยูดาห์เขารู้จักพระเจ้า ในอิสราเอลพระนามของพระองค์ใหญ่ยิ่ง"
 
 1. God is known in Judah
@@ -12,8 +10,8 @@ Psalms 76:1 "In Judah is God known: his name is great in Israel."
         4. Every country in the world knew that Judah knows the one true God!
     3. But, it wasn't everyone in Judah
         1. Just a few really followed after God
-        2. Calib, David, Solomon (off and on), Jehosaphat, Josiah
-        3. Then after Israel's destructon, Daniel, Jesus - who is God
+        2. Calib, David, Solomon (off and on), Jehosaphat, Josiah, etc.
+        3. Then after Israel's destructon, Daniel, Ezekiel, etc.
 2. All Jews are blessed by Judah
     1. The other tribes became known as bearing God's name
     2. God is showing that the whole country was blessed because Judah really followed God.
@@ -24,7 +22,7 @@ Psalms 76:1 "In Judah is God known: his name is great in Israel."
 3. In comparison, if Tak was Judah
     1. Because of a few people really following God
     2. The whole area would be known to know God
-        1. Wether they followed God or not
+        1. Whether they followed God or not
         2. Just a few completely following after God will make a difference
     3. God's blessing would be on the entire nation
         1. Because many would follow the strong examples
