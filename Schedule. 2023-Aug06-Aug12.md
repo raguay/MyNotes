@@ -1,11 +1,11 @@
 ### Sunday Services:
 
-|                       |                             |
-| --------------------: | :-------------------------- |
-|    **Sunday School:** | [[Sermon. John Chapter 13]] |
-|   **Sunday Morning:** |                             |
-| **Sunday at School:** | students gone home          |
-|     **Sunday Night:** |                             |
+|                       |                                       |
+| --------------------: | :------------------------------------ |
+|    **Sunday School:** | [[Sermon. John Chapter 13]]           |
+|   **Sunday Morning:** | [[Sermon. The Most Important Things]] |
+| **Sunday at School:** | students gone home                    |
+|     **Sunday Night:** | [[Sermon. God Sends]]                 |
 
 ### Last Week:
 
@@ -13,9 +13,11 @@
 
 ### This Week:
 
+ยอห์น 13:35 "ถ้าเจ้าทั้งหลายรักกันและกัน ดังนี้แหละคนทั้งปวง ก็จะรู้ได้ว่าเจ้าทั้งหลายเป็นสาวกของเรา”
+
 ### Wednesday Service:
 
-### Wednesday Burmese Service:
+[[Sermon. Call Me]]
 
 ### Saturday English:
 

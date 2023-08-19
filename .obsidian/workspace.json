@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f278ac2771c0ad76",
+        "id": "157e346305f76bbd",
         "type": "tabs",
         "children": [
           {
-            "id": "84e0fb6013743dbb",
+            "id": "ac98254b877e7716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sermon. God Sends.md",
+                "file": "Sermon. What Seest Thou.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Colossians 3:14-17",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sermon. God Sends.md",
+                "file": "Sermon. What Seest Thou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sermon. God Sends.md",
+                "file": "Sermon. What Seest Thou.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sermon. God Sends.md"
+                "file": "Sermon. What Seest Thou.md"
               }
             }
           },
@@ -189,35 +189,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "84e0fb6013743dbb",
+  "active": "ac98254b877e7716",
   "lastOpenFiles": [
-    "Sermon. The Most Important Things.md",
-    "Schedule. 2018-Feb25-Mar03.md",
-    "Sermon. When God is Angry At Prayer.md",
-    "Schedule. 2023-Aug06-Aug12.md",
-    "2023 Month Schedules/August.md",
-    "Schedule. 2023-July09-July15.md",
-    "2023 Month Schedules/July.md",
-    "Schedule. 2023-July16-July22.md",
-    "Schedule. 2023-July23-July29.md",
-    "Sermon. Freedom of Liberty by Love.md",
-    "Sermon. Entangled.md",
-    "Sermon. Washing Family.md",
-    "Untitled.canvas",
-    "Sermon. God is Known.md",
-    "Schedule. 2018-Feb18-Feb24.md",
-    "Schedule. Sept 29 - Oct 5, 2013.md",
-    "Schedule. 2018-Feb04-Feb10.md",
-    "Schedule. 2017-Jul16-Jul22.md",
-    "Schedule. 2016-Sep04-Sep10.md",
-    "Schedule. 2016-Aug28-Sep03.md",
-    "Sermon. Search The Scriptures.md",
-    "Notes. Vim.md",
     "Sermon. What are we Her For.md",
     "Sermon. What Seest Thou.md",
+    "Sermon. Voice is Heard.md",
     "Sermon. Virgin Birth.md",
     "Sermon. Righteous Cedar.md",
     "Sermon. Promises.md",
+    "Sermon. No Condemnation.md",
+    "Schedule. 2019-Jan06-Jan12.md",
+    "Schedule. 2017-Jun11-Jun17.md",
+    "Schedule. 2023-Aug13-Aug19.md",
+    "2023 Month Schedules/August.md",
+    "Schedule. 2017-May14-May20.md",
+    "Sermon. John Chapter 14.md",
+    "Schedule. 2014-Mar30-Apr05.md",
+    "Schedule. 2014-May04-May10.md",
+    "Schedule. 2014-Mar23-Mar29.md",
+    "Schedule. June 30 - July 6, 2013.md",
+    "Schedule. 2022-Feb27-Mar05.md",
+    "Sermon. Filled With God.md",
+    "Sermon. From Vileness to Holiness.md",
+    "Schedule. 2018-Feb18-Feb24.md",
+    "Sermon. Greatest.md",
+    "Sermon. Moses Mother.md",
+    "Sermon. God's Love.md",
+    "Sermon. Call Me.md",
+    "Schedule. 2016-Jul24-Jul30.md",
+    "Untitled.canvas",
     "daily",
     "notes",
     "Sermon. Freedom In Truth.txt"
