@@ -8,10 +8,6 @@ Proverbs 23:21 "For the drunkard and the glutton shall come to poverty: and drow
 
 Proverb 23:29-35 - Describes drunkeness effect and causing to sin
 
-Psalms 14:1 "The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good."
-
-สดุดี 14:1 "คนโง่รำพึงในใจของตนว่า "ไม่มีพระเจ้า" เขาทั้งหลายก็เลวทรามลง เขากระทำกิจการที่น่าสะอิดสะเอียน ไม่มีสักคนเดียวที่ทำดี"
-
 Romans 14:21 "It is good neither to eat flesh, nor to drink wine, nor any thing whereby thy brother stumbleth, or is offended, or is made weak."
 
 โรม 14:21 "เป็นการดีที่จะไม่กินเนื้อสัตว์หรือดื่มน้ำองุ่นหรือทำสิ่งใดๆที่เป็นเหตุให้พี่น้องสะดุด หรือสะดุดใจหรือทำให้อ่อนกำลัง"

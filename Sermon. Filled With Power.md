@@ -8,8 +8,8 @@ Micah 3:8 "But truly I am full of power by the spirit of the LORD, and of judgme
 2. "full of power"
     1. The Holy Spirit was empowering Micah for the task
     2. He is to tell Israel their sins even though they didn't want to hear it
-    3. Because of their sins, God was going to destroy them!
-    4. It was taking God's power in Micah's life to do his job
+        1. Because of their sins, God was going to destroy them!
+    3. It was taking God's power in Micah's life to do his job
 3. The same power that Jesus foretold his disciples would have
     - Luke 24:49 "And, behold, I send the promise of my Father upon you: but tarry ye in the city of Jerusalem, until ye be endued with power from on high."
     - ลูกา 24:49 "และดูเถิด เราจะส่งซึ่งพระบิดาของเราทรงสัญญานั้นมาเหนือท่านทั้งหลาย แต่ท่านทั้งหลายจงคอยอยู่ในกรุงเยรูซาเล็ม กว่าท่านจะได้ประกอบด้วยฤทธิ์เดชที่มาจากเบื้องบน""
@@ -23,7 +23,7 @@ Micah 3:8 "But truly I am full of power by the spirit of the LORD, and of judgme
     - กิจการ 2:4 "เขาเหล่านั้นก็ประกอบด้วยพระวิญญาณบริสุทธิ์จึงตั้งต้นพูดภาษาต่างๆตามที่พระวิญญาณทรงโปรดให้พูด"
     - Acts 2:6 "Now when this was noised abroad, the multitude came together, and were confounded, because that every man heard them speak in his own language."
     - กิจการ 2:6 "เมื่อมีเสียงอย่างนั้น เขาจึงพากันมาและสับสนเพราะต่างคนต่างได้ยินเขาพูดภาษาของตนเอง"
-        1. They didn't start 
+        1. They didn't start
             1. healing people
             2. Perform various miracles
         2. They started witnessing about Jesus
@@ -36,7 +36,7 @@ Micah 3:8 "But truly I am full of power by the spirit of the LORD, and of judgme
             2. They would face problems and dangers in speaking the Gospel message
                 1. All of the apostles died a horrible death
                     1. Except for John
-                    2. But, John faced lots of issues: 
+                    2. But, John faced lots of issues:
                         1. Romans tried to boil him in oil
                         2. Many years in prison all alone
             3. But, they all continued by God's power in their lives

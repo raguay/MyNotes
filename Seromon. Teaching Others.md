@@ -8,7 +8,10 @@ Matthew 28:20 "Teaching them to observe all things whatsoever I have commanded y
 มัทธิว 28:20 "สอนเขาให้ถือรักษาสิ่งสารพัดซึ่งเราได้สั่งพวกท่านไว้ ดูเถิด เราจะอยู่กับท่านทั้งหลายเสมอไป จนกว่าจะสิ้นโลก เอเมน""
 
 1. All christians are to teach others
-    1. What they learn in church
-    2. to church members that could not come
-    3. to others around them
-    4. We should always be looking for that opportunity to teach.
+  1. What they learn in church
+  2. to church members that could not come
+  3. to others around them
+  4. We should always be looking for that opportunity to teach.
+2. We teach by
+  1. How we live our lives
+  2. How we talk to others

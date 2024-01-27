@@ -1,5 +1,5 @@
-Romans 6:1-2 "What shall we say then? Shall we continue in sin, that grace may abound? God forbid. How shall we, that are dead to sin, live any longer therein?"
-โรม 6:1-2 "การตายฝ่ายความบาป แต่มีชีวิตฝ่ายพระคริสต์ถ้าเช่นนั้นแล้วเราจะว่าอย่างไร ควรเราจะอยู่ในบาปต่อไปเพื่อให้พระคุณมีมากยิ่งขึ้นหรือ ขอพระเจ้าอย่ายอมให้เป็นเช่นนั้นเลย พวกเราที่ตายต่อบาปแล้ว จะมีชีวิตในบาปต่อไปอย่างไรได้"
+Romans 5:20-21;6:1-2 "Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound: That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord. What shall we say then? Shall we continue in sin, that grace may abound? God forbid. How shall we, that are dead to sin, live any longer therein?"
+โรม 5:20-21;6:1-2 "เมื่อมีพระราชบัญญัติก็ทำให้มีการละเมิดพระราชบัญญัติปรากฏมากขึ้น แต่ที่ใดมีบาปปรากฏมากขึ้น ที่นั่นพระคุณก็จะไพบูลย์ยิ่งขึ้น เพื่อว่าบาปได้ครอบงำทำให้ถึงซึ่งความตายฉันใด พระคุณก็ครอบงำด้วยความชอบธรรมให้ถึงซึ่งชีวิตนิรันดร์ โดยทางพระเยซูคริสต์องค์พระผู้เป็นเจ้าของเราฉันนั้น การตายฝ่ายความบาป แต่มีชีวิตฝ่ายพระคริสต์ถ้าเช่นนั้นแล้วเราจะว่าอย่างไร ควรเราจะอยู่ในบาปต่อไปเพื่อให้พระคุณมีมากยิ่งขึ้นหรือ ขอพระเจ้าอย่ายอมให้เป็นเช่นนั้นเลย พวกเราที่ตายต่อบาปแล้ว จะมีชีวิตในบาปต่อไปอย่างไรได้"
 
 1. Christians are saved by faith alone
     1. Accepting the facts of God and theirselves

@@ -19,11 +19,17 @@
     1. Are those that oppose themselves
         1. Instead of being Christ's servant, they are masters
         2. They do whatever they want without regard to God
-    2. They need to repent and trust in Christ
+        3. They just want to look like good Christians
+    2. They need to repent and follow Christ
         1. Because they aren't saved
-        2. They are using God to get out of Hell, but refusing God's rightful place in their lives
+            1. They are using God to get out of Hell, but refusing God's rightful place in their lives
+        2. Or, currently totally rebellous to God
+            1. God will chasten that person
+                - Hebrews 12:7 "If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not?"
+                - ฮีบรู 12:7 "ถ้าท่านทั้งหลายทนเอาการตีสอน พระเจ้าย่อมทรงปฏิบัติต่อท่านเหมือนท่านเป็นบุตร ด้วยว่ามีบุตรคนใดเล่าที่บิดาไม่ได้ตีสอนเขาบ้าง"
+            2. Those that aren't being chasten aren't God's children
     3. The devil can control them at any time!
-        1. Because, that is who they serve
+        1. Because, that is who they are serving
             - John 8:44 "Ye are of your father the devil, and the lusts of your father ye will do. He was a murderer from the beginning, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it."
             - ยอห์น 8:44 "ท่านทั้งหลายมาจากพ่อของท่านคือพญามาร และท่านใคร่จะทำตามความปรารถนาของพ่อท่าน มันเป็นฆาตกรตั้งแต่เดิมมา และมิได้ตั้งอยู่ในความจริง เพราะความจริงมิได้อยู่ในมัน เมื่อมันพูดมุสามันก็พูดตามสันดานของมันเอง เพราะมันเป็นผู้มุสา และเป็นพ่อของการมุสา"
 3. Who are you serving?

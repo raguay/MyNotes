@@ -1,5 +1,5 @@
 {
-  "folder": "Day Planners",
-  "template": "",
+  "folder": "daily",
+  "template": "Templater/Daily",
   "autorun": false
 }

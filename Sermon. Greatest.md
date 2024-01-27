@@ -1,15 +1,30 @@
-## Greatest
+Mark 9:33-37
 
-Mark 9:35-37 "And he sat down, and called the twelve, and saith unto them, If any man desire to be first, the same shall be last of all, and servant of all. And he took a child, and set him in the midst of them: and when he had taken him in his arms, he said unto them, Whosoever shall receive one of such children in my name, receiveth me: and whosoever shall receive me, receiveth not me, but him that sent me."
-
-มาระโก 9:35-37 "พระองค์ได้ประทับนั่ง แล้วทรงเรียกสาวกสิบสองคนนั้นมาตรัสแก่เขาว่า "ถ้าผู้ใดใคร่จะได้เป็นคนต้น ก็ให้ผู้นั้นเป็นคนท้ายสุด และเป็นผู้รับใช้ของคนทั้งปวง" พระองค์จึงทรงเอาเด็กเล็กๆคนหนึ่งมาให้ยืนท่ามกลางเหล่าสาวก แล้วทรงอุ้มเด็กนั้นไว้ ตรัสแก่เหล่าสาวกว่า "ถ้าผู้ใดจะรับเด็กเล็กๆเช่นนี้คนหนึ่งในนามของเรา ผู้นั้นก็รับเรา และผู้ใดได้รับเรา ผู้นั้นก็มิใช่รับเรา แต่รับพระองค์ผู้ทรงใช้เรามา""
-
-1. To be first
-	1. You must be last
-	2. Work as a servant, not a master
-	3. As a child, not promoting self
-2. The same as recieving Christ
-	1. Not by merit
-	2. But, as a child recieves from his parents
-		1. Likewise, we receive Jesus
-		2. Which allows us to receive God the father also
+1. The Disciples disputed
+    1. Who was the greatest among themselves
+    2. More of a pride parade than a discussion
+    3. Jesus knew what they were discussing
+        1. The disciples never told him
+        2. But, Jesus goes and explains who will be great
+2. To be first
+    1. You must be last
+        1. A realization that we don't deserve the honor of being first
+        2. Whatever we do for Jesus, is the least we should do
+            - Luke 17:7-10
+    2. Work as a servant, not a master
+        1. We serve others around us
+        2. Not masters or bosses, but a servant that is always looking to help others.
+        3. Because, we are God's servants
+            1. Jesus did boss people around
+            2. He served them and treated others with honor.
+    3. As a child, not promoting self
+        1. At the most, a child promotes the parents
+        2. Little children never promotes themselves
+3. The same as recieving Christ
+    1. Not by merit
+        1. It has nothing to do with what we do
+        2. Our best works are filthy in God's eyes
+    2. But, as a child recieves from his parents
+        1. Kids have no motive other than following their parents
+        2. Likewise, we receive Jesus by willing to follow Him
+        3. Which allows us to receive God the father also

@@ -31,7 +31,7 @@ Luke 16:10-13
             2. God empowered men and women because they were faithful
                 - Moses, Joshua, Hannah, Elijah, Peter, Paul, etc
         2. Greater understanding of God's Word
-        3. Wisdom for a peace life
+        3. Wisdom for a peaceful life
         4. God's blessings
 5. Faithful in another man's
     1. God gave us life, therefore, it's God's Life, not our life

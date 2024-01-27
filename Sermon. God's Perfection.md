@@ -6,6 +6,7 @@ Psalms 138:8 "The LORD will perfect that which concerneth me: thy mercy, O LORD,
     1. God's work in our lives
         - Philippians 2:13 "For it is God which worketh in you both to will and to do of his good pleasure."
         - ฟีลิปปี 2:13 "เพราะว่าพระเจ้าเป็นผู้ทรงกระทำกิจอยู่ภายในท่าน ทั้งให้ท่านมีใจปรารถนาและให้ประพฤติตามชอบพระทัยของพระองค์"
+            1. God works inside of us to want to change and to do the changing.
     2. God will make us perfect image of Him
         - Romans 8:29 "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren."
         - โรม 8:29 "เพราะว่าผู้หนึ่งผู้ใดที่พระองค์ได้ทรงทราบอยู่แล้ว ผู้นั้นพระองค์ได้ทรงตั้งไว้ให้เป็นตามลักษณะพระฉายแห่งพระบุตรของพระองค์ เพื่อพระบุตรนั้นจะได้เป็นบุตรหัวปีท่ามกลางพวกพี่น้องเป็นอันมาก"
@@ -27,3 +28,5 @@ Psalms 138:8 "The LORD will perfect that which concerneth me: thy mercy, O LORD,
         2. Disregarding His word keeps us from drawing close to Him
             1. And therefore, we don't change much
         3. More we are changed after His image, the more we love Him
+            1. If we aren't changing, we really don't have much love for God!
+            2. Therefore, we could still be lost since our love for God helps us to know we are in Him!
