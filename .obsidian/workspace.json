@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "056e3dc95f6a5d17",
+        "id": "15e00d3db726bce2",
         "type": "tabs",
         "children": [
           {
-            "id": "c71c221c9abe4d55",
+            "id": "06ba8d76eb295dfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Personal. Bible Memorization Verses.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"James 1:3-4\"",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Personal. Bible Memorization Verses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Personal. Bible Memorization Verses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Personal. Bible Memorization Verses.md"
               }
             }
           },
@@ -201,34 +201,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "28e09517d9286d20",
+  "active": "06ba8d76eb295dfc",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Home.md",
-    "Sermon. Your Choice.md",
-    "Courageous Covenant.md",
-    "Bible People. Joshua.md",
-    "Schedule. 2018-Mar11-Mar17.md",
-    "Schedule. July 28 - Aug 3, 2013.md",
-    "Sermon. Eternal High Priest.md",
-    "Sermon. God's Perfection.md",
-    "Schedule. 2017-Jan29-Feb04.md",
-    "Schedule. 2020-Aug02-Aug08.md",
-    "Schedule. 2018-Mar04-Mar10.md",
+    "daily/2024/01-08.md",
+    "Inbox/ScratchPad.md",
+    "2024 Month Schedules/February.md",
+    "Sermon. Let Problesm Perfect You.md",
+    "Schedule. 2024-Feb18-Feb24.md",
     "Sermon. Let Problems Perfect You.md",
-    "Bible Teaching. Tongues.md",
-    "Sermon. Father of Rain.md",
-    "Sermon. Difficult Bible Verses.md",
+    "Schedule. 2018-Mar04-Mar10.md",
+    "Schedule. 2024-Feb11-Feb17.md",
+    "Schedule. 2024-Feb04-Feb10.md",
+    "2024 Month Schedules/January.md",
+    "2023 Month Schedules/January.md",
+    "Sermon. Not Seen God.md",
+    "Sermon. The Ten Virgins.md",
+    "Schedule. 2014-Jul13-Jul19.md",
+    "Schedule. 2015-Aug09-Aug15.md",
+    "Schedule. 2016-Aug07-Aug13.md",
+    "Schedule. 2016-Nov13-Nov19.md",
     "Sermon. Distractions.md",
-    "Sermon. Idle Words.md",
-    "Sermon. Pillars.md",
-    "Sermon. Day of Worship.md",
-    "Sermon. Witnessing - Mechanics.md",
-    "Sermon. Greatest Gift.md",
-    "Personal. Bible Memorization Verses.md",
-    "Sermon. Women At the Well.md",
-    "Sermon. First Love.md",
-    "Sermon. Be Perfect.md",
+    "Sermon. Christian Duty - Prayer.md",
+    "Sermon. Pray without Ceasing.md",
+    "Sermon. 1 John.md",
+    "Sermon. Charity and Prophecy.md",
+    "Sermon. God Loves Everyone.md",
+    "Sermon. What is Faith.md",
+    "Schedule. 2018-Mar11-Mar17.md",
+    "Schedule. June 23 - June 29, 2013.md",
+    "Untitled.canvas",
     "Templater/Daily",
     "2024 Month Schedules",
     "trash/2",

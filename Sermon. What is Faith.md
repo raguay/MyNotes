@@ -1,4 +1,3 @@
-
 Romans 14:23 "...for whatsoever is not of faith is sin."
 
 โรม 14:23 "...ทั้งนี้เพราะการกระทำใดๆก็ตามที่มิได้กระทำด้วยความเชื่อก็เป็นบาปทั้งสิ้น"
@@ -9,19 +8,19 @@ Romans 14:23 "...for whatsoever is not of faith is sin."
         2. These things aren't faith
     2. It is a decision to believe truth revealed by God about things we can't see
         - Hebrews 11:1 "Now faith is the substance of things hoped for, the evidence of things not seen."
-        - ฮีบรู 11:1 "ความเชื่อได้แสดงออกโดยบุคคลแห่งความเชื่อบัดนี้ความเชื่อคือความแน่ใจในสิ่งที่เราหวังไว้ เป็นหลักฐานมั่นใจว่า สิ่งที่ยังไม่ได้เห็นนั้นมีจริง"
-        1. Heaven is real
-        2. Hell is real
-        3. We've already done enough for Hell
-        4. Only by faith can we obtain heaven
-            1. Through the shed blood of Christ.
-            2. Accepting Him as the one and only God!
+        - ฮีบรู 11:1 "บัดนี้ความเชื่อคือความแน่ใจในสิ่งที่เราหวังไว้ เป็นหลักฐานมั่นใจว่า สิ่งที่ยังไม่ได้เห็นนั้นมีจริง"
+            1. Heaven is real
+            2. Hell is real
+            3. We've already done enough for Hell
+            4. Only by faith can we obtain heaven
+                1. Through the shed blood of Christ.
+                2. Accepting Him as the one and only God!
     3. It is centered on God, Jesus Christ
         - 1 Peter 1:21 "Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God."
         - 1เปโตร 1:21 "เพราะพระคริสต์ท่านจึงเชื่อในพระเจ้า ผู้ทรงบันดาลพระคริสต์ให้ฟื้นจากความตาย และทรงประทานสง่าราศีแก่พระองค์ เพื่อให้ความเชื่อและความหวังใจของท่านดำรงอยู่ในพระเจ้า"
-        1. Faith in self is works, not faith
-            1. Is actually sin!
-        2. Faith in what God has done is true faith
+            1. Faith in self is works, not faith
+                1. Is actually sin!
+            2. Faith in what God has done is true faith
 2. Everything else is sin
     1. Anything done or thought about without God is Sin!!
         1. All of man's works are based in faith in self

@@ -28,11 +28,11 @@ Joshua 24:15 "And if it seem evil unto you to serve the LORD, choose you this da
 3. The one true God, Jesus Christ
     1. He is a jealous God
         - Deuteronomy 4:24 "For the LORD thy God is a consuming fire, even a jealous God."
-        - เฉลยธรรมบัญญัติ 4:24 "เพราะว่าพระเยโฮวาห์พระเจ้าของท่านเป็นเพลิงที่เผาผลาญ เป็นพระเจ้าผู้ทรงหวงแหน"
+        - พระราชบัญญัติ 4:24 "เพราะว่าพระเยโฮวาห์พระเจ้าของท่านเป็นเพลิงที่เผาผลาญ เป็นพระเจ้าผู้ทรงหวงแหน"
             1. He doesn't want to share you with anyone, even yourself
     2. Sharing your life with another "god" isn't loving God
         - Deuteronomy 6:5 "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might."
-        - เฉลยธรรมบัญญัติ 6:5 "พวกท่านจงรักพระเยโฮวาห์ผู้เป็นพระเจ้าของท่าน ด้วยสุดจิตสุดใจของท่าน และด้วยสิ้นสุดกำลังของท่าน"
+        - พระราชบัญญัติ 6:5 "พวกท่านจงรักพระเยโฮวาห์ผู้เป็นพระเจ้าของท่าน ด้วยสุดจิตสุดใจของท่าน และด้วยสิ้นสุดกำลังของท่าน"
             1. To love God, we have to place Him first in our lives
                 1. Allowing Him to directs our steps
                     - Proverbs 16:9 'A man's heart deviseth his way: but the LORD directeth his steps.'

@@ -1,11 +1,9 @@
-### SuSchedule. 2024-Jan21-Jan27.mdnday Services:
-
-|                     |                              |
-| ------------------: | :--------------------------- |
-|  **Sunday School:** | [[Sermon. 2 John]]           |
-| **Sunday Morning:** | [[Sermon. God's Perfection]] |
-| **School Service:** | Guarden, Curtain, and Cross  |
-| **Sunday Evening:** | [[Sermon. Your Choice]]      |
+|                     |                               |
+| ------------------: | :---------------------------- |
+|  **Sunday School:** | [[Sermon. 2 John]]            |
+| **Sunday Morning:** | [[Sermon. God's Perfection]]  |
+| **School Service:** | Joshua 1:8 - Study Your Bible |
+| **Sunday Evening:** | [[Sermon. Your Choice]]       |
 
 ### Last Week:
 
@@ -17,6 +15,13 @@
 
 ### Wednesday Service:
 
+[[Sermon. No One Lives to Self]]
+
+### Wednesday Teaching at School
+
+SBS: pg 59
+Bible: Why study the Bible?
+
 ### Saturday English
 
-Bible:
+Bible: Guarden, Curtain, and Cross - Part 1
