@@ -1,21 +1,30 @@
-# Various Notes
+# Todo
 
-Psalms 106 - god’s discipline
-Isaiah 30:1 - not taking counsel from God
-Isaiah 33:15-16 - Those who God works
-Jeremiah 24 - good and bad figs
+# Verses of Interest
 
-# God loves us
+Ezekiel 24:13 KJV
+In thy filthiness is lewdness: because I have purged thee, and thou wast not purged, thou shalt not be purged from thy filthiness any more, till I have caused my fury to rest upon thee.
 
-Ephesians 5:1-2
-2 Corinthians 5:21
-1 Corinthians 3:4-13
-1 Corinthians 14:1
+Micah 7:8 KJV
+Rejoice not against me, O mine enemy: when I fall, I shall arise; when I sit in darkness, the LORD shall be a light unto me.
+
+Psalms 12:4 - who shall be Lord over us
+
+Luke 6:46 KJV
+And why call ye me, Lord, Lord, and do not the things which I say?
+
+Luke 7:1-10 KJV
+Now when he had ended all his sayings in the audience of the people, he entered into Capernaum. [2] And a certain centurion's servant, who was dear unto him, was sick, and ready to die. [3] And when he heard of Jesus, he sent unto him the elders of the Jews, beseeching him that he would come and heal his servant. [4] And when they came to Jesus, they besought him instantly, saying, That he was worthy for whom he should do this: [5] For he loveth our nation, and he hath built us a synagogue. [6] Then Jesus went with them. And when he was now not far from the house, the centurion sent friends to him, saying unto him, Lord, trouble not thyself: for I am not worthy that thou shouldest enter under my roof: [7] Wherefore neither thought I myself worthy to come unto thee: but say in a word, and my servant shall be healed. [8] For I also am a man set under authority, having under me soldiers, and I say unto one, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it. [9] When Jesus heard these things, he marvelled at him, and turned him about, and said unto the people that followed him, I say unto you, I have not found so great faith, no, not in Israel. [10] And they that were sent, returning to the house, found the servant whole that had been sick.
+
+Ephesians 4:20-24 KJV
+But ye have not so learned Christ; [21] If so be that ye have heard him, and have been taught by him, as the truth is in Jesus: [22] That ye put off concerning the former conversation the old man, which is corrupt according to the deceitful lusts; [23] And be renewed in the spirit of your mind; [24] And that ye put on the new man, which after God is created in righteousness and true holiness.
+## Sites
+
+https://callosum.dev/
 
 # Notes
 
--   No taxes for house and church.
--   Check out sleek on GitHub
+- No taxes for house and church.
 
 # Prayer
 
@@ -39,7 +48,7 @@ colchicine - 1 morning
 
 aspiran 80 mg - 1 morning
 
-Febuxostat 80 mg - 1 morning
+allopurinal 500 mg - 1 morning
 
 Vislube eye drops - 4 times/day each eye
 

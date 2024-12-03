@@ -3,7 +3,7 @@
   "foldHeading": true,
   "foldIndent": true,
   "defaultViewMode": "source",
-  "useTab": true,
+  "useTab": false,
   "tabSize": 2,
   "vimMode": true,
   "promptDelete": false,
@@ -42,5 +42,9 @@
   "fileSortOrder": "byModifiedTimeReverse",
   "legacyEditor": false,
   "communityPluginSortOrder": "alphabetical",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "smartIndentList": false,
+  "livePreview": false,
+  "trashOption": "none",
+  "newFileLocation": "current"
 }

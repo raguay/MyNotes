@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "9bc2112644db2e7c",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "15e00d3db726bce2",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "06ba8d76eb295dfc",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal. Bible Memorization Verses.md",
+                "file": "Home.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTimeReverse"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"James 1:3-4\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
+                "extraContext": true,
+                "sortOrder": "byModifiedTimeReverse"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -70,7 +78,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal. Bible Memorization Verses.md",
+                "file": "Sermon. I Know Who.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +111,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sermon. I Know Who"
             }
           },
           {
@@ -112,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -120,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -129,10 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal. Bible Memorization Verses.md",
+                "file": "Sermon. I Know Who.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sermon. I Know Who"
             }
           },
           {
@@ -141,8 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal. Bible Memorization Verses.md"
-              }
+                "file": "Sermon. I Know Who.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sermon. I Know Who"
             }
           },
           {
@@ -150,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo"
             }
           },
           {
@@ -162,7 +184,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -170,23 +194,35 @@
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "37893b8ad8f998c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Sermon. Give One Heart.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Sermon. Give One Heart"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-advanced-slides:Show Slide Preview": false,
       "completed-area:Completed Area": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
-      "workbench-obsidian:Workbench": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -195,40 +231,49 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "homepage:Open homepage": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templates:Insert template": false,
       "templater-obsidian:Templater": false,
+      "workbench-obsidian:Workbench": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "06ba8d76eb295dfc",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "daily/2024/01-08.md",
-    "Inbox/ScratchPad.md",
-    "2024 Month Schedules/February.md",
-    "Sermon. Let Problesm Perfect You.md",
-    "Schedule. 2024-Feb18-Feb24.md",
-    "Sermon. Let Problems Perfect You.md",
-    "Schedule. 2018-Mar04-Mar10.md",
-    "Schedule. 2024-Feb11-Feb17.md",
-    "Schedule. 2024-Feb04-Feb10.md",
-    "2024 Month Schedules/January.md",
-    "2023 Month Schedules/January.md",
-    "Sermon. Not Seen God.md",
-    "Sermon. The Ten Virgins.md",
-    "Schedule. 2014-Jul13-Jul19.md",
-    "Schedule. 2015-Aug09-Aug15.md",
-    "Schedule. 2016-Aug07-Aug13.md",
-    "Schedule. 2016-Nov13-Nov19.md",
-    "Sermon. Distractions.md",
-    "Sermon. Christian Duty - Prayer.md",
-    "Sermon. Pray without Ceasing.md",
-    "Sermon. 1 John.md",
-    "Sermon. Charity and Prophecy.md",
-    "Sermon. God Loves Everyone.md",
-    "Sermon. What is Faith.md",
-    "Schedule. 2018-Mar11-Mar17.md",
-    "Schedule. June 23 - June 29, 2013.md",
+    "Sermon. Lost Communications.md",
+    "Sermon. Freedom of Liberty by Love.md",
+    "Sermon. Deciples Are To Love.md",
+    "Sermon. Who Do You Say I Am.md",
+    "Sermon. Reproof.md",
+    "2024 Month Schedules/November.md",
+    "Sermon. Father is King in Home.md",
+    "Schedule. 2024-Dec01-Dec07.md",
+    "Home.md",
+    "2024 Month Schedules/October.md",
+    "2024 Month Schedules/December.md",
+    "Sermon. By Faith.md",
+    "Sermon. WalkOfFaith.md",
+    "Schedule. 2015-May17-May23.md",
+    "Sermon. Born By a Seed.md",
+    "2024 Month Schedules/September.md",
+    "Schedule. 2024-Sept08-Sept14.md",
+    "2024 Month Schedules/August.md",
+    "Schedule. 2024-Nov17-Nov23.md",
+    "Sermon. Give One Heart.md",
+    "Sermon. God is Pouring.md",
+    "Sermon. Conflict With Elymas.md",
+    "Sermon. Seeking Your Meat.md",
+    "Schedule. 2018-Oct 07-Oct 13.md",
+    "Schedule. 2024-Nov10-Nov16.md",
+    "Schedule. 2024-Nov03-Nov09.md",
+    "Snippets",
+    "FILES/Schedule. 2024-July07-July13.md/img-20240706171337.png",
+    "FILES",
+    "Pasted image 20240706171405.png",
     "Untitled.canvas",
     "Templater/Daily",
     "2024 Month Schedules",

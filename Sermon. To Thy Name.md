@@ -1,4 +1,3 @@
-
 Psalms 52:9 "I will praise thee for ever, because thou hast done it: and I will wait on thy name; for it is good before thy saints."
 สดุดี 52:9 "ข้าพระองค์จะสรรเสริญพระองค์เป็นนิตย์ เพราะพระองค์ได้ทรงกระทำเช่นนั้น ข้าพระองค์จะรอคอยพระนามของพระองค์ เพราะเป็นพระนามประเสริฐต่อหน้าวิสุทธิชนของพระองค์"
 
@@ -22,13 +21,17 @@ Isaiah 26:8 "Yea, in the way of thy judgments, O LORD, have we waited for thee; 
                 2. His love for God
                 3. His obedience
 3. Waiting and wanting His name 
-    1. Refers to us wanting to be like Him
-        - Philippians 2:13 "For it is God which worketh in you both to will and to do of his good pleasure."
-        - ฟีลิปปี 2:13 "เพราะว่าพระเจ้าเป็นผู้ทรงกระทำกิจอยู่ภายในท่าน ทั้งให้ท่านมีใจปรารถนาและให้ประพฤติตามชอบพระทัยของพระองค์"
-            1. Waiting on God to perform His image in us.
-                1. Only God can do this in us
-                2. We have to want God to perform His work in our lives.
-                    1. It should become our hearts desire
-                    2. We patiently wait upon God to perform His name in us
+    1. Refers to us wanting to be like Jesus
+        - Romans 8:29: 'For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren.'
+        - โรม 8:29 'เพราะว่าผู้หนึ่งผู้ใดที่พระองค์ได้ทรงทราบอยู่แล้ว ผู้นั้นพระองค์ได้ทรงตั้งไว้ให้เป็นตามลักษณะพระฉายแห่งพระบุตรของพระองค์ เพื่อพระบุตรนั้นจะได้เป็นบุตรหัวปีท่ามกลางพวกพี่น้องเป็นอันมาก'
+            1. God wants all Christians to be made into the image of Jesus
+            2. They Psalmst is waiting on God to perform this in his life
+                - Philippians 2:13 "For it is God which worketh in you both to will and to do of his good pleasure."
+                - ฟีลิปปี 2:13 "เพราะว่าพระเจ้าเป็นผู้ทรงกระทำกิจอยู่ภายในท่าน ทั้งให้ท่านมีใจปรารถนาและให้ประพฤติตามชอบพระทัยของพระองค์"
+                    1. Waiting on God to perform His image in us.
+                        1. Only God can do this in us
+                        2. We have to want God to perform His work in our lives.
+                            1. It should become our hearts desire
+                            2. We patiently wait upon God to perform His name in us
 4. Are you waiting upon His name?
     1. Every Christian should want to be more like God

@@ -27,4 +27,3 @@ Matthew 6:33 "But seek ye first the kingdom of God, and his righteousness; and a
       1. Self pleasures (ความสนุก)
       2. Self achievements (ความสำเร็จเอง)
       3. Status (สถานะ)
-      4. Recognition (การรับรู้)

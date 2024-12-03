@@ -1,7 +1,7 @@
 |                     |                                      |
 | ------------------: | :----------------------------------- |
 |  **Sunday School:** | [[Sermon. 1 John]] Chapter 2         |
-| **Sunday Morning:** | [[Sermon. Let Problesm Perfect You]] |
+| **Sunday Morning:** | [[Sermon. Let Problems Perfect You]] |
 | **School Service:** | [[Sermon. Being a Witness]]          |
 | **Sunday Evening:** | Naut Teaching                        |
 
@@ -15,11 +15,13 @@
 
 ### Wednesday Teaching at School
 
-SBS: pg 63-
-Bible: Guarden, Curtain, and Cross - Part 2
+SBS: pg 63-64
+Bible: Guarden, Curtain, and Cross - Finish it - Last day this term
 
 ### Wednesday Service:
 
+[[Sermon. Christians Like Trees]]
+
 ### Saturday English
 
-Bible: Guarden, Curtain, and Cross - Part 4
+Bible: Guarden, Curtain, and Cross - Part 2

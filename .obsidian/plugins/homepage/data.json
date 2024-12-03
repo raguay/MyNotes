@@ -1,10 +1,16 @@
 {
-  "version": 2,
-  "defaultNote": "Home",
-  "workspace": "Home",
-  "workspaceEnabled": false,
-  "hasRibbonIcon": true,
-  "openMode": "Replace all open notes",
-  "view": "Default view",
-  "refreshDataview": false
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "hasRibbonIcon": true,
+      "openMode": "Replace all open notes",
+      "view": "Default view",
+      "refreshDataview": false,
+      "value": "Home",
+      "kind": "File",
+      "commands": []
+    }
+  },
+  "separateMobile": false
 }

@@ -1,5 +1,9 @@
 {
-  "cssTheme": "Dracula_Pro_for_Obsidian",
-  "baseFontSize": 12,
-  "accentColor": ""
+  "cssTheme": "Dracula for Obsidian",
+  "baseFontSize": 14,
+  "accentColor": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "FiraCode Nerd Font",
+  "baseFontSizeAction": true,
+  "translucency": true
 }

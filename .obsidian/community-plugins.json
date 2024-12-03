@@ -15,10 +15,8 @@
   "nldates-obsidian",
   "table-editor-obsidian",
   "templater-obsidian",
-  "obsidian-charts",
   "csv-obsidian",
   "obsidian-query-language",
-  "obsidian-outliner",
   "vantage-obsidian",
   "workbench-obsidian",
   "obsidian-checklist-plugin",
@@ -37,5 +35,8 @@
   "execute-code",
   "mermaid-tools",
   "obsidian-advanced-slides",
-  "color-palette"
+  "color-palette",
+  "obsidian-shellcommands",
+  "snippets-manager",
+  "obsidian-clipper"
 ]

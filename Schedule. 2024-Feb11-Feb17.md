@@ -23,4 +23,4 @@ Color Sports Event
 
 ### Saturday English
 
-Bible: Guarden, Curtain, and Cross - Part 3
+Bible: Garden, Curtain, and Cross - Part 3
