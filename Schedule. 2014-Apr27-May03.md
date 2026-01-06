@@ -3,10 +3,10 @@
 ##Sunday Services:
 
 | --:|:-- |
-| **Sunday School:**	|	Romans 10:6-
-| **Sunday Morning:**	|	I Corinthians 11:23-31 - Self Examine - Lord's Supper
-| **Welfare School:**	|	Summer Break
-| **Sunday Night:**	|	Sending Forth Seeds - Word of God Doesn't Return Void - Isaiah 55:11
+| **Sunday School:**	|	Romans 10:6 |
+| **Sunday Morning:**	|	I Corinthians 11:23-31 - Self Examine - Lord's Supper |
+| **Welfare School:**	|	Summer Break |
+| **Sunday Night:**	|	Sending Forth Seeds - Word of God Doesn't Return Void - Isaiah 55:11 |
 
 ##Wednesday Service:
 

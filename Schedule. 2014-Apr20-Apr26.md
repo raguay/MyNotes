@@ -1,14 +1,13 @@
-#Apr 20 - Apr 26, 2014
+## Sunday Services:
 
-##Sunday Services:
+|                    |                             |
+| ---: | :--- |
+| **Sunday School:** |	Sunday School combined with Church |
+| **Sunday Morning:**|	John 20:1-10; Romans 6:4 - The Resurrection and Our New Life |
+| **Welfare School:**|	Summer Break - Baptism this time period |
+| **Sunday Night:**	 | Germination - Sown in corruption (seed)/ Raised incorruptible (new plant) - I Corinthians 15:42-44 |
 
-| ---:|:--- |
-| **Sunday School:**	|	Sunday School combined with Church |
-| **Sunday Morning:**	|	John 20:1-10; Romans 6:4 - The Resurrection and Our New Life |
-| **Welfare School:**	|	Summer Break - Baptism this time period |
-| **Sunday Night:**	|       Germination - Sown in corruption (seed)/ Raised incorruptible (new plant) - I Corinthians 15:42-44 |
-
-##Wednesday Service:
+## Wednesday Service:
 
 1 John 4:1-3 "Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world. Hereby know ye the Spirit of God: Every spirit that confesseth that Jesus Christ is come in the flesh is of God: And every spirit that confesseth not that Jesus Christ is come in the flesh is not of God: and this is that spirit of antichrist, whereof ye have heard that it should come; and even now already is it in the world."
 John 10:27-28 "My sheep hear my voice, and I know them, and they follow me: And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand."
@@ -21,7 +20,7 @@ John 10:27-28 "My sheep hear my voice, and I know them, and they follow me: And 
 * False prophets here other voices thinking them to be the Lord
 	* subtly persuades off of God's word
 
-##Saturday:
+## Saturday:
 
 **Service in Thungkrachok**
 

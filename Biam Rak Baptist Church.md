@@ -1,0 +1,11 @@
+- Weekday English - 4 hours
+	- Travel there - 1 hour
+	- Handout Tracts - 1 hour
+	- Teach English - 45 minutes
+	- Bible lesson - 15 minutes
+	- Travel back home - 1 hour
+- Saturday Church Service - 4 hours
+	- Travel there - 1 hour
+	- Handout Tracts - 1 hour
+	- Church Service - 1 hour
+	- Travel back home - 1 hour

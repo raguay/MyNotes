@@ -8,13 +8,13 @@ Matthew 11:1-6
         3. John simply told him the Law he claimed to be following.
     2. Not understanding his place in life
         1. If Jesus is God, 
-            1. why the rejection and suffering
-            2. why doesn't Jesus intervine since he came to rule
+            1. Why the rejection and suffering
+            2. Why doesn't Jesus intervene since he came to rule
             3. If Jesus isn't going to rule now, then are they to wait for another?
         2. John knew he was preparing the people to receive God
     			1. John thought that God came to rule
     			2. No one knew or understood about His rejection, death, and resurrection
-    		3. But, He also knew his disciples needed to follow Jesus
+    	3. But, He also knew his disciples needed to follow Jesus
             - John 3:30 "He must increase, but I must decrease."
             - ยอห์น 3:30 "พระองค์ต้องทรงยิ่งใหญ่ขึ้น แต่ข้าพเจ้าต้องด้อยลง""
                 1. Therefore, he sends them to ask the question
@@ -27,8 +27,8 @@ Matthew 11:1-6
         1. Are you the one? Or, do we wait on another?
 3. Jesus' Answer
     1. Straight from Old Testament
-        - Isaiah 35:4-6
-    2. He basically reafirmed that He was God coming to save.
+        - Isaiah 61:1-3
+    2. He basically reaffirmed that He was God coming to save.
         1. He did not scold John or put him down
         2. He understood John's confusion because of the persecution
         3. He also knew John was trying to get them to follow Jesus

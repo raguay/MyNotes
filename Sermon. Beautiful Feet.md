@@ -5,7 +5,7 @@ Nahum 1:15 "Behold upon the mountains the feet of him that bringeth good tidings
 นาฮูม 1:15 "ดูเถิด เท้าของผู้นำข่าวดีมาที่บนภูเขา ผู้โฆษณาสันติภาพ โอ ยูดาห์เอ๋ย จงรักษาประเพณีการเลี้ยงตามกำหนดของเจ้าไว้ จงทำตามคำปฏิญาณของเจ้าเถิด เพราะว่าคนชั่วจะไม่ผ่านเจ้าไปอีก เขาถูกขจัดเสียสิ้นแล้ว"
 
 Romans 10:15 "And how shall they preach, except they be sent? as it is written, How beautiful are the feet of them that preach the gospel of peace, and bring glad tidings of good things!"
-โรม 10:15 "และถ้าไม่มีใครใช้เขาไป เขาจะไปประกาศอย่างไรได้ ตามที่มีคำเขียนไว้แล้วว่า `เท้าของคนเหล่านั้นที่ประกาศข่าวประเสริฐแห่งสันติสุข และประกาศข่าวประเสริฐแห่งสิ่งอันประเสริฐ ก็งามสักเท่าใด'"
+โรม 10:15 "และถ้าไม่มีใครใช้เขาไป เขาจะไปประกาศอย่างไรได้ ตามที่มีคำเขียนไว้แล้วว่า 'เท้าของคนเหล่านั้นที่ประกาศข่าวประเสริฐแห่งสันติสุข และประกาศข่าวประเสริฐแห่งสิ่งอันประเสริฐ ก็งามสักเท่าใด'"
 
 1. Beautiful Feet
     1. Mine are not pretty
@@ -14,9 +14,22 @@ Romans 10:15 "And how shall they preach, except they be sent? as it is written, 
         3. not pretty!
     2. But, God states three times (very important) that my feet are beautiful!
         1. If I preach the Gospel
+	        1. Walking with Jesus daily
+		        1. If you aren't walking the talk, you are a hypocrite (คนหน้าซื่อใจคด).
+		        2. How can you say Jesus saved you when you never walk with Him.
+			        1. Where is the proof!
+	        2. Proclaiming what Jesus has done for us.
+	        3. Then telling them how to have Jesus in their lives as well.
 2. Messenger
     1. Someone that brings a message
-    2. Speaking of a messenger from a battle telling the country of victory
+	    1. They receive a message from someone in authority​.
+	    2. They take it to someone or many people​.
+	2. They are faithful even when the going it hard.
+		1. The verses talk about a messenger on mountains
+		2. The "mountains" talk about hardships in giving the Gospel
+			1. People getting mad at you​
+			2. Having to go somewhere that you don't like.
+    3. Speaking of a messenger from a battle telling the country of victory
         1. Absalom and David (2 Samuel 18)
             1. When the battle was over, Joab sends a messenger
             2. The news as good and bad
@@ -27,8 +40,8 @@ Romans 10:15 "And how shall they preach, except they be sent? as it is written, 
             2. We already have won
                 1. People just don't know it yet
                 2. They need Christians to tell them!
-                    1. A changed life
+                    1. Showing a changed life that walks with Jesus.
                     2. Actually talking to them
-    3. When people see a messenger of good news, they see it as a beautiful sight
+    4. When people see a messenger of good news, they see it as a beautiful sight
 3. How do people see your feet
     1. Are you giving them the good news?

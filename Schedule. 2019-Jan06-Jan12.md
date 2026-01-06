@@ -1,10 +1,10 @@
 ## Sunday Services:
-| | |
-| --:|:-- |
-| **Sunday School:**  |. [[Bible People. Abraham]]
-| **Sunday Morning:** |. [[Sermon. Make No Provisions]]
-| **Welfare School:** |. [[Sermon. Make No Provisions]]
-| **Sunday Night:**   |. [[Sermon. Control Your Tongue]]
+|                     |                                 |
+| ------------------: | :------------------------------ |
+|  **Sunday School:** | [[Bible People. Abraham]]       |
+| **Sunday Morning:** | [[Sermon. Make No Provisions]]  |
+| **Welfare School:** | [[Sermon. Make No Provisions]]  |
+|   **Sunday Night:** | [[Sermon. Control Your Tongue]] |
 
 ### Sunday School Memory Verse:
 #### Last Week: 

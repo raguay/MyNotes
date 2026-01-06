@@ -10,9 +10,12 @@ Joshua 1:8 "This book of the law shall not depart out of thy mouth; but thou sha
         - Proverbs 28:22 "He that hasteth to be rich hath an evil eye, and considereth not that poverty shall come upon him."
         - สุภาษิต 28:22 "คนที่เร่งหาทรัพย์ศฤงคารก็มีนัยน์ตาชั่ว และไม่ทราบว่าความขัดสนจะมาถึงเขา"
             1. Quick prosperity always leads to poverty
-            2. Even if they have money, they have no friends, good relations
-                1. In God's eyes, this is worth more
-                2. Many rich people say they would trade in all their wealth for peace in their hearts.
+	            1. Due to the fact the person is always looking to make more.
+	            2. Eventually, they loose it all with the different schemes.
+            2. Even if they do make money, they have no friends or good relations with others.
+	            1. The method of obtaining their riches usually alienates others. 
+	            2. In God's eyes, friends and good relations with others is worth more
+	            3. Many rich people say they would trade in all their wealth for peace in their hearts.
 2. God gives the simplest way to prosperity
     1. Diligently study and memorize God's word
         1. When we study something everyday, we start to live in that way
@@ -29,10 +32,10 @@ Joshua 1:8 "This book of the law shall not depart out of thy mouth; but thou sha
             1. Reading the Bible together as a family
                 1. Two chapters a day and you'll read through it all in 3 years
             2. Talk to others about what you've learn that day from God's word or from a sermon they haven't heard
-                1. Teaching others helps you to remember it yourself
+                2. Teaching others helps you to remember it yourself
             3. Talk about what you learned at Church to each other
-                1. We all think and perceive differently
-                2. Seeing how others learned from a joint lesson helps you to understand more
+                3. We all think and perceive differently
+                4. Seeing how others learned from a joint lesson helps you to understand more
         3. By doing these things, we **will** be prosperous
             1. It's not immediately
             2. It takes a long time

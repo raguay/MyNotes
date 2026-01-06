@@ -4,7 +4,7 @@
         2. Word for word exactly as it is written
         3. Jesus interpreted Jonah (โยนาห์) and the whale (ปลาวาฬ) directly
             - Matthew 12:40 "For as Jonas was three days and three nights in the whale's belly; so shall the Son of man be three days and three nights in the heart of the earth."
-            - มัทธิว 12:40 "ด้วยว่า `โยนาห์ได้อยู่ในท้องปลาวาฬสามวันสามคืน' ฉันใด บุตรมนุษย์จะอยู่ในท้องแผ่นดินสามวันสามคืนฉันนั้น"
+            - มัทธิว 12:40 "ด้วยว่า 'โยนาห์ได้อยู่ในท้องปลาวาฬสามวันสามคืน' ฉันใด บุตรมนุษย์จะอยู่ในท้องแผ่นดินสามวันสามคืนฉันนั้น"
                 1. Jesus says Jonah was a literal person who was literally swallowed by a big fish
                     1. also testified as a real person in the old testament
                         - 2 Kings 14:25 "He restored the coast of Israel from the entering of Hamath unto the sea of the plain, according to the word of the LORD God of Israel, which he spake by the hand of his servant Jonah, the son of Amittai, the prophet, which was of Gathhepher."
@@ -36,6 +36,7 @@
                 - Luke 16:19-31
                     1. The principle is: parables never use real names.
                     2. Jesus gave the poor man's real name: Lazarus
+	                    1. He didn't give the rich man's name because his brothers were still alive.
                     3. Therefore, this dialog really did happen
                         1. Only God could tell us about it since it describes a conversation in Hell.
         4. They teach truth in an indirect way

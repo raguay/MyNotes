@@ -1,14 +1,13 @@
 Romans 14:19 "Let us therefore follow after the things which make for peace, and things wherewith one may edify another.
 โรม 14:19 "เหตุฉะนั้นให้เรามุ่งประพฤติในสิ่งซึ่งทำให้เกิดความสงบสุขแก่กันและกัน และสิ่งเหล่านั้นซึ่งทำให้เกิดความเจริญแก่กันและกัน
 
-1 Corinthians 14:26 "How is it then, brethren? when ye come together, everyone of you hath a psalm, hath a doctrine, hath a tongue, hath a revelation, hath an interpretation. Let all things be done unto edifying."
-1โครินธ์ 14:26 "พี่น้องทั้งหลาย เมื่อท่านประชุมกัน ทุกคนก็มีเพลงสดุดี ทุกคนก็มีคำสั่งสอน ทุกคนก็พูดภาษาแปลกๆ ทุกคนก็มีคำวิวรณ์ ทุกคนก็แปลข้อความ จะว่าอย่างไรกัน ท่านจงกระทำทุกสิ่งทุกอย่างเพื่อให้จำเริญขึ้น"
+Seven times in God's Word, God is calling us to edify others.
 
-1. God calls us to edify others
+1. God calls us to edify (ให้เกิดความจำเริญ) others
     1. That means,
         1. to help others see God in our lives and their's and improve for the better
             - 1 Corinthians 11:1 "Be ye followers of me, even as I also am of Christ."
-            - 1โครินธ์ 11:1 ""ชายเป็นศีรษะของหญิง"ท่านทั้งหลายก็จงปฏิบัติตามอย่างข้าพเจ้า เหมือนอย่างที่ข้าพเจ้าปฏิบัติตามอย่างพระคริสต์"
+            - 1โครินธ์ 11:1 "ท่านทั้งหลายก็จงปฏิบัติตามอย่างข้าพเจ้า เหมือนอย่างที่ข้าพเจ้าปฏิบัติตามอย่างพระคริสต์"
                 1. Aimed at motivating them to follow Christ
                 2. allowing God to manifest Himself in our lives
                 3. willing to be a help to others
@@ -25,9 +24,9 @@ Romans 14:19 "Let us therefore follow after the things which make for peace, and
                     3. He gives us peace, not what we have
                 2. Therefore, it helps others to see God working in their lives and to focus on God
     2. But, we can't Biblically edify others if
-        1. We are doing our own will
-        2. Not willing to be used by God
-        3. See our daily lives as more important than God living through our lives
+        4. We are doing our own will
+        5. Not willing to be used by God
+        6. See our daily lives as more important than God living through our lives
     3. A lack of edifying causes
         1. churches to die
         2. lost people hate or not interested in God

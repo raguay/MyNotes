@@ -4,12 +4,12 @@ Proverbs 29:18 "Where there is no vision, the people perish: but he that keepeth
 
 1. Vision
     1. The ability to see what could happen with the right amount of work.
-    2. A leader in a corporation must have a vision for how the company will progress in the future.
-        1. Otherwise, the company stagnates and fails
-        2. IBM started the personal computer market
-            1. But, their lack of vision caused them to loose the market to other companies.
-            2. The company they hired to create the OS, Microsoft, became more popular and wealthier than they did!
-    3. In God's work, we need to see how to reach more people for Christ.
+	    1. A leader in a corporation must have a vision for how the company will progress in the future.
+	        1. Otherwise, the company stagnates and fails
+	        2. IBM started the personal computer market
+	            1. But, their lack of vision caused them to loose the market to other companies.
+	            2. The company they hired to create the OS, Microsoft, became more popular and wealthier than they did!
+    2. In God's work, we need to see how to reach more people for Christ.
         1. But, it needs to be God's vision for our lives
         2. Just picking anything creates problems
             - Proverbs 14:12 "There is a way which seemeth right unto a man, but the end thereof are the ways of death."
@@ -18,17 +18,33 @@ Proverbs 29:18 "Where there is no vision, the people perish: but he that keepeth
         3. We need God's direction and "vision"
             - Proverbs 3:6 "In all thy ways acknowledge him, and he shall direct thy paths."
             - สุภาษิต 3:6 "จงยอมรับรู้พระองค์ในทุกทางของเจ้า และพระองค์จะทรงกระทำให้วิถีของเจ้าราบรื่น"
-                1. You only get it by acknowledging God's rightful place as God of your life
+                1. You only get it by acknowledging God's rightful place as Lord of your life
                 2. Constantly talking with Him about what you do
                     - 1 Thessalonians 5:17 "Pray without ceasing."
                     - 1เธสะโลนิกา 5:17 "จงอธิษฐานอย่างสม่ำเสมอ"
-                    1. Asking for His guidance in everything
+	                    1. Asking for His guidance in everything
 2. Otherwise, people perish
     1. Many problems and difficulties in life due to not seeking out God
     2. Many going to Hell because we are not following Him
-3. Let's all get a fresh vision of the work God wants us to do!
+	    1. When we don't follow God, we scatter the harvest
+		    - Matthew 12:30 "He that is not with me is against me; and he that gathereth not with me scattereth abroad."
+			- มัทธิว 12:30 "ผู้ที่ไม่อยู่ฝ่ายเราก็เป็นปฏิปักษ์ต่อเรา และผู้ที่ไม่รวบรวมไว้กับเราก็เป็นผู้กระทำให้กระจัดกระจายไป"
+				1. To scatter (กระจัดกระจายไป) is to keep them from trusting in Jesus.
+				2. The scattered ones often go to Hell unless someone else gathers them.
+					1. But the lack of vision in most churches isn't getting the work done!
+3. The person that keeps the commandments
+	1. Has to have a vision
+	2. The second great commandment is about loving our neighbors.
+		1. They are lost and going to Hell.
+		2. If you love them like you love yourself, then you will be a great witness to them.
+		3. You wouldn't want yourself to go to Hell.
+	3. That is why they have peace
+		1. When you help others to make peace with God, you get more of God's peace in your life!
+4. Let's all get a fresh vision of the work God wants us to do!
     1. Submitting to His will
-    2. Talking with Him constantly to know His will
-    3. Following the Lord so that He makes us 'fishers of men'
+    2. Loving your neighbor by being the best Christian you can and witnessing to them.
+    3. Talking with Him constantly to know His will
+    4. Following the Lord so that He makes us 'fishers of men'
         - Matthew 4:19 "And he saith unto them, Follow me, and I will make you fishers of men."
         - มัทธิว 4:19 "พระองค์ตรัสกับเขาว่า "จงตามเรามาเถิด และเราจะตั้งท่านให้เป็นผู้หาคนดั่งหาปลา""
+5. Are you gathering or scattering?

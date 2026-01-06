@@ -1,5 +1,0 @@
-## Todo
-
-## Journal
-
-## Ideas

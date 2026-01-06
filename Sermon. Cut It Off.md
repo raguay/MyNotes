@@ -7,7 +7,7 @@ Mark 9:43-50
             - โรม 12:1 "ร่างกายของคริสเตียนเป็นเครื่องบูชาที่มีชีวิตพี่น้องทั้งหลาย ด้วยเหตุนี้โดยเห็นแก่ความเมตตากรุณาของพระเจ้า ข้าพเจ้าจึงวิงวอนท่านทั้งหลายให้ถวายตัวของท่านแด่พระองค์ เพื่อเป็นเครื่องบูชาที่มีชีวิต อันบริสุทธิ์ และเป็นที่พอพระทัยพระเจ้า ซึ่งเป็นการปรนนิบัติอันสมควรของท่านทั้งหลาย"
     2. Cast it away
         1. You can't be clean until you get rid of it
-            1. When a doctor cuts out a diseased part of you, do you want him to leave on you?
+            1. When a doctor cuts out a diseased part of you, do you want him to leave it on you?
         2. Distance yourself from that which causes sin
             - 2 Timothy 2:22 "Flee also youthful lusts: but follow righteousness, faith, charity, peace, with them that call on the Lord out of a pure heart."
             - 2ทิโมธี 2:22 "จงหลีกหนีเสียจากราคะตัณหาของคนหนุ่ม แต่จงใฝ่ในความชอบธรรม ในความเชื่อ ความรัก และสันติสุข ร่วมกับผู้ที่ออกพระนามขององค์พระผู้เป็นเจ้าด้วยใจบริสุทธิ์"
@@ -42,4 +42,4 @@ Mark 9:43-50
     1. Without salt, you can't offer a sacrifice in the temple
     2. Without a changed life, you can't be saved.
         1. The Holy Spirit living in us will change us
-        2. What we confess isn't important, it's the changes that it makes in our lives that shows we are saved.
+        2. What we confess isn't important, it's the changes that it makes in our lives that shows we are saved.g

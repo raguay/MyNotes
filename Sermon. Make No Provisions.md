@@ -16,7 +16,7 @@ Romans 13:14 "But put ye on the Lord Jesus Christ, and make not provision for th
         1. Thoughts
             - 2 Corinthians 10:5 "Casting down imaginations, and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ;"
             - 2โครินธ์ 10:5 "คือทำลายความคิด และทิฐิมานะทุกประการที่ตั้งตัวขึ้นขัดขวางความรู้ของพระเจ้า และน้อมนำความคิดทุกประการให้เข้าอยู่ใต้บังคับจนถึงเชื่อฟังพระคริสต์"
-        2. Eyes
+        2. Flesh, Eyes, and Pride
             - 1 John 2:16 "For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world."
             - 1ยอห์น 2:16 "เพราะว่าสารพัดซึ่งมีอยู่ในโลก คือตัณหาของเนื้อหนัง และตัณหาของตา และความเย่อหยิ่งในชีวิตไม่ได้เกิดจากพระบิดา แต่เกิดจากโลก"
         3. Hearing
@@ -25,7 +25,7 @@ Romans 13:14 "But put ye on the Lord Jesus Christ, and make not provision for th
         4. Speech
             - 2 Peter 2:7 "And delivered just Lot, vexed with the filthy conversation of the wicked:"
             - 2เปโตร 2:7 "และได้ทรงช่วยโลทผู้ชอบธรรมให้รอด ผู้มีความทุกข์ใหญ่หลวงเพราะการประพฤติลามกของคนชั่วเหล่านั้น"
-3. Because, making or allowing provisions for the flesh brings it about
+3. Because, making or allowing provisions for the flesh brings allows that sin to manifest in our lives.
     1. If we don't watch out, we will commit the sin
     2. Just as a solder has to be diligently searching out the enemy
         1. We have to watch for these traps and stay way from them

@@ -23,10 +23,14 @@
             4. We can only produce fruit by abiding in Christ
                 - John 15:5 "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
                 - ยอห์น 15:5 "เราเป็นเถาองุ่น ท่านทั้งหลายเป็นกิ่ง ผู้ที่เข้าสนิทอยู่ในเราและเราเข้าสนิทอยู่ในเขา ผู้นั้นจะเกิดผลมาก เพราะถ้าแยกจากเราแล้วท่านจะทำสิ่งใดไม่ได้เลย"
-2. If we don't, the consequence is
-    1. Shipwreck
-        1. A life useless to God's work that He designed it for.
-        2. Not because God doesn't give a second change, they have thrown away faith
-            1. Not willing to confess and forsake their sin
-            2. Not willing to follow after Christ
-            3. Only doing what they want
+2. If we don't, the consequence is a shipwrecked life
+	1. A life useless to God's work that He designed it for.
+		1. No help from God​ when problems come​
+		2. God will chasten us​ as a son
+			- Hebrews 12:6 "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth."
+			- ฮีบรู 12:6 "เพราะองค์พระผู้เป็นเจ้าทรงตีสอนผู้ที่พระองค์ทรงรัก และเมื่อพระองค์ทรงรับผู้ใดเป็นบุตร พระองค์ก็ทรงเฆี่ยนตีผู้นั้น'"
+	2. Not because God doesn't give a second chance, they have thrown away faith
+		1. Not willing to confess and forsake their sin
+		2. Not willing to follow after Christ
+		3. Only doing what they want
+3. Therefore, we need to work at bringing our bodies and minds to obedience to Christ!

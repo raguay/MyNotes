@@ -33,4 +33,5 @@
         3. Unwilling to follow God at any cost
     2. "open" face
         1. Willing for God to do whatever He needs to do to make you more like Him!
+        2. Willing to live for Him!
     

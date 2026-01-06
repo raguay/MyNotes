@@ -1,61 +1,67 @@
 {
-  "choices": [],
-  "macros": [
+  "choices": [
     {
+      "id": "23d624bb-333e-47ea-becc-959336752ea0",
       "name": "Add to Diary",
-      "id": "7600f430-79c0-4ce1-837a-730909985d69",
-      "commands": [
-        {
-          "name": "Capture to Daily Notes",
-          "type": "NestedChoice",
-          "id": "3abb51ec-5bd7-4a81-b178-11c67f695927",
-          "choice": {
-            "id": "305efd33-055c-42a8-8a5a-8b80ebb50a25",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "7600f430-79c0-4ce1-837a-730909985d69",
+        "name": "Add to Diary",
+        "commands": [
+          {
             "name": "Capture to Daily Notes",
-            "type": "Capture",
-            "command": false,
-            "appendLink": true,
-            "captureTo": "daily/{{DATE:YYYY}}/{{DATE:MM}}.md",
-            "captureToActiveFile": false,
-            "createFileIfItDoesntExist": {
-              "enabled": true,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
-              "enabled": true,
-              "format": "- {{Date:DD-HH:mm}} {{VALUE}}"
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": true,
-            "task": true,
-            "openFileInNewTab": {
-              "enabled": true,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default"
+            "type": "NestedChoice",
+            "id": "3abb51ec-5bd7-4a81-b178-11c67f695927",
+            "choice": {
+              "id": "305efd33-055c-42a8-8a5a-8b80ebb50a25",
+              "name": "Capture to Daily Notes",
+              "type": "Capture",
+              "command": false,
+              "appendLink": true,
+              "captureTo": "daily/{{DATE:YYYY}}/{{DATE:MM}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": true,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "- {{Date:DD-HH:mm}} {{VALUE}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": true,
+              "task": true,
+              "openFileInNewTab": {
+                "enabled": true,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": true,
+              "openFileInMode": "default"
+            }
           }
-        }
-      ],
-      "runOnStartup": false
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": false,
-  "version": "1.11.4",
+  "version": "2.1.0",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
+  "showCaptureNotification": true,
   "ai": {
     "defaultModel": "Ask me",
     "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
@@ -105,6 +111,8 @@
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
     "setVersionAfterUpdateModalRelease": true,
-    "addDefaultAIProviders": true
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true
   }
 }

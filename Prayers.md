@@ -1,0 +1,3 @@
+- Naut - family having allergy issues. 
+- Charlie Kirk - family to be comforted
+- 

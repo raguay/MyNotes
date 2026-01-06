@@ -31,16 +31,31 @@ Genesis 25:27-34
         1. It wasn't something he wanted or cared about
     2. He just wanted comfort and blessings now, not later
         1. If it doesn't help life right now, he didn't care for it
-4. Christians often are the same way
-    1. Being faithful to church isn't important since it gets in the way of making money or friends
-    2. Walking with God can lead to difficulties, so they don't want it
-        1. willing to chance God's disfavor for fun
-    3. Willing to throw away your birthright as a child of God for pleasures and easiness in this world that is going to Hell.
-        1. Not close to God because 
-            1. loving self will over following God
-            2. The praise of men more than God
-            3. Not willing to spend time creating a relationship with God
-    4. And therefore, not having God's power in their lives
+4. Christians have a birthright in God’s family.
+	- John 1:12 "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name:"
+	- ยอห์น 1:12 "แต่ส่วนบรรดาผู้ที่ต้อนรับพระองค์ พระองค์ทรงประทานอำนาจให้เป็นบุตรของพระเจ้า คือคนทั้งหลายที่เชื่อในพระนามของพระองค์"
+		1. All Christians are God's children.
+		2. Our birthright is:
+			1. A home in heaven
+			2. Ambassadors for Christ
+				1. By telling them how to get to heaven.
+				2. It is every Christian's responsibility.
+			3. A local church family
+				1. They are willing to help when needed.
+				2. They pray for each other.
+5. Are Christians despising their birthright?
+	1. Ways Christians might despise their birthright
+		1. No praying for the brethren.
+	    2. Not being faithful to church 
+		    1. Money and/or friends are more important than God's people.
+	    3. Walking with God can lead to difficulties, so they don't want it
+	        1. Willing to chance God's disfavor for comforts and easy life.
+	    4. Willing to throw away your birthright as a child of God for pleasures and easiness in this world that is going to Hell.
+	        1. Not close to God because 
+	            1. loving self will over following God
+	            2. The praise of men more than God
+	            3. Not willing to spend time creating a relationship with God
+    2. Therefore, they do not have God's power in their lives
         - 2 Timothy 3:5 'Having a form of godliness, but denying the power thereof: from such turn away.'
         - 2ทิโมธี 3:5 "เขามีสภาพทางของพระเจ้าภายนอก แต่ฤทธิ์ของทางนั้นเขาปฏิเสธเสีย คนอย่างนี้ท่านจงผินหน้าหนีจากเขาเสียด้วย"
             1. When we neglect or look down on our birthright, we deny the power of God
@@ -49,3 +64,4 @@ Genesis 25:27-34
         - ยากอบ 4:4 "ท่านทั้งหลายผู้ล่วงประเวณีชายหญิงเอ๋ย ท่านไม่รู้หรือว่า การเป็นมิตรกับโลกนั้นคือการเป็นศัตรูกับพระเจ้า เหตุฉะนั้นผู้ใดใคร่เป็นมิตรกับโลก ผู้นั้นก็เป็นศัตรูของพระเจ้า"
             1. Seeking the world's approval makes you enemies with God
             2. Therefore, no power - you've despised your birthright
+6. How are you responding to your birthright?

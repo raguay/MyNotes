@@ -31,7 +31,7 @@ Luke 1:26-38
         3. Even though it was prophesied, prophecy is not understood until it happens.
             - Isaiah 7:14 "Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel."
             - อิสยาห์ 7:14 "เพราะฉะนั้นองค์พระผู้เป็นเจ้าจะประทานหมายสำคัญเอง ดูเถิด หญิงพรหมจารีคนหนึ่งจะตั้งครรภ์ และคลอดบุตรชายคนหนึ่ง และเขาจะเรียกนามของท่านว่า อิมมานูเอล"
-3. Your assignments have to be by faith
+3. Your assignments from God have to be by faith
     1. If similar to Bible examples, follow it
     2. If not, then ask questions
-        1. But, believe when logic fails!
+        1. But, use faith and believe when logic fails!

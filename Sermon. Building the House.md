@@ -1,7 +1,4 @@
 
-Acts 2:47 "Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved."
-
-กิจการ 2:47 "ทั้งได้สรรเสริญพระเจ้าและคนทั้งปวงก็ชอบใจ ฝ่ายองค์พระผู้เป็นเจ้าได้ทรงโปรดให้ผู้ที่กำลังจะรอด เข้าสมทบกับคริสตจักรทวีขึ้นทุกๆวัน"
 
 Matthew 16:18 "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
 
@@ -19,9 +16,11 @@ Psalms 127:1 "Except the LORD build the house, they labour in vain that build it
     2. Christ uses people to do the work
         1. He is the one who leads
         2. In Acts, God added to the church **daily**
-            1. But, Peter and the apposles went out and preached the Word
-            2. They went by God's direction
-            3. God led each of them personally!
+              - Acts 2:47 "Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved."
+              - กิจการ 2:47 "ทั้งได้สรรเสริญพระเจ้าและคนทั้งปวงก็ชอบใจ ฝ่ายองค์พระผู้เป็นเจ้าได้ทรงโปรดให้ผู้ที่กำลังจะรอด เข้าสมทบกับคริสตจักรทวีขึ้นทุกๆวัน"
+                1. But, Peter and the apposles went out and preached the Word
+                    1. They went by God's direction
+                    2. God led each of them personally!
 2. What is the church?
     1. Not a building
         1. God did not nail the people to the walls to make the building larger.
@@ -41,7 +40,7 @@ Psalms 127:1 "Except the LORD build the house, they labour in vain that build it
     3. They are not to be missed
         - Hebrews 10:25 "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching."
         - ฮีบรู 10:25 "ซึ่งเราเคยประชุมกันนั้นอย่าให้หยุด เหมือนอย่างบางคนเคยกระทำนั้น แต่จงเตือนสติกันและกัน และให้มากยิ่งขึ้นเมื่อท่านทั้งหลายเห็นวันเวลานั้นใกล้เข้ามาแล้ว"
-4. Church has one leader
+3. Church has one leader
     1. Christ
         - Ephesians 1:22 "And hath put all things under his feet, and gave him to be the head over all things to the church,"
         - เอเฟซัส 1:22 "พระคริสต์ ประมุขแห่งคริสตจักรพระเจ้าได้ทรงปราบสิ่งสารพัดลงไว้ใต้พระบาทของพระคริสต์ และได้ทรงตั้งพระองค์ไว้เป็นประมุขเหนือสิ่งสารพัดแห่งคริสตจักร"
@@ -56,7 +55,7 @@ Psalms 127:1 "Except the LORD build the house, they labour in vain that build it
             4. Not an overlord
                 - 1 Peter 5:3 "Neither as being lords over God's heritage, but being ensamples to the flock."
                 - 1เปโตร 5:3 "และไม่ใช่เหมือนเป็นเจ้านายที่ข่มขี่ผู้สืบทอดของพระเจ้า แต่เป็นแบบอย่างแก่ฝูงแกะนั้น"
-5. Church has many members
+4. Church has many members
     1. Not someone that just started to show up
     2. They have to be
         1. Born again

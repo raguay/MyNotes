@@ -1,0 +1,2 @@
+- [ ] Work on stuff for the [2025](obsidian://adv-uri?vault=Richard&filepath=Yearly%20Notes%2F2025.md&heading=2025) Scheduling @church
+- [ ] Send in Monthly Tithe - Givelify @home

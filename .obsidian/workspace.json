@@ -15,7 +15,7 @@
               "state": {
                 "file": "Home.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Home"
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +54,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
@@ -69,8 +70,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -145,12 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sermon. I Know Who.md",
+                "file": "Kaban-Current Jobs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sermon. I Know Who"
+              "title": "Outgoing links from Kaban-Current Jobs"
             }
           },
           {
@@ -159,10 +160,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sermon. I Know Who.md"
+                "file": "Kaban-Current Jobs.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Sermon. I Know Who"
+              "title": "Outline of Kaban-Current Jobs"
             }
           },
           {
@@ -190,16 +191,6 @@
             }
           },
           {
-            "id": "4e49e6df4efb5794",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
             "id": "37893b8ad8f998c6",
             "type": "leaf",
             "state": {
@@ -210,23 +201,54 @@
               "icon": "lucide-info",
               "title": "File properties for Sermon. Give One Heart"
             }
+          },
+          {
+            "id": "e22572cbe03a322d",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "83c9a0c27a95879e",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-calendar",
+              "state": {},
+              "icon": "calendar",
+              "title": "Daily note calendar"
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
+      "circuit-sketcher:Create new Circuit Sketcher file": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open notes": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false,
+      "bases:Create new base": false,
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
       "completed-area:Completed Area": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
@@ -242,46 +264,52 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "28e09517d9286d20",
   "lastOpenFiles": [
-    "Sermon. Lost Communications.md",
-    "Sermon. Freedom of Liberty by Love.md",
-    "Sermon. Deciples Are To Love.md",
-    "Sermon. Who Do You Say I Am.md",
-    "Sermon. Reproof.md",
-    "2024 Month Schedules/November.md",
-    "Sermon. Father is King in Home.md",
-    "Schedule. 2024-Dec01-Dec07.md",
-    "Home.md",
-    "2024 Month Schedules/October.md",
-    "2024 Month Schedules/December.md",
-    "Sermon. By Faith.md",
-    "Sermon. WalkOfFaith.md",
-    "Schedule. 2015-May17-May23.md",
-    "Sermon. Born By a Seed.md",
-    "2024 Month Schedules/September.md",
-    "Schedule. 2024-Sept08-Sept14.md",
-    "2024 Month Schedules/August.md",
-    "Schedule. 2024-Nov17-Nov23.md",
-    "Sermon. Give One Heart.md",
-    "Sermon. God is Pouring.md",
-    "Sermon. Conflict With Elymas.md",
-    "Sermon. Seeking Your Meat.md",
-    "Schedule. 2018-Oct 07-Oct 13.md",
-    "Schedule. 2024-Nov10-Nov16.md",
-    "Schedule. 2024-Nov03-Nov09.md",
-    "Snippets",
-    "FILES/Schedule. 2024-July07-July13.md/img-20240706171337.png",
-    "FILES",
-    "Pasted image 20240706171405.png",
+    "Daily notes/01-05-2026.md",
+    "Schedule. 2019-May26-June01.md",
+    "Schedule. 2025-Jan04-Jan10.md",
+    "Sermon. Trials Come From.md",
+    "Sermon. The Humble Person.md",
+    "Schedule. 2025-Jan11-Jan17.md",
+    "Daily notes/12-28-2025.md",
+    "Daily notes/01-03-2026.md",
+    "Daily notes/01-02-2026.md",
+    "2026 Teen Party.md",
+    "Sermon. Greatest Gift.md",
+    "Sermon. Who is That Child.md",
+    "Bible Teaching. BaptistFaith - Thai.md",
+    "Bible Teaching. BaptistFaith-Thai.md",
+    "inbox/Scratchpad.md",
+    "images/CleanShot 2025-03-21 at 16.12.29@2x.png",
+    "images/CleanShot 2025-03-21 at 15.45.32@2x.png",
+    "Bible Teaching. BaptistFaith - English.md",
+    "MovieNights2.md",
+    "Bible Teaching. BaptistFaith - Thai.md.sb-3ccf1387-QS376D",
+    "test.md.sb-3ccf1387-3LIkLw",
+    "test.md",
+    "Sermon. Being Humble.md",
+    "Sermon. Least or Greatest.md",
+    "Schedule. 2018-Nov 18-Nov24.md",
+    "Schedule. 2023-Sept03-Sept09.md",
+    "Sermon. Talking it out.md",
+    "Sermon. Clean But Empty.md",
+    "Sermon. This Mind.md",
+    "Schedule. 2019-Mar24-Mar30.md",
+    "Family",
+    "inbox",
+    "Daily notes",
+    "Weekly notes",
+    "Richard/Family",
+    "Richard",
+    "Richard/Daily notes",
+    "Richard/Church",
+    "attachments/Pasted image 20250817161518.png",
     "Untitled.canvas",
-    "Templater/Daily",
-    "2024 Month Schedules",
-    "trash/2",
-    "trash/1",
-    "2023 Month Schedules/September",
-    "daily",
-    "notes",
-    "Sermon. Freedom In Truth.txt"
+    "attachments/CleanShot 2025-03-21 at 16.12.29@2x.png",
+    "attachments/IMG_3609.png",
+    "attachments/CleanShot 2025-03-21 at 15.45.32@2x.png",
+    "FILES/Schedule. 2024-July07-July13.md/img-20240706171337.png",
+    "Pasted image 20240706171405.png"
   ]
 }

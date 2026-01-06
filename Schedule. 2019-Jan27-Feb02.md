@@ -2,8 +2,8 @@
 | | |
 | --:|:-- |
 | **Sunday School:**  |  [[Bible People. Joseph]]
-| **Sunday Morning:** |  [[Sermon. Type of Soil]]
-| **Welfare School:** |  [[Sermon. Type of Soil]]
+| **Sunday Morning:** |  [[Sermon. Types of Soil]]
+| **Welfare School:** |  [[Sermon. Types of Soil]]
 | **Sunday Night:**   |  [[Sermon. Who is our Life]]
 
 ### Sunday School Memory Verse:

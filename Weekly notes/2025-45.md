@@ -1,0 +1,22 @@
+## Tasks
+- [ ] Work on Sunday Morning message @church
+- [ ] Work on Sunday Evening message @church
+- [ ] Work on Sunday School teaching @church
+- [ ] Work on Sermon for School on Sunday @church
+- [ ] Check oil in cars. @Home
+- [ ] Record Milage from Sunday. @church
+- [ ] Check and clean pool filter @Home 
+- [ ] Schedule and create slide for the next two weeks services @church
+- [ ] Create Sunday bulletin @church 
+- [ ] Print Sunday bulletin @church 
+- [ ] Work on Wednesday Sermon @church
+- [ ] Prepare for Track distribution @church 
+- [ ] Work on English lesson for school on Wednesday @school 
+- [ ] Work on Bible lesson for school on Wednesday @school 
+- [ ] Work on English lesson for Saturday English @church 
+- [ ] Work on Bible lesson for Saturday English @church 
+- [ ] Fill in medicines for the week @medicines 
+- [ ] Clean the church for Wednesday Service @church 
+- [ ] Clean the church for Sunday Service @church 
+- [ ] Send Sunday's Sunday School lesson to the teacher's Messenger list.
+- [ ] Make sure the next week's songs are picked out and sent to the Choir group.

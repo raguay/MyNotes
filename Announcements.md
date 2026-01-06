@@ -1,5 +1,12 @@
-# Announcements -
+---
+id: Announcements
+aliases: 
+tags:
+  - Misc
+---
+# Announcements
 
-- those helping in Christmas program will meet together after meeting.
+- January 11 - New believer's Class during SS
+	- People waiting for Baptism has to take it
+	- Open to anyone that hasn't gone through it
 
-### Prayers

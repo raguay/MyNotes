@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: basic
+kanban-plugin: board
 
 ---
 
@@ -12,7 +12,6 @@ kanban-plugin: basic
 
 ## Working
 
-- [ ] Create cli for emailing in EmailIt #emailit
 
 
 ## Done
@@ -32,3 +31,9 @@ kanban-plugin: basic
 - [x] [[Working on ScriptTerm]] alias and runscript not 100%. @date{2022-10-15} #emailit
 - [x] Remove fetch from template menu #emailit
 - [x] Remove fetch from Script menu #emailit
+
+%% kanban:settings
+```
+{"kanban-plugin":"board"}
+```
+%%

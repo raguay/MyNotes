@@ -48,3 +48,4 @@ Galatians 1:10 "For do I now persuade men, or God? or do I seek to please men? f
     2. As Paul says, a Christian can not please man and serve God
         1. It's like driving east and west at the same time
         2. It gets you no where and causes problems
+4. So, who are you pleasing?

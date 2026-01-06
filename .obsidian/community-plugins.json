@@ -34,9 +34,13 @@
   "wielder",
   "execute-code",
   "mermaid-tools",
-  "obsidian-advanced-slides",
   "color-palette",
   "obsidian-shellcommands",
   "snippets-manager",
-  "obsidian-clipper"
+  "obsidian-clipper",
+  "obsidian-read-it-later",
+  "daily-note-calendar",
+  "circuit-sketcher",
+  "obsidian-circuitjs",
+  "tasknotes"
 ]

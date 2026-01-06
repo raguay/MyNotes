@@ -11,4 +11,4 @@ Acts 2:6 'Now when this was noised abroad, the multitude came together, and were
 
 1 Corinthians 13:8-10 'Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away. For we know in part, and we prophesy in part. But when that which is perfect is come, then that which is in part shall be done away.'
 
-
+1 Corinthians 14 - God's rules for tongues (languages)
