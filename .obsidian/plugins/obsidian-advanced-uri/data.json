@@ -1,0 +1,12 @@
+{
+  "openFileOnWrite": true,
+  "openDailyInNewPane": true,
+  "openFileOnWriteInNewPane": true,
+  "openFileWithoutWriteInNewPane": true,
+  "idField": "id",
+  "useUID": true,
+  "addFilepathWhenUsingUID": false,
+  "allowEval": true,
+  "includeVaultName": true,
+  "vaultParam": "name"
+}
