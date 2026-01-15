@@ -1,3 +1,7 @@
+## Light BC
+
+458 หมู่ 1 ต.น้ำรึม อ.เมือง จ.ตาก 63000
+
 ## Misc. Items
 
 Israel reborn on May 14, 1948

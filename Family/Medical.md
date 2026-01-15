@@ -395,13 +395,14 @@ I had a slight headache all day.
 3 - I woke up with a headache and it progressively got worse throughout the day. No bowel movement. One asthma attack that needed a nebulizer treatment.
 4 - I woke up with a headache and it progressively got worse throughout the day. No bowel movement. No asthma attacks.
 5 - I woke up with a headache and it progressively got worse throughout the day. I had one bowel movement. No asthma attacks.
-6 - 
-7 - 
-8 - 
-9 - 
-10 - 
-11 - 
-12 - 
+6 - I woke up with a headache and it progressively got worse throughout the day. No bowel movement. No asthma attacks.
+7 - I woke up with a headache and it progressively got worse throughout the day. No bowel movement. No asthma attacks.
+8 - I woke up with a headache and it progressively got worse throughout the day. No bowel movement. No asthma attacks.
+9 - I woke up with a headache and it progressively got worse throughout the day. By evening, it was really bad. No bowel movement. No asthma attacks.
+10 - I woke up with a headache and it progressively got worse throughout the day. By evening, it was really bad. No bowel movement. No asthma attacks.
+11 - I woke up with a headache and it progressively got worse throughout the day. By evening, it was really bad. No bowel movement. No asthma attacks. 
+- I took the fist dose of the medicine that might help my headaches.
+12 - I woke up with a headache and it progressively got worse throughout the day. By evening, it was really bad. No bowel movement. No asthma attacks.
 13 - 
 14 - 
 15 - 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Sermon. Names.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Sermon. Names"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Sermon. Comfort One Another\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sermon. I Know Who.md",
+                "file": "Sermon. Names.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sermon. I Know Who"
+              "title": "Backlinks for Sermon. Names"
             }
           },
           {
@@ -222,8 +222,7 @@
               "title": "Daily note calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -266,6 +265,23 @@
   },
   "active": "28e09517d9286d20",
   "lastOpenFiles": [
+    "Schedule. 2025-Jan18-Jan24.md",
+    "Daily notes/01-12-2026.md",
+    "Tech Notes/Notes. Vim.md",
+    "Sermon. Witnessing - Mechanics.md",
+    "Tech Notes/TheArchive. URL Scheme.md",
+    "Personal.  Bible Memorization Verses.md",
+    "Family/Missions. EFT.md",
+    "Bible Teaching. The Book of Acts and Church Doctrine.md",
+    "Family/Visa Information.md",
+    "Haskell. Hackett.md",
+    "Sermon. Comfort One Another.md",
+    "Daily notes/01-10-2026.md",
+    "Daily notes/01-09-2026.md",
+    "Schedule. 2019-Apr28-May04.md",
+    "Sermon. Walking Twice.md",
+    "Sermon. Seek, Ask, Knock.md",
+    "Home.md",
     "Daily notes/01-05-2026.md",
     "Schedule. 2019-May26-June01.md",
     "Schedule. 2025-Jan04-Jan10.md",
@@ -275,27 +291,10 @@
     "Daily notes/12-28-2025.md",
     "Daily notes/01-03-2026.md",
     "Daily notes/01-02-2026.md",
-    "2026 Teen Party.md",
-    "Sermon. Greatest Gift.md",
-    "Sermon. Who is That Child.md",
-    "Bible Teaching. BaptistFaith - Thai.md",
-    "Bible Teaching. BaptistFaith-Thai.md",
-    "inbox/Scratchpad.md",
     "images/CleanShot 2025-03-21 at 16.12.29@2x.png",
     "images/CleanShot 2025-03-21 at 15.45.32@2x.png",
-    "Bible Teaching. BaptistFaith - English.md",
-    "MovieNights2.md",
     "Bible Teaching. BaptistFaith - Thai.md.sb-3ccf1387-QS376D",
     "test.md.sb-3ccf1387-3LIkLw",
-    "test.md",
-    "Sermon. Being Humble.md",
-    "Sermon. Least or Greatest.md",
-    "Schedule. 2018-Nov 18-Nov24.md",
-    "Schedule. 2023-Sept03-Sept09.md",
-    "Sermon. Talking it out.md",
-    "Sermon. Clean But Empty.md",
-    "Sermon. This Mind.md",
-    "Schedule. 2019-Mar24-Mar30.md",
     "Family",
     "inbox",
     "Daily notes",
